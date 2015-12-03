@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Tabsstops in Leerzeichen umwandeln
+author:
+  display_name: Stefan Tatschner
+  login: stefan
+  email: stefan@sevenbyte.org
+  url: ''
+author_login: stefan
+author_email: stefan@sevenbyte.org
+wordpress_id: 39
+wordpress_url: http://sevenbyte.org/?p=39
+date: '2012-06-10 10:45:59 +0200'
+date_gmt: '2012-06-10 08:45:59 +0200'
+categories:
+- General
+tags:
+- scripting
+comments: []
+---
+<p>Bei der Python Programmierung wird empfohlen statt Tabstops eine bestimme Anzahl an Leerzeichen in seinen Codefiles zu verwenden. Wenn man doch einmal vergessen hat seinen Editor umzustellen, dann hilft einem das Programm `expand` weiter. Folgendes Codeschnippsel ersetzt alle Tabsstops aus der Datei `input` in 4 Leerzeichen und schreibt das Ergebnis in die Datei `output`. Man muss hier mit der Ausgabeumleitung arbeiten, da das Resultat sonst im Terminal ausgegeben wird.</p>
+<pre lang="bash">expand --tab=4 input > output<&#47;pre></p>
+<p>Ein zus&auml;tzliches Schmankerl stellt dann noch der Unix Editor `sed` dar. Mit folgender Codezeile kann man alle &uuml;berfl&uuml;ssigen Leerzeichen und Tabstops am Ende jeder Zeile l&ouml;schen.</p>
+<pre lang="bash">sed 's&#47;[ \t]*$&#47;&#47;' input > output<&#47;pre></p>

@@ -1,0 +1,68 @@
+---
+layout: post
+status: publish
+published: true
+title: Git Tipps
+author:
+  display_name: Stefan Tatschner
+  login: stefan
+  email: stefan@sevenbyte.org
+  url: ''
+author_login: stefan
+author_email: stefan@sevenbyte.org
+wordpress_id: 327
+wordpress_url: https://sevenbyte.org/?p=327
+date: '2015-03-06 10:52:25 +0100'
+date_gmt: '2015-03-06 09:52:25 +0100'
+categories:
+- General
+tags:
+- scripting
+- linux
+- shell
+- git
+comments: []
+---
+<p>My own useful collection of git gotchas. This post also deprecates the <a title="Git-Log &uuml;bersichtlich darstellen" href="https:&#47;&#47;sevenbyte.org&#47;2014&#47;01&#47;08&#47;git-log-uebersichtlich-darstellen&#47;">old german one<&#47;a>.</p>
+<h2>Config<&#47;h2></p>
+<h3>Use Colors<&#47;h3></p>
+<pre>
+[color]<br />
+    ui = true<br />
+<&#47;pre></p>
+<h3>Git lg<&#47;h3></p>
+<ul>
+<li>Renders git log as a table<&#47;li>
+<li>Short commit hash<&#47;li>
+<li>Long commit summaries get truncated<&#47;li>
+<li>Author column<&#47;li>
+<li>Time is relative<&#47;li>
+<li>Last coloumn shows refs<&#47;li><br />
+<&#47;ul></p>
+<p><a href="https:&#47;&#47;sevenbyte.org&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;73362ba7000dcabc.png"><img src="https:&#47;&#47;sevenbyte.org&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;73362ba7000dcabc.png" alt="73362ba7000dcabc" width="1172" height="542" class="alignnone size-full wp-image-331" &#47;><&#47;a></p>
+<pre>
+[alias]<br />
+    lg = log --pretty=format:'%C(auto)%h - %<(55,trunc)%s %Cblue%<(18,trunc)%an%Creset %Cgreen%<(15)%ad%Creset %C(auto)%d' --abbrev-commit --date=relative<br />
+<&#47;pre></p>
+<h3>Git st<&#47;h3></p>
+<p>Git status as it should look like!</p>
+<pre>
+[alias]<br />
+    st = status -s -b<br />
+<&#47;pre></p>
+<h2>Misc<&#47;h2></p>
+<h3>Export a Single File with History<&#47;h3></p>
+<p>Create a patch series of the file with <code>git log<&#47;code>:</p>
+<pre>$ git log --pretty=email --patch-with-stat --reverse --full-index --binary --find-renames myfile > &#47;tmp&#47;myfile.patch<&#47;pre></p>
+<p>Create an empty git repository (you can even use an existing one if the file does not exist yet):</p>
+<pre>$ mkdir newrepo<br />
+$ git init<br />
+$ cd newrepo<&#47;pre></p>
+<p>Apply the patch series:</p>
+<pre>$ git am &#47;tmp&#47;myfile.patch<br />
+Applying: Commit 1<br />
+applying to an empty history<br />
+Applying: Commit 2<br />
+Applying: Commit 3<br />
+Applying: Commit 4<br />
+<&#47;pre></p>

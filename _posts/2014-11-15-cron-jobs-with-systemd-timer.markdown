@@ -1,0 +1,194 @@
+---
+title: Cron Jobs with systemd.timer
+date: '2014-11-15 15:01:56 +0100'
+tags:
+- administrating
+- systemd
+---
+From https://wiki.archlinux.org/index.php/Systemd/Timers:
+
+> Timers are systemd unit files whose name ends in `.timer` that control
+> `.service` files or events. Timers have the ability to be an alternate to cron.
+> Timers have built-in support for calendar time events, monotonic time events,
+> and have the ability to run asynchronously.
+
+As I started my experience with administrating Arch Linux after the systemd
+switch in 2012 I find crontabs or even sysvinit-scripts really ugly. There are
+lots of flamewars against systemd; mostly introduced by people who grew up with
+the stuff mentioned before. Besides these flamewars systemd provides a very well
+documented and very easy to use out of the box solution for many tasks of an
+administrator.
+
+At first we have to clarify a few terms and definitions. Systemd grows from
+release to release and it has a lot of different concepts we have to deal with.
+The first concept I have to introduce for a cron replacement with systemd is
+`systemd.service`.
+
+## systemd.service
+
+Service files are commonly used to start and stop programs. The `systemctl` tool
+provides the necessary commands to control your services, such as start, stop,
+restart, reload, and so on. It is your job (or the job of the package
+maintainer) to write an appropriate service file so that `systemctl` is able to
+map e.g. the start command to the corresponding shell command.
+
+Let's do a simple example. Somebody has written an awesome backupscript and he
+wants that program to be executed daily. The start command for that piece of
+software might be something like:
+
+```
+$ awesome_program start
+```
+
+So we have to tell systemd that command first. Don't forget to put the *full
+path* of your script into `ExecStart`. Otherwise systemd is not able to locate
+it!
+
+```
+[Unit]
+Description=My awesome backup script
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/path/to/awesome_programm start
+```
+
+We call this file `awesome.service`. The structure of systemd service files is
+self-explanatory. The Unit section is used to define some metadata such as the
+description or dependencies. The Service section actually defines the start
+command of our service. As we are most likely using a script which runs and
+exists after finishing its tasks we have to set the Type to `oneshot`, see also
+[systemd.service(5)][0]. Maybe I will give more information about that topic in
+another articles.
+
+Now there is the question where we are supposed to put this file. This topic is
+covered in detail in [systemd.unit(5)][1]. At the moment we are just interested
+in the local configuration path when running in system mode:
+`/etc/systemd/system`. So let's copy this service to it's intended location
+`/etc/systemd/system/awesome.service`.
+
+[0]: http://www.freedesktop.org/software/systemd/man/systemd.service.html
+[1]: http://www.freedesktop.org/software/systemd/man/systemd.unit.html
+
+## systemd.timer
+
+In the previous section we have covered the required steps to design a simple
+systemd service which is used to start our script. Now we will add the unit
+which is used to trigger the service. The timer has to be named according to the
+corresponding service `awesome.timer`; we put this file in the same directory.
+
+```
+[Unit]
+Description=Weekly trigger for my awesome program
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target
+```
+
+The timer file is self-explanatory as well. It has three required sections:
+`[Unit]`, `[Timer]` and `[Install]`.
+
+I will now focus on the Timer section. It is used to define when the Timer
+should be activated. At first there is the OnCalender option. It understands a
+few keywords such as `minutely`, `hourly`, `daily`, `monthly`, `weekly`,
+`yearly`, `quarterly`, `semiannually`.  If these keywords fit into your
+requirements everything is fine; more fine graned control is provided by
+[systemd.time(7)][2]. Maybe you want to run your service every six hours. So you
+have to define the OnCalendar option like this:
+
+```
+OnCalendar=*-*-* 0/6:42:42
+```
+
+This means in detail (according to [systemd.time(7)][2]):
+
+Run on
+
+* every year (first asterisk),
+* every month (second asterisk),
+* every day (third asterisk)
+* on 00:42:42 and repeat every 6 hours.
+
+The repeating is defined with the slash. An OnCalender which runs every six
+minutes instead would look like this:
+
+```
+OnCalendar=*-*-* 0:0/6:42
+```
+
+Just for the sake of completeness, `Persistent=true` means that any missed timer
+will run after bootup. It is useful to catch up on missed runs of the service
+when the machine was off. It is compareable to anacron.
+
+Last but not least there is the Install section left. This one is needed for the
+most important part: enabling the timer. We do this with `systemctl enable
+awesome.timer`. Installing the timer into the multi-user.target just means we
+want it to be started during bootup. If you want to dive into more detail check
+out the [Arch Wiki][3]. As we do not want to reboot now we also have to start
+the timer using
+
+```
+$ systemctl start awesome.timer
+```
+
+[2]: http://www.freedesktop.org/software/systemd/man/systemd.time.html
+[3]: https://wiki.archlinux.org/index.php/Systemd#Targets
+
+### Listing timers
+
+Let's check if everything works as expected. Systemctl has a built in command to
+list and inspect timers on your system.
+
+```
+$ systemctl list-timers
+```
+
+will tell you which timers have been recognized by systemd.
+
+## Where is the user crontab?
+
+Maybe you have wondered why you have to copy every file into system directories.
+As mentioned before this is for systemd running in system mode. These services
+and timers are started and enabled system wide for all users on the machine. If
+you do not have sudo privileges or you just want to define your own timer you
+can use systemd's user mode.
+
+> [systemd][4] offers users the ability to manage services under the user's
+> control with a per-user systemd instance, enabling users to start, stop, enable,
+> and disable their own units. This is convenient for daemons and other services
+> that are commonly run for a single user, such as [mpd][5] or to perform
+> automated tasks like fetching mail. With some caveats it is even possible to
+> run xorg and the entire window manager from user services.
+
+You do not have to change that much for using systemd's user mode. Assuming you
+are using a recent version of systemd the user instance is started automatically
+per user session. You can use the `~/.config/systemd/user` directory for your
+service and timer files. For enabling, starting and listing the timer you just
+have to append `--user`, e. g.:
+
+```
+$ systemctl --user enable awesome.timer
+```
+
+[4]: https://wiki.archlinux.org/index.php/Systemd
+[5]: https://wiki.archlinux.org/index.php/Mpd
+
+### Using user mode on a server
+
+As the systemd user instance is running per user session it might become
+difficult to run certain tasks automatically without an open ssh session. If you
+want systemd to run your user tasks *without being logged in*
+then just linger yourself with:
+
+```
+$ loginctl enable-linger $USER
+```
+
+Lingering a specific user keeps the systemd user instance running without an
+corresponding user session. This ensures that your tasks actually run as
+intended.
