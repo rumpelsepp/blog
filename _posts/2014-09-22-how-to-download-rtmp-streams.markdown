@@ -1,10 +1,5 @@
 ---
-layout: post
 title: How to download rtmp streams?
-date: '2014-09-22 19:43:55 +0200'
-tags:
-- python
-- scripting
 ---
 From wikipedia:
 

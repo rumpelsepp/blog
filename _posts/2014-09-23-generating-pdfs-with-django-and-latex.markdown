@@ -1,11 +1,5 @@
 ---
-layout: post
 title: Generating pdfs with Django and Latex
-date: '2014-09-23 15:16:09 +0200'
-tags:
-- python
-- scripting
-- django
 ---
 
 Generating pdfs in a webapplication often is tricky. The [django docs][1]

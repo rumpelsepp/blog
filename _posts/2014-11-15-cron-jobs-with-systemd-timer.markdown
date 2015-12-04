@@ -1,9 +1,5 @@
 ---
 title: Cron Jobs with systemd.timer
-date: '2014-11-15 15:01:56 +0100'
-tags:
-- administrating
-- systemd
 ---
 From https://wiki.archlinux.org/index.php/Systemd/Timers:
 

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How to use Pepper Flash with Firefox?
-date: '2015-04-15 15:11:50 +0200'
 ---
 Flash Support for linux has been abandoned by adobe a few years ago. Although
 flash actually is a real mess it is needed on some places, such as n24.de. On
