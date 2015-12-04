@@ -11,12 +11,12 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-              <i class="fa fa-github"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+              {% icon fa-github %} <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
           </li>
           {% endif %}
 
           <li>
-              <i class="fa fa-rss"></i> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+              {% icon fa-rss %} <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
           </li>
         </ul>
       </div>
