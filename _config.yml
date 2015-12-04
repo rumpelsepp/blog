@@ -19,7 +19,13 @@ defaults:
 
 # Build settings
 markdown: redcarpet
+asciidoc: asciidoctor
 highlighter: pygments
 
 redcarpet:
   extensions: ["smart", "autolink"]
+
+asciidoctor:
+  attributes:
+    - hardbreaks!
+    - source-highlighter=pygments

@@ -237,3 +237,22 @@
 .post-list .post-meta {
     display: inline;
 }
+
+
+
+/**
+ * asciidoctor extensions
+ */
+.dlist {
+    background: $grey-color-light;
+    padding: 8px 12px;
+}
+
+.dlist dt {
+    font-weight: bold;
+    margin: 0;
+}
+
+.dlist dd {
+    margin-left: 4em;
+}
