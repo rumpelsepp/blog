@@ -1,0 +1,26 @@
+= Hardening a FreeBSD Server
+
+== Day 1
+
+* Realize that sth. has to be done, becaus of these:
+
+https://vez.mrsk.me/freebsd-defaults.txt
+http://networkfilter.blogspot.de/2014/12/security-openbsd-vs-freebsd.html
+http://networkfilter.blogspot.de/2014/08/defend-your-network-and-privacy-vpn.html#sysctl
+
+* Done:
+    * sysctl foo
+    * libressl for ports
+    * openntpd
+    * postfix; sowieso
+    * Encrypted swap
+
+= Day 2
+
+TODO: 
+- ports as non root
+- openssh
+- letsencrypt.sh
+- ASLR
+- Secure Level 1
+- pf

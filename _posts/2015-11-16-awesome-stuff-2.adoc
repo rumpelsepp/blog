@@ -1,0 +1,46 @@
+---
+title: Awesome Stuff No 2
+---
+
+= Awesome Stuff No 2
+
+That’s the Awesome Stuff #2. Awesome Stuff is an ongoing series of blogposts
+that introduces several awesome, crazy or senseless tools.
+
+Have Fun!
+
+https://pwmt.org/projects/zathura[zathura]::
+    A minimal pdf reader providing vim keybindings
+
+http://mpv.io/[mpv]::
+    Movie player based on MPlayer and mplayer2
+
+https://github.com/thestinger/termite[termite]::
+    A keyboard-centric VTE-based terminal, aimed at use within
+    a window manager with tiling and/or tabbing support.
+
+http://nongnu.org/ranger[ranger]::
+    Console-based file manager with vi bindings, customizability,
+    and lots of features.
+
+https://rmlint.readthedocs.org/en/latest/[rmlint]::
+    Tool to quickly find (and optionally remove) duplicate files
+    and other lint.
+
+http://www.passwordstore.org/[pass]::
+    Simple console based password manager
+
+https://github.com/uzbl/uzbl[uzbl]::
+    Group of web interface tools which adhere to the Unix
+    philosophy. Minmal webkit browser which works well with i3.
+
+http://tmux.github.io/[tmux]::
+    BSD licensed terminal multiplexer; GNU screen improved.
+
+https://wiki.archlinux.org/index.php/Ncmpcpp[ncmpcpp]::
+    The coolest mpd client. I've been using it for 8 months and I 
+    still like it. :)
+
+== Past Awesome Stuffs
+
+* {{ site.url }}{% post_url 2015-10-26-awesome-stuff-1 %}[Awesome Stuff No 1]

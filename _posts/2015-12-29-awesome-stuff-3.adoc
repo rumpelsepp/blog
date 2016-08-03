@@ -1,0 +1,51 @@
+---
+title: Awesome Stuff No 3
+---
+
+= Awesome Stuff No 3
+
+That’s the Awesome Stuff #3. Awesome Stuff is an ongoing series of blogposts
+that introduces several awesome, crazy or senseless tools. This post lists
+a few useful tools for tiling window managers, especially i3.
+
+Have Fun!
+
+https://github.com/The-Compiler/qutebrowser[qutebrowser]::
+    qutebrowser is a keyboard-focused browser with a minimal GUI. It’s based on
+    Python, PyQt5 and QtWebKit and free software, licensed under the GPL.  It
+    was inspired by other browsers/addons like dwb and Vimperator/Pentadactyl.
+
+https://github.com/enkore/i3pystatus[i3pystatus]::
+    Very nice replacement for `i3status`. Written in Python and supports
+    click events, is very well documented and offers several useful modules.
+
+http://www.profanity.im/[profanity]::
+    Profanity is a console based XMPP client written in C
+    using ncurses and libstrophe, inspired by Irssi
+
+https://github.com/carnager/rofi-pass[rofi-pass]::
+    A dmenu/rofi frontend for `pass`
+
+https://wiki.archlinux.org/index.php/Taking_a_screenshot#scrot[scrot]::
+    Very flexible screenshot tool; supports area, whole screen und window 
+    mode. The homepage is crap; I instead link to the arch linux wiki.
+
+http://knopwob.org/dunst/index.html[dunst]::
+    Nice and leighweight notification daemon for tiling window managers
+
+https://github.com/muennich/sxiv[sixv]::
+    Image viewer optimized for tiling window managers; scales the images
+    better than `feh` does.
+
+https://github.com/coldfix/udiskie[udiskie]::
+    Automounter for udisks/udisks2. Very useful in i3 to get your USB sticks
+    mounted automatically.
+
+http://st.suckless.org/[st]::
+    Suckless Terminal; Very leighweight; in i3 map `<super>+<return>` to 
+    `st -e tmux`
+
+== Past Awesome Stuffs
+
+* {{ site.url }}{% post_url 2015-10-26-awesome-stuff-1 %}[Awesome Stuff No 1]
+* {{ site.url }}{% post_url 2015-11-16-awesome-stuff-2 %}[Awesome Stuff No 2]

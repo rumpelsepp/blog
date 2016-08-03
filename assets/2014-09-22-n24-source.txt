@@ -1,0 +1,57 @@
+<pre class="lang:xhtml decode:true">&lt;script type="text/javascript"&gt;
+					if (typeof _n24VideoCfg === 'undefined') {
+						var _n24VideoCfg;
+					}
+					if (typeof _n24VideoConfigurations === 'undefined') {
+						var _n24VideoConfigurations = {};
+					}
+					_n24VideoCfg = {};
+					_n24VideoCfg.videoId = "5269148";
+					_n24VideoCfg.videoTitle = "Das Bermuda-Dreieck";
+					_n24VideoCfg.adEnabled = "true";
+					_n24VideoCfg.asyncVideoTracking =
+						(typeof n24AsyncVideoTrackingUrl !== "undefined") ? n24AsyncVideoTrackingUrl :
+							(typeof n24AsyncTrackingUrl !== "undefined") ? n24AsyncTrackingUrl : '';
+
+					/* Flash */
+					_n24VideoCfg.flash = {};
+					_n24VideoCfg.flash.SWFUrl = '/_swf/HomePlayer.swf?cachingVersion=2.66';
+					_n24VideoCfg.flash.SWFExpressInstallUrl = '/_swf/expressInstall.swf';
+					_n24VideoCfg.flash.width = "100%";
+					_n24VideoCfg.flash.height = "100%";
+					_n24VideoCfg.flash.adTracked = false;
+
+					/* dataUrlHLS will be set here */
+					
+  _n24VideoCfg.flash.previewImage = 'http://image5-cdn.n24.de/image/5269138/2/large16x9/ecj/das-bermuda-dreieck-image_900x510.jpg';
+
+  _n24VideoCfg.flash.videoFlashconnectionUrl = "rtmp://pssimn24livefs.fplive.net:1935/pssimn24/";
+  
+    _n24VideoCfg.flash.videoFlashSource = "mp4:cm2013/cmp/e214/89ed/ac91/30c0/0a1db4af7089b0c05161ea2dcca58546_1000.mp4";
+  
+_n24VideoCfg.flash.playbackType = "video:streaming"; // MIDROLL -&gt; YES
+
+					_n24VideoCfg.flash.autoPlay = "true";
+					
+
+					/* HTML5 */
+					_n24VideoCfg.html5 = {};
+					_n24VideoCfg.html5.allow = false;
+					
+					_n24VideoCfg.html5.allow = true;
+					_n24VideoCfg.html5.container = '#flash_video_container_' + _n24VideoCfg.videoId;
+					
+_n24VideoCfg.html5.videoHTML5Poster = "FALLLBACK";
+
+  _n24VideoCfg.html5.videoHTML5Poster = 'http://image5-cdn.n24.de/image/5269138/2/large16x9/ecj/das-bermuda-dreieck-image_900x510.jpg';
+
+_n24VideoCfg.html5.width = "100%";
+_n24VideoCfg.html5.height = "100%";
+
+					_n24VideoCfg.html5.videoMp4Source = "http://n24video-vod.dcp.adaptive.level3.net/cm2013/cmp/e214/89ed/ac91/30c0/0a1db4af7089b0c05161ea2dcca58546_64.mp4.m3u8?tlm=hls&amp;streams=0a1db4af7089b0c05161ea2dcca58546_200.mp4.m3u8:200,0a1db4af7089b0c05161ea2dcca58546_600.mp4.m3u8:600,0a1db4af7089b0c05161ea2dcca58546_1000.mp4.m3u8:1000,0a1db4af7089b0c05161ea2dcca58546_64.mp4.m3u8:64";
+					_n24VideoCfg.html5.videoOgvSource = "---";
+					_n24VideoCfg.html5.videoWebmSurce = "---";
+					
+					_n24VideoCfg.html5.VastTitle = 'nur ein Spot...';
+					_n24VideoConfigurations[_n24VideoCfg.videoId] = _n24VideoCfg;
+				&lt;/script&gt;</pre>
