@@ -18,14 +18,16 @@ defaults:
     #   author: "Stefan Tatschner"
 
 # Build settings
-markdown: redcarpet
-asciidoc: asciidoctor
 highlighter: pygments
 
-redcarpet:
-  extensions: ["smart", "autolink"]
+gems:
+    - jekyll-asciidoc
 
 asciidoctor:
   attributes:
+    - icons=font
     - hardbreaks!
+    - hardbreaks-option!
     - source-highlighter=pygments
+    - stylesdir=/css
+

@@ -3,8 +3,6 @@
  * with asciidoctor fixes
  */
 .highlight, .listingblock .pygments {
-    @extend %vertical-rhythm;
-
     .tok-c, .c      { color: #998; font-style: italic } // Comment
     .tok-err, .err  { color: #a61717; background-color: #e3d2d2 } // Error
     .tok-k, .k      { font-weight: bold } // Keyword
