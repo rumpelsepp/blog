@@ -1,0 +1,16 @@
+= ANNOUNCE: Source of this Blog
+
+Because I am really, really happy with the design and handling
+with my blog now, I decided to publish the source on Github as
+well. It uses https://jekyllrb.com/[jekyll], http://asciidoctor.org/[asciidoctor],
+and https://github.com/tmm1/pygments.rb[pygments.rb]. To integrate 
+asciidoctor with jekyll, there is https://github.com/asciidoctor/jekyll-asciidoc[jekyll-asciidoc].
+
+I have hacked the css a bit in order to make the standard jekyll theme look
+pretty (IMO it _is_ pretty now!). The rest is just the default asciidoctor
+style; but check it out yourself. The source is, as mentioned before, on
+https://github.com/rumpelsepp/blog.sevenbyte.org[Github].
+
+TIP: People might ask which editor I use for blogging. I should indeed 
+     make a separate blog post for that, but I use `neovim` with a few plugins.
+     I have made good experiences with `atom`, too. 
