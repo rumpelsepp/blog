@@ -10,9 +10,9 @@ Firefox using the package `freshplayerplugin`. Internally they use some kind of
 experimental wrappers. I didn't bother with these internals, I just installed
 it:
 
-```
+----
 $ pacaur -S freshplayerplugin google-chrome
-```
+----
 
 The chrome package is needed because it actually provides PepperFlash. After
 restarting Firefox I can watch n24.de with Firefox (without crashing!). Awesome!

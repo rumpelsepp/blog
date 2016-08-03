@@ -70,6 +70,7 @@ If you, for instance want to add line numbers, just use the
 $ c -n file
 ----
 
+
 You can also pass several files to `c`, you can read from a pipe, ...  You can
 just do everything what `cat` can do PLUS syntax highlighting.
 

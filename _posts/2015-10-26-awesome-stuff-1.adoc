@@ -1,7 +1,3 @@
----
-title: Awesome Stuff No 1
----
-
 = Awesome Stuff No 1
 
 That's the Awesome Stuff #1. Awesome Stuff is an ongoing series of

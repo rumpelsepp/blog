@@ -1,7 +1,3 @@
----
-title: Poor Man's Dynamic DNS
----
-
 = Poor Man's Dynamic DNS
 
 When you want to connect to a computer remotely, you usually need to know its
@@ -23,9 +19,10 @@ costs you money.
 What can you do to avoid paying money and configuring DNS zones? Just use my
 poor man's DynDNS solution!
 
-> Dynamic DNS (DDNS or DynDNS) is a method of automatically updating a name
-> server in the Domain Name System (DNS), often in real time, with the active
-> DDNS configuration of its configured hostnames, addresses or other information.
+[quote, wikipedia.org]
+Dynamic DNS (DDNS or DynDNS) is a method of automatically updating a name
+server in the Domain Name System (DNS), often in real time, with the active
+DDNS configuration of its configured hostnames, addresses or other information.
 
 You may know https://syncthing.net/[Syncthing]. I love that software! Well, 
 why the hell are you now talking about a file synchronization tool?!?

@@ -1,8 +1,5 @@
----
-title: Awesome Stuff No 3
----
-
 = Awesome Stuff No 3
+:page-liquid:
 
 That’s the Awesome Stuff #3. Awesome Stuff is an ongoing series of blogposts
 that introduces several awesome, crazy or senseless tools. This post lists

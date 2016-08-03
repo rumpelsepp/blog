@@ -229,6 +229,10 @@
     font-size: 0.9em;
 }
 
+*:not(pre) > code{
+    font-size: 0.9em
+}
+
 .listingblock pre {
     white-space: pre;
     overflow-x: auto;
