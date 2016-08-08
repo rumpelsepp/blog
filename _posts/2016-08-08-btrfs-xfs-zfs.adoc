@@ -1,0 +1,66 @@
+= BTRFS, XFS, ZFS, ...
+
+Heute mal was auf Deutsch; ich hab den Artikel schon 
+geschrieben und bin zu faul den zu übersetzen.
+
+Es gibt im Bereich der Filesysteme mal was neues. Der RAID 5 und RAID 6
+Code von BTRFS wurde ja bisher nie als stable bezeichnet. RAID 1 und
+RAID 0 funktioniert seit 3 Jahren ziemlich gut. Mit diesem Wissen hab
+ich gestern das hier gelesen:
+
+[quote]
+Btrfs RAID 5/6 Code Found To Be Very Unsafe & Will Likely Require A
+Rewrite 
+footnote:[https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-RAID-56-Is-Bad]
+footnote:[https://www.mail-archive.com/linux-btrfs@vger.kernel.org/msg55161.html]
+
+Es paniken jetzt alle herum und BTRFS wird vermutlich doch nicht so
+schnell das NAS Monster betreiben, obwohl es auch interessante neue
+Sachen für den 4.8er Kernel gibt.
+footnote:[https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Linux-4.8-ENOSP]
+footnote:[https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Linux-4.8-Round-2]
+footnote:[https://patchwork.kernel.org/patch/8672551/]
+
+Nunja, im gleichen Zug les ich mal wieder was von XFS (das ist ein sehr
+sehr zuverlässiges Filesystem für große Platten, aber ohne "NextGen"
+Features). XFS ist ziemlich performant und läuft extrem zuverlässig,
+Berichten zufolge teilweise besser als ext4 (Quelle find ich gerade
+keine vernünftige).
+
+Das spannende ist jetzt, dass die XFS Entwickler tatsächlich an "NextGen"
+Feautures wie Copy-on-Write, online Scrubbing, Deduplication usw. arbeiten.  Die
+Vorbereitungen dafür sind gerade noch in den 4.8er Kernel aufgenommen worden
+footnote:[https://www.phoronix.com/scan.php?page=news_item&px=XFS-Reverse-Mapping-4.8].
+Wenn die es schaffen, auf die wirklich gute Codebase (der Maintainer ist der
+Hammer; Dave Chinner mal auf Youtube suchen) um Copy-on-Write zu ergänzen
+uuuuuund vielleicht iwann RAID Support einzubaun, dann wird es wirklich
+interessant. Es bleibt spannend, und es bleibt auch spannend was mit BTRFS
+passiert, scheint ja irgendwie immer wieder mal ausgebremst zu werden. Läuft
+bei mir eigentlich ganz gut seit drei Jahren...
+
+Achja, ZFS gibts ja noch. Das MegaMonster. Das rollt eigentlich als open-zfs
+still vor sich hin und immer weiter
+footnote:[http://open-zfs.org/wiki/Main_Page]. Mittlerweile gibt es für Linux
+ein Kernel Modul footnote:[http://zfsonlinux.org/] mit einem Wiki
+footnote:[https://github.com/zfsonlinux/zfs/wiki]. Das zfsonlinux Projekt folgt
+dem Upstream und sie tracken die Issues vom Upstream Projekt
+footnote:[https://github.com/zfsonlinux/zfs/wiki/OpenZFS-Tracking]. Es gibt
+eine Feature Matrix, die für Linux jetzt eigentlich auf ganz gut ausschaut
+footnote:[http://open-zfs.org/wiki/Feature_Flags].
+
+Naja genug dem Geblubber. Für eine NAS rate ich als BTRFS Jünger davon ab und
+empfehle mal sich zfsonlinux anzuschaun. Es gibt auch Debian Pakete (falls das
+hier jemand nutzt....)
+footnote:[https://github.com/zfsonlinux/zfs/wiki/Debian]. Für jeden, der keine
+Lust auf Experimente hat, nimmt ein nacktes FreeBSD mit ZFS
+footnote:[https://www.freebsd.org/doc/handbook/zfs.html]. OVH mit Kimsufi
+unterstützt ZFS am Server jetzt auch, ich hab meinen gleich mal migriert. Für
+die Heimbastelecke gibts noch FreeNAS footnote:[http://www.freenas.org/]; die
+Web-GUI ist zwar anfangangs etwas gewöhnungsbedürftig, aber es funktioniert
+echt gut. ZFS ist einfach mega für ein Datengrab, funktionierendes RAID gibts
+mit dem sog. RAID-Z obendrauf
+footnote:[http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/]. Probierts mal
+aus. 
+
+Hier noch ein Link, hab ich noch nicht vollständig gelesen, aber 
+potentiell interessant: https://calomel.org/zfs_raid_speed_capacity.html
