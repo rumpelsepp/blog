@@ -243,7 +243,6 @@ of `asciidoctor`, keep on the awesome work!
 
 And finally add this script to cron, e.g. like this:
 
-[source, crontab]
 ./etc/crontab
 ----
 # ...

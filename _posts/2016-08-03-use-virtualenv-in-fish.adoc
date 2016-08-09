@@ -16,7 +16,6 @@ What does the electrical engineer do? He creates his own script... It turns out,
 this is _really_ simple. Since I am a nice person, I share it with the internet (say
 thanks internet!).
 
-[source, fish]
 .$HOME/.config/fish/functions/venv.fish
 ----
 function venv

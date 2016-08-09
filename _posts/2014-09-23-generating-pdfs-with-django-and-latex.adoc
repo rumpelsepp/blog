@@ -26,7 +26,6 @@ content as usual with curly brackets. As we do not need automatic html-escaping
 in our latex template we could switch this off by adding the appropriate
 template tags:
 
-[source, text]
 .my_latex_template.tex
 ----
 {% autoescape on %}

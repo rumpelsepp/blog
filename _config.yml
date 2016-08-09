@@ -17,9 +17,6 @@ defaults:
       layout: post
     #   author: "Stefan Tatschner"
 
-# Build settings
-highlighter: pygments
-
 gems:
     - jekyll-asciidoc
 
@@ -28,6 +25,4 @@ asciidoctor:
     - icons=font
     - hardbreaks!
     - hardbreaks-option!
-    - source-highlighter=pygments
-    - stylesdir=/css
-
+    - source-highlighter=highlight.js
