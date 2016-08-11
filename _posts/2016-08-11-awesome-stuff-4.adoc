@@ -1,5 +1,6 @@
 = Awesome Stuff No 4
 :page-liquid:
+:experimental:
 :toc: macro
 
 Hier ist die Awesome Stuff #4. Ich werde in unregelmäßigen Abständen
@@ -84,7 +85,7 @@ https://github.com/junegunn/fzf.vim::
 	durchsuchen kann. Das Ergebnis nach betaetigen der Enter Taste
 	landet in der Standardausgabe. Damit kann man viele coole
 	Sachen machen... Das Teil ist bei mir in der Shell auf
-	<ctrl> + r gebunden fuer Shell Completion (gibt Fish
+	kbd:[ctrl + r] gebunden fuer Shell Completion (gibt Fish
 	Keybindings), ich hab es im Vim als Plugin, ... Lohnt sich es
 	sich mal anzuschaun und in den jew. Workflow einzubauen. Der
 	Ludwig scheint es auch schon zu moegen... 
@@ -120,7 +121,7 @@ http://awesome-go.com/::
 	Die Dinger sind cool. Einfach ne Liste an Libraries fuer Go
 
 https://github.com/uhub/awesome-python::
-	.... fuer Python
+	(...) fuer Python
 
 == Sonstiges
 
