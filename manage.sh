@@ -31,7 +31,7 @@ post_create() {
     fi
 
     SLUG=$(slugify "$TITLE")
-    FILENAME="$(date +%F)-${SLUG}.adoc"
+    FILENAME="_posts/$(date +%F)-${SLUG}.adoc"
 
     echo "= $TITLE" >  "$FILENAME"
     echo ""         >> "$FILENAME"
