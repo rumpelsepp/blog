@@ -55,7 +55,6 @@ It is the same for each of the projects.
 
 Last but not least, do not forget to create a `crontab` entry, e.g. like this:
 
-[source, crontab]
 ----
 @hourly $HOME/scripts/update-man.sh > /dev/null 2>&1
 ----
