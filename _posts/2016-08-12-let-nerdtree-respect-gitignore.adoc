@@ -1,0 +1,55 @@
+= Let NERDTree respect .gitignore
+:experimental:
+
+I am a fan of the https://github.com/scrooloose/nerdtree[NERDTree] vim plugin.
+It adds a nice, toggleable filetree-sidebar to vim. This way, I can always 
+look at the filetree structure of my projects without getting lost in the 
+void... That was a feature that I really loved, once I was using https://atom.io/[atom].
+Also, the Git integration in the Atom sidebar was quite amazing. Today I'm gonna show
+you, internet, how to build a similar sidebar in vim. It is quite easy! :)
+
+First, install the following plugins, using your favorite plugin manager; I use
+https://github.com/junegunn/vim-plug[vim-plug]:
+
+[source, vim script]
+.~/.config/nvim/init.vim
+----
+" ...
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'octref/RootIgnore'
+" ...
+----
+
+Don't forget to fire up sth. like this, in order to actually download that crap:
+
+----
+:source %
+:PlugInstall
+----
+
+We are almost done, we just need to polish it a little bit more. Add this
+to `~/.config/nvim/init.vim`:
+
+[source, vim script]
+.~/.config/nvim/init.vim
+----
+" http://stackoverflow.com/a/21687112
+let loaded_netrwPlugin=1           # <1>
+let NERDTreeRespectWildIgnore=1    # <2>
+
+noremap <C-n> :NERDTreeToggle<CR>  # <3>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+----
+
+<1> Disable the builtin, bloated `netrw` plugin. We don't need two filebrowsers.
+<2> Let NERDTree respect the vim `wildignore` setting; find out more it using `:h wildignore`.
+<3> Create a mapping to toggle the filebrowser; I use kbd:[ctrl] + kbd:[n].
+<4> It's the last line; it is too long to create that black bubble above. This 
+    autocommand is copied from Github. It does: "close vim if the only window left open is a NERDTree".
+
+We have finished. The `RootIgnore` plugin searches `.gitignore` files in the current working
+directory (and some upper directories). When it has found one, it converts the `.gitignore`
+files into a vim `wildignore` pattern. NERDTree is able to use that using the mentioned
+`NERDTreeRespectWildIgnore` option. The `nerdtree-git-plugin` adds status icons to the 
+filetree according to the current Git status.
