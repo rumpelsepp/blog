@@ -9,6 +9,9 @@ usage() {
     echo ""
     echo "operations:"
     echo "  new-post       Create a new post file and open \$EDITOR"
+    echo "  upload         Upload built website to: user@server:loc"
+    echo "  build          Invoke 'jekyll build'"
+    echo "  serve          Invoke 'jekyll serve'"
     echo ""
     echo "options:"
     echo "  -n             Do not open an editor"
@@ -42,6 +45,23 @@ post_create() {
     fi
 }
 
+# Args:
+#   $1: CONNECTIONSTR: user@server:loc
+#   $2: rsyncflags
+upload() {
+    CONNECTIONSTR="$1"
+    RSYNCFLAGS=${2:--e ssh -azzP --delete}  # ignore quoting hell...
+    rsync $RSYNCFLAGS _site/* "$CONNECTIONSTR"
+}
+
+build() {
+    jekyll build
+}
+
+serve() {
+    jekyll serve
+}
+
 while getopts "h" opt; do
     case $opt in
         n)    shift && NOEDITOR=1;;
@@ -54,5 +74,8 @@ shift $((OPTIND - 1))
 
 case $1 in
     new-post)   shift && post_create "$@" && exit 0;;
+    upload)     shift && upload      "$@" && exit 0;;
+    build)      shift && build            && exit 0;;
+    serve)      shift && serve            && exit 0;;
     *)          usage                     && exit 1;;
 esac
