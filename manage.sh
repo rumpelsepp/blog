@@ -38,7 +38,7 @@ post_create() {
     echo ""         >> "$FILENAME"
 
     if [ -z "$NOEDITOR" ]; then
-        "$EDITOR" "$EDITORARGS" "$FILENAME"
+        exec "$EDITOR" "$EDITORARGS" "$FILENAME"
     fi
 }
 
