@@ -49,9 +49,22 @@ post_create() {
 #   $1: CONNECTIONSTR: user@server:loc
 #   $2: rsyncflags
 upload() {
+    SITEDIR="./_site"
     CONNECTIONSTR="$1"
     RSYNCFLAGS=${2:--e ssh -azzP --delete}  # ignore quoting hell...
-    rsync $RSYNCFLAGS _site/* "$CONNECTIONSTR"
+
+    if [ -z "$CONNECTIONSTR" ]; then
+        echo "Please supply a connection string!"
+        exit 1
+    fi
+
+    if [ ! -d "$SITEDIR" ]; then
+        echo "$SITEDIR does not exist!"
+        echo "Consider doing a './manage.sh build'!"
+        exit 1
+    fi
+
+    rsync $RSYNCFLAGS ${SITEDIR}/* "$CONNECTIONSTR"
 }
 
 build() {
