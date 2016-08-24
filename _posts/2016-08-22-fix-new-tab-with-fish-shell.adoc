@@ -96,3 +96,14 @@ if [ "$TERM" = "xterm-termite" ]; then
     exec fish
 fi
 ----
+
+*UPDATE*: If you also want to detect, that the current bash session has been
+launched in a `neovim` terminal buffer using the neovim command `:te`, then you
+can check the existance of the environment variable `NVIM_LISTEN_ADDRESS`. So,
+if you also want the fish shell to be spawned in neovim terminal buffers, then 
+modify the `if` statement as follows:
+
+[source, bash]
+----
+if [ "$TERM" = "xterm-termite" ] || [ -n "$NVIM_LISTEN_ADDRESS" ]; then
+----
