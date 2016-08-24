@@ -1,0 +1,14 @@
+= sudo -> doas
+
+Da ich ja gerade wie wahnsinnig meine Server von Bloatware befreie, habe
+ich noch so eine https://forums.freebsd.org/threads/56704/[Krücke] ausgemacht: 
+`sudo`; komplexe Konfiguration, kein Mensch nutzt alle Features. Die Lösung, 
+mal wieder von OpenBSD: http://www.openbsd.org/faq/faq10.html#doas[`doas`]
+
+> Yes, doas(1) was inspired by sudo. It is OpenBSD's replacement for the sudo command.
+> The complexity of sudo had prevented the importing of the most current versions, and the complexity of the sudoers config file has discouraged many users from doing anything other than uncomment one line in the conf file. In short, sudo's code is too complicated for the way most users use it, and its configuration is too difficult for more advanced uses.
+>
+> doas(1) is intended to have a simpler, and thus hopefully more secure, code base and configuration file. From a user standpoint, the two are very similar.
+
+Na dann; kann ja nix mehr schief gehen....
+
