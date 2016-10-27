@@ -1,14 +1,14 @@
 = Impressum
 :page-layout: page
 
-German law demands this! So, here it is. Eat it and leave me alone lawyers...
+German law demands this crap! So, here it is. Eat it and leave me alone lawyers...
 
 == Angaben gemäß § 5 TMG
 
 [%hardbreaks]
-Stefan Tatschner  
-Granitweg 20  
-94481 Grafenau  
+Stefan Tatschner
+Granitweg 20
+94481 Grafenau
 E-Mail: rumpelsepp@sevenbyte.org
 
 Quelle: http://www.e-recht24.de
