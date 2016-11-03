@@ -68,11 +68,11 @@ upload() {
 }
 
 build() {
-    jekyll build
+    exec jekyll build
 }
 
 serve() {
-    jekyll serve
+    exec jekyll serve
 }
 
 while getopts "h" opt; do
