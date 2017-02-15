@@ -17,6 +17,7 @@ defaults:
       layout: post
     #   author: "Stefan Tatschner"
 
+# Build settings
 gems:
     - jekyll-asciidoc
 

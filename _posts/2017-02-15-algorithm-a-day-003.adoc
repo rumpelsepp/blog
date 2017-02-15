@@ -1,0 +1,54 @@
+= An Algorithm a Day -- 003 -- Get MAC Address
+
+This post is gonna be a short one. I am currently trying to implement a basic
+DHCP client and I am trying to figure out how everything works. At some
+point I needed to find out the MAC address of a given network interface.
+Yeah, how do I do this in C?
+
+I used the looser trail. I parsed the relevant entry in sysfs. For example,
+the MAC address if the interface `eth0` is exposed by the kernel in the
+file `/sys/class/net/eth0/address`. Yeah and that's it. Pretty simple and
+not portable to other operating systems, but it works.
+
+This is my C code:
+
+[source,c]
+----
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
+
+uint8_t *getmac(const char *intf) {
+    const char template[] = "/sys/class/net/%s/address";
+    size_t pathlen = strlen(template) + 15;
+
+    char *path = malloc(pathlen);
+    if (path == NULL) {
+        return NULL;
+    }
+
+    // http://stackoverflow.com/a/29398765
+    int ret = snprintf(path, pathlen, template, intf);
+    if (ret < 0) {
+        return NULL;
+    }
+
+    FILE *fd = fopen(path, "r");
+    if (fd == NULL) {
+        return NULL;
+    }
+    free(path);
+
+    uint8_t *mac = malloc(6);
+    if (mac == NULL) {
+        return NULL;
+    }
+
+    // http://stackoverflow.com/a/12772708
+    fscanf(fd, "%hhx:%hhx:%hhx:%hhx:%hhx:%hhx",
+           &mac[0], &mac[1], &mac[2], &mac[3], &mac[4], &mac[5]);
+
+    return mac;
+}
+----
