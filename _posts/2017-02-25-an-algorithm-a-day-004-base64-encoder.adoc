@@ -51,10 +51,10 @@ char *codes = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
 
 == Padding
 
-When the input is not dividable by three, there is the need of padding. There is the
-need of padding, since the sextets---which are used to calculate the index of the
-encoded char---cannot be calculated. https://tools.ietf.org/html/rfc4648[RFC4648]
-says, that the missing sextets are set to zero and encoded with a `=` char.
+When the input is not dividable by three, there is the need of padding, since
+the sextets---which are used to calculate the index of the encoded
+char---cannot be calculated. https://tools.ietf.org/html/rfc4648[RFC4648] says,
+that the missing sextets are set to zero and encoded with a `=` char.
 
 Our tables for the input `9a` would look like this:
 
@@ -160,7 +160,7 @@ int main(int argc, char *argv[]) {
 
 <0> See previous section.
 <1> Calculate the padding length. When i.e. the input is 5 bytes long, then we have
-    to add one padding byte that the length is devidable by 3.
+    to add one padding byte that the length is dividable by 3.
 <2> See formula above.
 <3> Iterate over the input array. We take three bytes in one iteration step.
 <4> That one was tricky... We have to combine three bytes to a `uint32_t` in order
