@@ -101,6 +101,16 @@ Please note, that the `x` has to be put in `()`, to ensure that the macro
 works properly with expressions like this: `a + b + 1`. Otherwise the
 operator priority might change your expected result to some crap...
 
+*edit*: I forgot to add some notes about the padding length. Since the input
+data must be dividable by 3, the padding length can be calculated with the
+following formula; as before stem:[n] is the length of the input data in number
+of bytes:
+
+[stem]
+++++
+l_{\mathrm{pad}} = 3 - (n \mod 3)
+++++
+
 == Implementation in C
 
 Here is my implementation in C. I have verified it with Python's `base64`
@@ -115,36 +125,36 @@ works.
 #include <string.h>
 #include <stdint.h>
 
-#define CEIL(x) ((x) - (int) (x) > 0 ? (int) ((x) + 1) : (int) (x)) // <0>
+#define CEIL(x) ((x) - (int) (x) > 0 ? (int) ((x) + 1) : (int) (x)) // <1>
 
 void base64_encode(char *s, size_t len) {
 	char *codes = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-	size_t pad = 3 - (len % 3);  // <1>
-	size_t enclen = CEIL(4.0 * (len / 3.0));  // <2>
+	size_t pad = 3 - (len % 3);  // <2>
+	size_t enclen = CEIL(4.0 * (len / 3.0));  // <3>
 	size_t k = 0;
 
-	for (size_t i = 0; i < len; i += 3) {  // <3>
+	for (size_t i = 0; i < len; i += 3) {  // <4>
 		uint32_t val = 0;
 
-		int j = 0;  // <4>
+		int j = 0;  // <5>
 		while (j < 3 && i + j < len) {
 			val |= s[i+j] << ((2 - j) * 8);
 			j++;
 		}
 
-		for (size_t j = 0; j < 4; j++) {  // <5>
+		for (size_t j = 0; j < 4; j++) {  // <6>
 			if (k >= enclen) {
 				break;
 			}
 
-			uint32_t index = val >> ((3-j) * 6) & 0x3f;  // <6>
+			uint32_t index = val >> ((3-j) * 6) & 0x3f;  // <7>
 			printf("%c", codes[index]);
 
 			k++;
 		}
 	}
 
-	for (size_t i = 0; i < pad; i++) {  // <7>
+	for (size_t i = 0; i < pad; i++) {  // <8>
 		printf("=");
 	}
 }
@@ -158,12 +168,12 @@ int main(int argc, char *argv[]) {
 }
 ----
 
-<0> See previous section.
-<1> Calculate the padding length. When i.e. the input is 5 bytes long, then we have
+<1> See previous section.
+<2> Calculate the padding length. When i.e. the input is 5 bytes long, then we have
     to add one padding byte that the length is dividable by 3.
-<2> See formula above.
-<3> Iterate over the input array. We take three bytes in one iteration step.
-<4> That one was tricky... We have to combine three bytes to a `uint32_t` in order
+<3> See formula above.
+<4> Iterate over the input array. We take three bytes in one iteration step.
+<5> That one was tricky... We have to combine three bytes to a `uint32_t` in order
     to be able to generate the sextets. So, we shift the input bytes by `(2 - j) * 8`
     and then use the bitwise `OR` to combine the values. That's pretty straight forward.
     The reason for the `while` loop is, that one needs to be careful with the indexes.
@@ -172,11 +182,11 @@ int main(int argc, char *argv[]) {
     This problem is solved in the second condition of the `while` loop: `i + j < len`.
     If this is true, we must add padding. Since we shift the bytes to the left, we
     add the zero bytes automatically, so there is nothing left todo for adding padding.
-<5> This loop iterates over the sextets in the combined `uint32_t` values and prints them.
+<6> This loop iterates over the sextets in the combined `uint32_t` values and prints them.
     In case of padding we must stop earlier. In my solution, i count the generated encoding
     chars in the variable `k` and stop when I reached `enclen` (remember the formula!).
-<6> Nice shit to extract the sextets. :)
-<7> Finally, add the padding `=` char.
+<7> Nice shit to extract the sextets. :)
+<8> Finally, add the padding `=` char.
 
 This one took 30 minutes for me to implement the basic algorithm and 1,5 days to fix
 the padding thing... I feel so stupid. :/
