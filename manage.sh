@@ -72,7 +72,7 @@ build() {
 }
 
 serve() {
-    exec jekyll serve
+    exec jekyll serve "$@"
 }
 
 while getopts "h" opt; do
@@ -86,9 +86,9 @@ done
 shift $((OPTIND - 1))
 
 case $1 in
-    new-post)   shift && post_create "$@" && exit 0;;
+    new-post)   shift && post_create      && exit 0;;
     upload)     shift && upload      "$@" && exit 0;;
     build)      shift && build            && exit 0;;
-    serve)      shift && serve            && exit 0;;
+    serve)      shift && serve       "$@" && exit 0;;
     *)          usage                     && exit 1;;
 esac
