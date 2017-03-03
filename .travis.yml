@@ -4,7 +4,7 @@ rvm:
 
 sudo: false
 
-script: ./manage.sh build
+script: ./manage.sh build --baseurl "https://blog.sevenbyte.org"
 
 env:
   global:
