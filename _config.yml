@@ -27,3 +27,5 @@ asciidoctor:
     - hardbreaks!
     - hardbreaks-option!
     - source-highlighter=highlight.js
+
+exclude: [vendor, manage.sh]

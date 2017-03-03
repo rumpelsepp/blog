@@ -68,11 +68,11 @@ upload() {
 }
 
 build() {
-    exec jekyll build
+    bundle exec jekyll build
 }
 
 serve() {
-    exec jekyll serve "$@"
+    bundle exec jekyll serve "$@"
 }
 
 while getopts "h" opt; do
