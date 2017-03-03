@@ -4,7 +4,7 @@ rvm:
 
 sudo: false
 
-script: ./manage.sh build && ./manage.sh test-links
+script: ./manage.sh build
 
 env:
   global:
