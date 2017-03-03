@@ -4,8 +4,8 @@ rvm:
 
 sudo: false
 
-script: ./manage.sh build && bundle exec htmlproofer ./_site
+script: ./manage.sh build && ./manage.sh test-links
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

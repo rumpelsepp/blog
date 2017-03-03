@@ -6,8 +6,8 @@ actually run a production server at home. To avoid connecting to IP addresses
 directly, there is the Domain Name System (DNS). It maps symbolic names, a
 domain foo.bar, to IP addresses. Basically it works like this:
 
-* Application wants to connect to foo.bar. 
-* Operating System asks the configured DNS server, whether it know the IP address 
+* Application wants to connect to foo.bar.
+* Operating System asks the configured DNS server, whether it know the IP address
   of foo.bar.
 * DNS Server returns the IP. Application connects to the desired IP address.
 
@@ -24,7 +24,7 @@ Dynamic DNS (DDNS or DynDNS) is a method of automatically updating a name
 server in the Domain Name System (DNS), often in real time, with the active
 DDNS configuration of its configured hostnames, addresses or other information.
 
-You may know https://syncthing.net/[Syncthing]. I love that software! Well, 
+You may know https://syncthing.net/[Syncthing]. I love that software! Well,
 why the hell are you now talking about a file synchronization tool?!?
 It is easy. Syncthing uses a global discovery system to find out the ip
 addresses of the involved nodes; it is based on https.
@@ -178,11 +178,11 @@ $ curl -ks "$url" | json_pp
 }
 ----
 
-Again, that's really long... What happens here? Nothing magic. We just do a http GET 
-on the public server https://discovery-v4-1.syncthing.net/. The `id` parameter is 
+Again, that's really long... What happens here? Nothing magic. We just do a http GET
+on the public server `https://discovery-v4-1.syncthing.net/`. The `id` parameter is
 predefined in Syncthing. That is needed for certificate pinning; but that's out of
 scope guys! There is another parameter: `device`. We just insert our DeviceID there
-(the backslashes are added to escape some characters properly. You can also put 
+(the backslashes are added to escape some characters properly. You can also put
 the whole url in `"`.) We then get a JSON string back.
 
 **UPDATE**: I prettyfied the commands and the output a bit.
@@ -190,7 +190,7 @@ the whole url in `"`.) We then get a JSON string back.
 == And now? How can I use that crap?
 
 A usecase scenario may be, that you may access you NAS from outside your home
-network. Just setup a portforwarding, and let the computer announce itself every 
+network. Just setup a portforwarding, and let the computer announce itself every
 30 minutes. You can build a wrapper script for SSH like this (untested):
 
 [source, sh]
@@ -207,6 +207,5 @@ ssh "$ip"
 
 Have fun! :)
 
-*Update*: The discovery server has changed and it returns a differnt JSON string now. 
+*Update*: The discovery server has changed and it returns a differnt JSON string now.
 I will adjust this shortly!
-

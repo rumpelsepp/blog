@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 SCRIPTNAME=$(basename "$0")
 EDITOR=${EDITOR:-nvim}
 EDITORARGS="+3"
@@ -12,6 +14,7 @@ usage() {
     echo "  upload         Upload built website to: user@server:loc"
     echo "  build          Invoke 'jekyll build'"
     echo "  serve          Invoke 'jekyll serve'"
+    echo "  test-links     Run 'htmlproofer' against build html files"
     echo ""
     echo "options:"
     echo "  -n             Do not open an editor"
@@ -43,6 +46,8 @@ post_create() {
     if [ -z "$NOEDITOR" ]; then
         exec "$EDITOR" "$EDITORARGS" "$FILENAME"
     fi
+
+    echo "$FILENAME created."
 }
 
 # Args:
@@ -68,11 +73,15 @@ upload() {
 }
 
 build() {
-    bundle exec jekyll build
+    bundle exec jekyll build "$@"
 }
 
 serve() {
     bundle exec jekyll serve "$@"
+}
+
+test_links() {
+    bundle exec htmlproofer --allow-hash-href ./_site
 }
 
 while getopts "h" opt; do
@@ -88,7 +97,8 @@ shift $((OPTIND - 1))
 case $1 in
     new-post)   shift && post_create      && exit 0;;
     upload)     shift && upload      "$@" && exit 0;;
-    build)      shift && build            && exit 0;;
+    build)      shift && build       "$@" && exit 0;;
     serve)      shift && serve       "$@" && exit 0;;
+    test-links) shift && test_links       && exit 0;;
     *)          usage                     && exit 1;;
 esac
