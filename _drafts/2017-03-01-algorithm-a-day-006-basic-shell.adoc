@@ -1,0 +1,123 @@
+= An Algorithm a Day — 006 — A Basic Shell
+:toc:
+
+My little series starts to get crazy. It started with the intention to learn
+implementing algorithms, since at work I mostly do latex stuff (thank god I
+don't have to use word...). I started with some basic math alogrithms and some
+weird C stuff in Linux, like getting the MAC address of a network interface.
+Some day, the question "How does a Shell work?" was in my mind; and I started
+to write a shell in C. That was awesome and painful... I will try to show the
+most important steps. Ehh, yeah and the status of my shell... I can spawn programs
+that stay in the foreground (thus no `ncurses` programs), I can `cd` through
+the filesystem, I see the current directory in the prompt and the last exit
+code is shown in the prompt. Pretty basic, but I learned *a lot*!
+
+== Principle
+
+[quote,https://en.wikipedia.org/wiki/Shell_(computing)]
+In computing, a shell is a user interface for access to an operating system's
+services. In general, operating system shells use either a command-line
+interface (CLI) or graphical user interface (GUI), depending on a computer's
+role and particular operation. It is named a shell because it is a layer around
+the operating system kernel.
+
+In general, a shell is some program, typically written in a general purpose
+language as C or {cpp}. There are several different shells around, the most
+populars IMO are https://www.gnu.org/software/bash/[`bash`],
+http://www.zsh.org/[`zsh`] and maybe (at least at my work)
+https://fishshell.com/[`fish`]. These programs have one thing in common: They
+use a Read-Eval-Print Loop (REPL) in order to process the input from the user,
+parse the input and finally present the result of the computation.
+
+[quote,https://en.wikipedia.org/wiki/Read-eval-print_loop]
+A Read–Eval–Print Loop (REPL), also known as an interactive toplevel or
+language shell, is a simple, interactive computer programming environment that
+takes single user inputs (i.e. single expressions), evaluates them, and returns
+the result to the user; a program written in a REPL environment is executed
+piecewise. The term is most usually used to refer to programming interfaces
+similar to the classic Lisp machine interactive environment. Common examples
+include command line shells and similar environments for programming languages,
+and is particularly characteristic of scripting languages.
+
+That sounds pretty much like copied from wikipedia (it is!). What does this mean?
+Well, in general it is just a `while(1)` loop some function that reads from `stdin`
+and another function that evaluates the input. It is something like this:
+
+[source,c]
+----
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <signal.h>
+
+#define BUFSIZE 1024
+
+int main(int argc, const char *argv[]) {
+    while (1) {
+        char buffer[BUFSIZE];
+        char *strptr;
+        int ret;
+
+        fgets(buffer, sizeof(buffer), stdin);
+        // Strip newline char
+        buffer[strlen(buffer)-1] = '\0';
+        strptr = buffer;
+
+        cmd_argv = split_args(&strptr);
+
+        child_pid = spawnproc(cmd_argv);
+        if (child_pid < 0) {
+            perror("spawnproc");
+            exit(EXIT_FAILURE);
+        }
+
+        waitpid(child_pid, &status, WUNTRACED);
+    }
+
+    // Haha, we won't reach this!
+    return EXIT_SUCCESS;
+}
+----
+
+When we ignore the C overhead with pointer and other stuff, then it is
+pretty simple. But there are a few problems with that basic program:
+
+* I did not show a few functions: Okay that is not severe, it is just
+  splitting arguments or calling other functions with the correct parameters.
+* Signal handling: That is complicated, and I am not sure I got it right yet...
+* Process groups: dito
+
+=== Signal Handling
+
+A shell has some special requirements according to signal handling. First, in
+Linux it is needed to call `fork(3)` in order to create a copy of the current
+process that is then replaced by the program to be run via a function from the
+`exec(3)` family.
+
+`fork(3)` creates almost an exect copy of the current process, hence all exit-
+and signal-handlers are copied, too. That has some implications when
+implementing a shell. That means, when e.g. a `SIGINT` is sent to a program
+started by the shell, then the shell dies, too. That behaviour is not desired
+in a shell. The solution is to remove all signal handlers before calling
+`fork(3)` and restore them only in the shell (= the parent process) after
+`fork(3)`.
+
+For terminal IO there are special signals, that must be handled properly:
+`SIGTTIN` and `SIGTTOU`
+
+=== Credentials
+
+==== Process Groups
+
+==== Signal Handlers
+
+
+
+== Implementation in C
+
+== Helpers
+
+== What's next?

@@ -1,0 +1,94 @@
+= Replacement for i3status in Go
+
+A few months ago I have created a `i3status` replacement in Golang.
+The reason for this was just to learn the Go language, which is a
+beautiful and minimal C-like programming language. The tooling
+and the concurrency capabilities are just awesome. Since projects
+are senseless without presenting them to people, here is a small
+blogpost about `i3gostatus`, which is one of my pet projects.
+
+In my opinion, `i3gostatus` right now is pretty stable. I've been
+using it as my `i3wm` status bar for the last few months. There
+were a few minor problems, but nothing serious in the meanwhile.
+
+Daher, an jeden der interessiert ist, probierts einfach mal aus! Ich
+poste mal eine grobe Anleitung wie man es zum Laufen bekommt; da ich
+jetzt Debianer bin, gueltig fuer die aktuelle Debian Testing:
+
+. Mal kucken ob der Go Kompiler drauf ist.
++
+----
+# apt install golang
+----
+. `GOPATH` setzen (ab Go 1.8 ist das nimmer notwendig)
++
+Ich habe beispielsweise in der `~/.xsessionrc` dieses:
++
+[source,sh]
+----
+export GOPATH="$HOME/Go"
+export PATH="$GOPATH/bin:$HOME:$PATH"
+----
+
+. Go Kram installieren (das macht er dann out of the box mittels Git
+   in GOPATH). Mit dem Kommando kann man uebrigens auch updaten;
+   wenn ich was neues auf Github einchecke, einfach den fish nach dem
+   Kommando fragen, und es ist da.
++
+----
+$ go get -u github.com/rumpelsepp/i3gostatus/cmd/i3gostatus
+----
+
+. Es sollte dann ein ELF binary in $GOPATH/bin/i3gostatus zu finden
+   sein. Wenn mans zum PATH dazugetan hat, dann sollte es laufen.
+
+. Konfiguration
+
+   .. Ich habe in der i3 Config das (ggf. Pfad zum binary anpassen):
++
+----
+bar {
+    status_command i3gostatus 2> /tmp/hans
+    tray_output primary
+}
+----
++
+Das Teil macht logging Meldungen auf stderr. Falls es mal crashed,
+hat man so den panic log. Also aktiviert den hans vielleicht.
+
+   .. Ja. Die Config von der bar selber hab ich noch ned
+        dokumentiert.... Aber es ist einfach. Es gibt ein File:
+        `~/.config/i3gostatus/config.toml`
++
+----
+modules = [
+   "syncthing",
+   "disk",
+   "xkblayout",
+   "battery",
+   "cpu",
+   "load",
+   "temperature",
+   "backlight",
+   "datetime",
+   "pulseaudio",
+]
+
+[datetime]
+format = "strftime::%a %d %b %H:%M:%S"
+
+[xkblayout]
+layouts = ["de nodeadkeys", "us"]
+----
++
+In dem Module Array kann man Module aktivieren, in dem
+optionalen Block darunter kann man das Modul zusaetzlich
+konfigurieren. Bei den Zusatzbloecken ist alles supported, was
+hier unter 2.2 steht:
+https://i3wm.org/docs/i3bar-protocol.html
+
+. Feedback geben, wenns denn in dem Zustand wirklich jemand
+  ausprobiert.
+
+. Ein Modul schreiben. :D Die Module sind hier:
+  https://github.com/rumpelsepp/i3gostatus/tree/master/lib/modules
