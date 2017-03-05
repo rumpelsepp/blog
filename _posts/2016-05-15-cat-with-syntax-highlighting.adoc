@@ -7,7 +7,7 @@ library, which enables highlighting on the terminal. I called the project
 `c.py`. The reason is easy: It should be `[c]at`, and it is written in Python,
 thus `c.py`.
 
-The project is hosted on Github: https://github.com/rumpelsepp/c.py; I have 
+The project is hosted on Github: https://github.com/rumpelsepp/c.py; I have
 written some manpages for `c.py` which are available at my docs subdomain:
 https://docs.sevenbyte.org/c.py/
 
@@ -30,7 +30,7 @@ $ c file
 programming language with some magic FOO.  Then the highlighted content is
 piped into `less`:
 
-image::{{ site.url }}/assets/Screenshot-2016-05-15-15:54:18.png[]
+image::{{ site.url }}/assets/img/Screenshot-2016-05-15-15:54:18.png[]
 
 == Additional Features
 
@@ -81,8 +81,8 @@ Those are documented in the manpage: https://docs.sevenbyte.org/c.py/c.py.1.html
 
 == Use c.py in ranger
 
-If you are a nerd like me, then you might know the vim like filemanger `ranger`: 
-https://github.com/hut/ranger. You can use `c.py` in ranger to benefit from 
+If you are a nerd like me, then you might know the vim like filemanger `ranger`:
+https://github.com/hut/ranger. You can use `c.py` in ranger to benefit from
 the much better syntax highlighting capabilities of pygments. You have to modify
 the `scope.sh` script like this:
 
@@ -92,11 +92,11 @@ the `scope.sh` script like this:
 +++ scope.sh	2016-05-15 16:07:11.025363896 +0200
 @@ -42,7 +42,7 @@
  trim() { head -n "$maxln"; }
- 
+
  # wraps highlight to treat exit code 141 (killed by SIGPIPE) as success
 -highlight() { command highlight "$@"; test $? = 0 -o $? = 141; }
 +highlight() { command c.py "$@"; test $? = 0 -o $? = 141; }
- 
+
  case "$extension" in
      # Archive extensions:
 @@ -72,7 +72,7 @@

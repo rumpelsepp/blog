@@ -4,7 +4,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <p>{{ site.description }}</p>
+        <p>{{ site.description | escape }}</p>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -16,7 +16,7 @@
           {% endif %}
 
           <li>
-              {% icon fa-rss %} <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+              {% icon fa-rss %} <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
           </li>
         </ul>
       </div>

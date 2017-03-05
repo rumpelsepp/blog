@@ -1,5 +1,5 @@
 # Site settings
-title: ~rumpelsepp/braindumps
+title: ~rumpelsepp/brain
 email: rumpelsepp@sevenbyte.org
 description: Random bits from deep inside my brain
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -20,12 +20,16 @@ defaults:
 # Build settings
 gems:
     - jekyll-asciidoc
+    - jekyll-feed
 
 asciidoctor:
   attributes:
-    - icons=font
-    - hardbreaks!
-    - hardbreaks-option!
-    - source-highlighter=highlight.js
+    icons: "font"
+    source-highlighter: "highlight.js"
+    imagesdir: /assets/img
 
-exclude: [vendor, manage.sh]
+exclude:
+  - vendor
+  - manage.sh
+  - Gemfile
+  - Gemfile.lock

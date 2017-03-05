@@ -40,6 +40,8 @@ GEM
     jekyll-asciidoc (2.0.1)
       asciidoctor (>= 1.5.0)
       jekyll (>= 2.3.0)
+    jekyll-feed (0.9.1)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -76,8 +78,12 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
-  jekyll
+  jekyll (= 3.4.1)
   jekyll-asciidoc
+  jekyll-feed (~> 0.6)
+
+RUBY VERSION
+   ruby 2.3.3p222
 
 BUNDLED WITH
    1.13.6
