@@ -1,7 +1,8 @@
 = Impressum
+:page-liquid:
 :page-layout: page
 
-German law demands this crap! So, here it is. Eat it and leave me alone lawyers...
+Alle Texte wurden mit Hilfe von http://www.e-recht24.de erzeugt.
 
 == Angaben gemäß § 5 TMG
 
@@ -10,8 +11,6 @@ Stefan Tatschner
 Granitweg 20
 94481 Grafenau
 E-Mail: rumpelsepp@sevenbyte.org
-
-Quelle: http://www.e-recht24.de
 
 == Haftungsausschluss (Disclaimer)
 === Haftung für Inhalte
@@ -71,6 +70,14 @@ dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns
 vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für
 eine rechtswidrige Nutzung bekannt werden.
 
+=== Widerspruch Werbe-Emails
+
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten
+zur Übersendung von nicht ausdrücklich angeforderter Werbung und
+Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten
+behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten
+Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
+
 === Datenschutzerklärung für die Nutzung von Piwik
 
 Diese Website benutzt den Open Source Webanalysedienst Piwik. Piwik verwendet
@@ -93,16 +100,8 @@ Nutzungsdaten speichert. Wenn Sie Ihre Cookies löschen hat dies zur Folge, dass
 auch das Piwik Opt-Out-Cookie gelöscht wird. Das Opt-Out muss bei einem
 erneuten Besuch unserer Seite wieder aktiviert werden.
 
+{% if jekyll.environment == "production" %}
 ++++
 <iframe style="border: 0; height: 200px; width: 600px;" src="https://piwik.sevenbyte.org/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
 ++++
-
-=== Widerspruch Werbe-Emails
-
-Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten
-zur Übersendung von nicht ausdrücklich angeforderter Werbung und
-Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten
-behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten
-Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-
-Quelle: http://www.e-recht24.de
+{% endif %}

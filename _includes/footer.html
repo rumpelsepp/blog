@@ -42,4 +42,11 @@ MathJax.Hub.Config({
   },
   TeX: { equationNumbers: { autoNumber: "none" } }
 });
+
 </script>
+
+{% if jekyll.environment == "production" %}
+    {% if site.piwik %}
+        {% include piwik.html %}
+    {% endif  %}
+{% endif  %}

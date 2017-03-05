@@ -17,6 +17,10 @@ defaults:
       layout: post
     #   author: "Stefan Tatschner"
 
+piwik:
+  base_url: piwik.sevenbyte.org
+  site_id: 17
+
 # Build settings
 gems:
     - jekyll-asciidoc
