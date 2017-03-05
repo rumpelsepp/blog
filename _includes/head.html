@@ -1,18 +1,36 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/asciidoctor-default.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/atom-one-light.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  <script src="{{ '/assets/js/highlight.min.js' | prepend: site.baseurl }}"></script>
-  <script src="{{ '/assets/js/go.min.js' | prepend: site.baseurl }}"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/asciidoctor-default.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/atom-one-light.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <script src="{{ '/assets/js/highlight.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/js/go.min.js' | prepend: site.baseurl }}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+    <link rel="apple-touch-icon" sizes="57x57" href={{ "/assets/favicon/apple-icon-57x57.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="60x60" href={{ "/assets/favicon/apple-icon-60x60.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="72x72" href={{ "/assets/favicon/apple-icon-72x72.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="76x76" href={{ "/assets/favicon/apple-icon-76x76.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="114x114" href={{ "/assets/favicon/apple-icon-114x114.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="120x120" href={{ "/assets/favicon/apple-icon-120x120.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="144x144" href={{ "/assets/favicon/apple-icon-144x144.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="152x152" href={{ "/assets/favicon/apple-icon-152x152.png" | prepend: site.baseurl }}>
+    <link rel="apple-touch-icon" sizes="180x180" href={{ "/assets/favicon/apple-icon-180x180.png" | prepend: site.baseurl }}>
+    <link rel="icon" type="image/png" sizes="192x192"  href={{ "/assets/favicon/android-icon-192x192.png" | prepend: site.baseurl }}>
+    <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}>
+    <link rel="icon" type="image/png" sizes="96x96" href={{ "/assets/favicon/favicon-96x96.png" | prepend: site.baseurl }}>
+    <link rel="icon" type="image/png" sizes="16x16" href={{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}>
+    <link rel="manifest" href={{ "/assets/favicon/manifest.json" | prepend: site.baseurl }}>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content={{ "/assets/favicon/ms-icon-144x144.png" | prepend: site.baseurl }}>
+    <meta name="theme-color" content="#ffffff">
 </head>
