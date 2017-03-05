@@ -1,5 +1,4 @@
 = An Algorithm a Day -- 002 -- Prime Factorization
-:page-layout: math
 :stem: latexmath
 
 This post might become rather short, but I just want to publish this right now.

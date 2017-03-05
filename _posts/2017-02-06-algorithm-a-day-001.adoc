@@ -1,5 +1,4 @@
 = An Algorithm a Day -- 001 -- Factorial
-:page-layout: math
 :stem: latexmath
 
 As I am an electrical engineer, who realized that he likes computer science much

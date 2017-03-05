@@ -1,5 +1,4 @@
 = An Algorithm a Day — 005 — Base64 Decoder
-:page-layout: math
 :stem: latexmath
 
 This is the continuation of the last post; now the decoder for the base64

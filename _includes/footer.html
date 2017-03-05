@@ -16,7 +16,7 @@
           {% endif %}
 
           <li>
-              {% icon fa-rss %} <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+              {% icon fa-rss %} <a href="{{ "/feed.xml" | absolute_url }}">RSS</a>
           </li>
         </ul>
       </div>
@@ -31,3 +31,19 @@
   </div>
 
 </footer>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+});
+</script>
