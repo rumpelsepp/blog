@@ -16,7 +16,7 @@
           {% endif %}
 
           <li>
-              {% icon fa-rss %} <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+              {% icon fa-rss %} <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
           </li>
         </ul>
       </div>
