@@ -1,6 +1,6 @@
 = Impressum
 :page-liquid:
-:page-layout: page
+:page-lang: de
 
 Alle Texte wurden mit Hilfe von http://www.e-recht24.de erzeugt.
 
@@ -102,6 +102,6 @@ erneuten Besuch unserer Seite wieder aktiviert werden.
 
 {% if jekyll.environment == "production" %}
 ++++
-<iframe style="border: 0; width: 100%;" src="//{{ site.piwik.base_url }}/index.php?module=CoreAdminHome&action=optOut&language={{ site.lang | default: "en" }}"></iframe>
+<iframe style="border: 0; width: 100%;" src="//{{ site.piwik.base_url }}/index.php?module=CoreAdminHome&action=optOut&language={{ site.lang | default: page.lang | default: "en" }}"></iframe>
 ++++
 {% endif %}

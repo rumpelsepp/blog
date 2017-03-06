@@ -28,9 +28,10 @@ gems:
 
 asciidoctor:
   attributes:
-    icons: "font"
-    source-highlighter: "highlight.js"
-    imagesdir: /assets/img
+    - icons=font
+    - source-highlighter=highlight.js
+    - imagesdir=/assets/img
+    - prewrap!
 
 exclude:
   - vendor
