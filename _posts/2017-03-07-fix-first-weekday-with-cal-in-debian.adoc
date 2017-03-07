@@ -11,7 +11,7 @@ to fix. Haha... This is what I tried:
   weekday did not change.
 . I studied the manpage and discovered the flag `-M`. I got
   an exit code `64` and the help page of the `cal` tool. WTF?!?!.
-. I studied the manpage `localed` and also read some cross
+. I studied the manpage `locale` and also read some cross
   referenced manpages, since I had the opinion that my
   environment variables are wrong. No solution found...
 . Coincidentally, I realized, that there are two commands!!
