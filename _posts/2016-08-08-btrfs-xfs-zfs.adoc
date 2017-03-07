@@ -1,6 +1,7 @@
 = BTRFS, XFS, ZFS, ...
+:page-lang: de
 
-Heute mal was auf Deutsch; ich hab den Artikel schon 
+Heute mal was auf Deutsch; ich hab den Artikel schon
 geschrieben und bin zu faul den zu übersetzen.
 
 Es gibt im Bereich der Filesysteme mal was neues. Der RAID 5 und RAID 6
@@ -10,7 +11,7 @@ ich gestern das hier gelesen:
 
 [quote]
 Btrfs RAID 5/6 Code Found To Be Very Unsafe & Will Likely Require A
-Rewrite 
+Rewrite
 footnote:[https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-RAID-56-Is-Bad]
 footnote:[https://www.mail-archive.com/linux-btrfs@vger.kernel.org/msg55161.html]
 
@@ -60,7 +61,7 @@ Web-GUI ist zwar anfangangs etwas gewöhnungsbedürftig, aber es funktioniert
 echt gut. ZFS ist einfach mega für ein Datengrab, funktionierendes RAID gibts
 mit dem sog. RAID-Z obendrauf
 footnote:[http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/]. Probierts mal
-aus. 
+aus.
 
-Hier noch ein Link, hab ich noch nicht vollständig gelesen, aber 
+Hier noch ein Link, hab ich noch nicht vollständig gelesen, aber
 potentiell interessant: https://calomel.org/zfs_raid_speed_capacity.html

@@ -1,6 +1,7 @@
 = Awesome Stuff No 4
 :page-liquid:
 :experimental:
+:page-lang: de
 :toc: macro
 
 Hier ist die Awesome Stuff #4. Ich werde in unregelmäßigen Abständen
@@ -69,7 +70,7 @@ http://swaywm.org/::
 	noch nicht brauchbar fuer daily use.
 
 https://github.com/eXeC64/imv::
-	Ein Bildbetrachter, aehnlich wie sxiv, aber auch unter Wayland 	
+	Ein Bildbetrachter, aehnlich wie sxiv, aber auch unter Wayland
 	lauffaehig.
 
 https://github.com/naelstrof/maim::
@@ -80,7 +81,7 @@ https://github.com/naelstrof/maim::
 
 https://github.com/junegunn/fzf::
 https://github.com/junegunn/fzf.vim::
-	Jo Leute, das Teil ist *DER* Shit. Ein Tool, in das man Text 	
+	Jo Leute, das Teil ist *DER* Shit. Ein Tool, in das man Text
 	reinpipen kann, es macht eine Liste auf, die man fuzzy
 	durchsuchen kann. Das Ergebnis nach betaetigen der Enter Taste
 	landet in der Standardausgabe. Damit kann man viele coole
@@ -88,7 +89,7 @@ https://github.com/junegunn/fzf.vim::
 	kbd:[ctrl + r] gebunden fuer Shell Completion (gibt Fish
 	Keybindings), ich hab es im Vim als Plugin, ... Lohnt sich es
 	sich mal anzuschaun und in den jew. Workflow einzubauen. Der
-	Ludwig scheint es auch schon zu moegen... 
+	Ludwig scheint es auch schon zu moegen...
 	Auf dem Github Wiki gibt es viele Beispiele.
 
 https://rash.readthedocs.io/en/latest/::
@@ -102,7 +103,7 @@ http://xon.sh/::
 == Sinnvolle Bibliotheken
 
 https://pycco-docs.github.io/pycco/::
-	Ziemlich cooler Dokumentations Generator fuer Python. Schaut 	
+	Ziemlich cooler Dokumentations Generator fuer Python. Schaut
 	recht intuitiv aus, was er erzeugt.
 
 http://pandas.pydata.org/::
