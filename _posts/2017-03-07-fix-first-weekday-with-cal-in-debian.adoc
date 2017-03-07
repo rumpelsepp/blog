@@ -17,7 +17,7 @@ to fix. Haha... This is what I tried:
 . Coincidentally, I realized, that there are two commands!!
   There also is `ncal`, which is mentioned in the SYNOPSIS
   section of the `cal` manpage. I have no idea why this command
-  it is there. It does almost the same and it correctly interprets
+  is there. It does almost the same and it correctly interprets
   `LC_TIME`. The only thing to remember is to supply the `-b` flag
   in order to generate the same output as `cal`. I have set an
   alias in my `fish` config like this:
