@@ -141,11 +141,7 @@ void base64_encode(char *s, size_t len) {
 			j++;
 		}
 
-		for (size_t j = 0; j < 4; j++) {  // <6>
-			if (k >= enclen) {
-				break;
-			}
-
+		for (size_t j = 0; j < 4 && k >= enclen; j++) {  // <6>
 			uint32_t index = val >> ((3-j) * 6) & 0x3f;  // <7>
 			printf("%c", codes[index]);
 
