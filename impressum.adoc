@@ -1,5 +1,4 @@
 = Impressum
-:page-liquid:
 :page-lang: de
 
 Alle Texte wurden mit Hilfe von http://www.e-recht24.de erzeugt.
@@ -77,31 +76,3 @@ zur Übersendung von nicht ausdrücklich angeforderter Werbung und
 Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten
 behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten
 Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-
-=== Datenschutzerklärung für die Nutzung von Piwik
-
-Diese Website benutzt den Open Source Webanalysedienst Piwik. Piwik verwendet
-so genannte "Cookies". Das sind Textdateien, die auf Ihrem Computer gespeichert
-werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen.
-Dazu werden die durch den Cookie erzeugten Informationen über die Benutzung
-dieser Website auf unserem Server gespeichert. Die IP-Adresse wird vor der
-Speicherung anonymisiert.
-
-Die durch den Cookie erzeugten Informationen über die Benutzung dieser Website
-werden nicht an Dritte weitergegeben. Sie können die Speicherung der Cookies
-durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir
-weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht
-sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
-
-Wenn Sie mit der Speicherung und Nutzung Ihrer Daten nicht einverstanden sind,
-können Sie die Speicherung und Nutzung hier deaktivieren. In diesem Fall wird
-in Ihrem Browser ein Opt-Out-Cookie hinterlegt der verhindert, dass Piwik
-Nutzungsdaten speichert. Wenn Sie Ihre Cookies löschen hat dies zur Folge, dass
-auch das Piwik Opt-Out-Cookie gelöscht wird. Das Opt-Out muss bei einem
-erneuten Besuch unserer Seite wieder aktiviert werden.
-
-{% if jekyll.environment == "production" %}
-++++
-<iframe style="border: 0; width: 100%;" src="//{{ site.piwik.base_url }}/index.php?module=CoreAdminHome&action=optOut&language={{ site.lang | default: page.lang | default: "en" }}"></iframe>
-++++
-{% endif %}

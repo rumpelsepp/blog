@@ -2,8 +2,8 @@
 title: ~rumpelsepp/brain
 email: rumpelsepp@sevenbyte.org
 description: Random bits from deep inside my brain
-url: "https://blog.rumpelsepp.de" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://rumpelsepp.github.io" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 github_username:  rumpelsepp
 
 timezone: Europe/Berlin
@@ -16,10 +16,6 @@ defaults:
     values:
       layout: post
     #   author: "Stefan Tatschner"
-
-piwik:
-  base_url: piwik.sevenbyte.org
-  site_id: 17
 
 # Build settings
 gems:
