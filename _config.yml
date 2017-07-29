@@ -3,7 +3,7 @@ title: ~rumpelsepp/brain
 email: rumpelsepp@sevenbyte.org
 description: Random bits from deep inside my brain
 url: "https://rumpelsepp.github.io" # the base hostname & protocol for your site
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 github_username:  rumpelsepp
 
 timezone: Europe/Berlin
