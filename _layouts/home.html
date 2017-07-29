@@ -10,7 +10,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
 
         <p>
-          <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </p>
       </li>
     {% endfor %}
