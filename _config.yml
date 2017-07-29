@@ -18,7 +18,7 @@ defaults:
     #   author: "Stefan Tatschner"
 
 # Build settings
-plugins:
+gems:
     - jekyll-asciidoc
     - jekyll-feed
 

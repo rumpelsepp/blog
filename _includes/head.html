@@ -7,35 +7,35 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ "/assets/css/asciidoctor-default.css" | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/asciidoctor-default.css" | absolute_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vim.min.js"></script>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/go.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/vim.min.js"></script>
+    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 
     <script>hljs.initHighlightingOnLoad();</script>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | absolute_url }}">
 
-    <link rel="apple-touch-icon" sizes="57x57" href={{ "/assets/favicon/apple-icon-57x57.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="60x60" href={{ "/assets/favicon/apple-icon-60x60.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="72x72" href={{ "/assets/favicon/apple-icon-72x72.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="76x76" href={{ "/assets/favicon/apple-icon-76x76.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="114x114" href={{ "/assets/favicon/apple-icon-114x114.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="120x120" href={{ "/assets/favicon/apple-icon-120x120.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="144x144" href={{ "/assets/favicon/apple-icon-144x144.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="152x152" href={{ "/assets/favicon/apple-icon-152x152.png" | relative_url }}>
-    <link rel="apple-touch-icon" sizes="180x180" href={{ "/assets/favicon/apple-icon-180x180.png" | relative_url }}>
-    <link rel="icon" type="image/png" sizes="192x192"  href={{ "/assets/favicon/android-icon-192x192.png" | relative_url }}>
-    <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/favicon/favicon-32x32.png" | relative_url }}>
-    <link rel="icon" type="image/png" sizes="96x96" href={{ "/assets/favicon/favicon-96x96.png" | relative_url }}>
-    <link rel="icon" type="image/png" sizes="16x16" href={{ "/assets/favicon/favicon-16x16.png" | relative_url }}>
+    <link rel="apple-touch-icon" sizes="57x57" href={{ "/assets/favicon/apple-icon-57x57.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="60x60" href={{ "/assets/favicon/apple-icon-60x60.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="72x72" href={{ "/assets/favicon/apple-icon-72x72.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="76x76" href={{ "/assets/favicon/apple-icon-76x76.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="114x114" href={{ "/assets/favicon/apple-icon-114x114.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="120x120" href={{ "/assets/favicon/apple-icon-120x120.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="144x144" href={{ "/assets/favicon/apple-icon-144x144.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="152x152" href={{ "/assets/favicon/apple-icon-152x152.png" | absolute_url }}>
+    <link rel="apple-touch-icon" sizes="180x180" href={{ "/assets/favicon/apple-icon-180x180.png" | absolute_url }}>
+    <link rel="icon" type="image/png" sizes="192x192"  href={{ "/assets/favicon/android-icon-192x192.png" | absolute_url }}>
+    <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/favicon/favicon-32x32.png" | absolute_url }}>
+    <link rel="icon" type="image/png" sizes="96x96" href={{ "/assets/favicon/favicon-96x96.png" | absolute_url }}>
+    <link rel="icon" type="image/png" sizes="16x16" href={{ "/assets/favicon/favicon-16x16.png" | absolute_url }}>
     <link rel="manifest" href={{ "/assets/favicon/manifest.json" | absolute_url }}>
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content={{ "/assets/favicon/ms-icon-144x144.png" | relative_url }}>
+    <meta name="msapplication-TileImage" content={{ "/assets/favicon/ms-icon-144x144.png" | absolute_url }}>
     <meta name="theme-color" content="#ffffff">
 </head>
