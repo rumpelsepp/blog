@@ -1,5 +1,7 @@
 = Use SSH Blacklists on FreeBSD
 
+NOTE: openbl has been discontinued. So, I leave this article for the archive...
+
 Since I am a very lazy person, I am quoting the introduction of openbl.org:
 
 [quote, openbl.org]
@@ -21,17 +23,17 @@ I hate `fail2ban`:
 
 Since I run my own mailserver (under FreeBSD of course), I am familiar with so called
 public blacklists. That is some list, were admins (= some script) report abusers
-automatically. These lists are updated frequently and can be used by poor guys 
+automatically. These lists are updated frequently and can be used by poor guys
 like me, who want to benefit from the gathered data (= IP addresses of abusers).
 The question was, are there any of those blacklists especially for SSH brute-forcers?
 
 There are. I have found two which are usable:
 
-* https://www.openbl.org/lists/base_all.txt
+* `https://www.openbl.org/lists/base_all.txt` *Update: This link is dead now!!*
 * https://www.spamhaus.org/drop/edrop.txt
 
 The task is, to add these IP addresses to a firewall block rule and update it, let's
-say, once a day. Since I failed in verifying ip addresses in POSIX shell, I wrote 
+say, once a day. Since I failed in verifying ip addresses in POSIX shell, I wrote
 a little, sweet and tiny (= ugly) Python script, which downloads the ip list
 asynchronously (just because I can!). It concatenates the two lists together,
 verifies each ip address to be valid, and adds them to my `ipfw` firewall rules.
@@ -208,22 +210,22 @@ Thanks to `asciidoctor` and the `jekyll-asciidoc` plugin, I am now able to
 comment on selected lines of code, which is awesome. Thanks to the creators
 of `asciidoctor`, keep on the awesome work!
 
-<1> Load the https://aiohttp.readthedocs.io[`aiohttp` library]. There are no 
+<1> Load the https://aiohttp.readthedocs.io[`aiohttp` library]. There are no
     technical reasons against `requests` or the stdlib. I just wanted to try
     the new asynchronous capabilities of Python 3.5. One can replace it safely
     with the http library of choice; but the script has to be adapted then...
 <2> These are the blacklists which I use per default. Since I like Python
     programming a lot, I decided to make the blacklists configurable, and
     overwritable by the commandline options.
-<3> My collegues still use `iptables`, so I designed the script to be extendible 
-    to other firewall backends. I use `ipfw` on FreeBSD, it should not be 
+<3> My collegues still use `iptables`, so I designed the script to be extendible
+    to other firewall backends. I use `ipfw` on FreeBSD, it should not be
     difficult to adapt the script to, e.g. `iptables`.
 <4> To use the `async def` methods, a recent Python implementation has to be
     used, I use 3.5 currently. These two methods download the ip list from the
     configured blacklists. I have mostly copied the code from the `aiohttp`
     documentation. In the end, the `bls_fetch` method returns a string that
     contains the concatenated content of all configured blacklists.
-<5> That's the actual part why I have chosen to implement this script in 
+<5> That's the actual part why I have chosen to implement this script in
     Python. The gathered ip addresses (and address ranges) can simply be
     verified by instantiating an ipaddress object. When it fails, an exception
     is raised. I trust the Python stdlib to be correct.

@@ -86,8 +86,7 @@ Der Workflow ist wie folgt:
 [00:05:39] ====>> [01][00:00:12] Finished build of print/indexinfo: Success
 ----
 
-- poudriere generiert nach jedem Build einen detaillierten
-  https://pkg.sevenbyte.org/build.html?mastername=freebsd_10-3x64-HEAD&build=2016-08-07_12h19m00s[Bericht]
+- poudriere generiert nach jedem Build einen detaillierten Bericht.
 
 Das poudriere Repository kann man jetzt im gesamten Serverpool als
 Paketquelle einstellen (optional signiert poudriere die Pakete auch).
