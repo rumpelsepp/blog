@@ -1,4 +1,4 @@
-= An Algorithm a Day — 005 — Base64 Decoder
+= Base64 Decoder
 :stem: latexmath
 
 This is the continuation of the last post; now the decoder for the base64

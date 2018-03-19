@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.5"
+gem "jekyll", "~> 3.7"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
@@ -22,6 +22,7 @@ gem "jekyll", "~> 3.5"
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-asciidoc"
+  gem 'pygments.rb'
 end
 
 # Fancy tools that make life easier.

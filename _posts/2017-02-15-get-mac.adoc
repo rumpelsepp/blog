@@ -1,4 +1,4 @@
-= An Algorithm a Day -- 003 -- Get MAC Address
+= Get MAC Address
 
 This post is gonna be a short one. I am currently trying to implement a basic
 DHCP client and I am trying to figure out how everything works. At some

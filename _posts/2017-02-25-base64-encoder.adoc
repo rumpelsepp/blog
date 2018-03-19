@@ -1,4 +1,4 @@
-= An Algorithm a Day — 004 — Base64 Encoder
+= Base64 Encoder
 :stem: latexmath
 
 As usual, here is the definition of the algorithm, copied from

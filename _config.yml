@@ -24,8 +24,9 @@ plugins:
 
 asciidoctor:
   attributes:
-    - icons=font
-    - source-highlighter=highlight.js
+    - source-highlighter=pygments
+    - pygments-style=default
+    - stylesdir=/assets/css
     - imagesdir=/assets/img
     - prewrap!
 

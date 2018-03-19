@@ -1,18 +1,35 @@
-= An Algorithm a Day — 006 — A Basic Shell
+= A Basic Shell
 :toc:
 
 My little series starts to get crazy. It started with the intention to learn
 implementing algorithms, since at work I mostly do latex stuff (thank god I
 don't have to use word...). I started with some basic math alogrithms and some
-weird C stuff in Linux, like getting the MAC address of a network interface.
-Some day, the question "How does a Shell work?" was in my mind; and I started
+weird C stuff in Linux, such as getting the MAC address of a network interface.
+Some day, the question "`How does a Shell work?`" was in my mind; and I started
 to write a shell in C. That was awesome and painful... I will try to show the
-most important steps. Ehh, yeah and the status of my shell... I can spawn programs
-that stay in the foreground (thus no `ncurses` programs), I can `cd` through
-the filesystem, I see the current directory in the prompt and the last exit
-code is shown in the prompt. Pretty basic, but I learned *a lot*!
+most important steps. Ehh, yeah and what's the status of my shell... I can
+spawn programs that stay in the foreground (thus no `ncurses` programs), I can
+`cd` through the filesystem, I see the current directory in the prompt and the
+last exit code is shown in the prompt. Pretty basic, but I learned *a lot*!
 
 == Principle
+
+Linux users or "`real`" programmers most likely spend most of their time (or at
+least they _should_) in the terminal. Historically, a terminal was a dedicated
+piece of hardware that was wired to the computer. Here is what it looked like:
+
+image::http://i.imgur.com/2MhE2.jpg[]
+
+Right now, it is not necessary any more to wire a dedicated piece of hardware
+to your computer in order to get some prompt (let's ignore any embedded
+systems for now!). Nowadays we have something called "`terminal emulators`",
+// TODO: pseudoterminal erklaeren
+which are connected to "`pseudoterminals`". Most of you should be familiar
+with programs like `gnome-terminal` or `xterm` on linux. They behave like
+the historic terminals, since they emulate their anciant behaviour in software.
+
+In many cases, the program that is displayed on these terminals, was a so called
+shell. Here is the definition, stolen from wikipedia:
 
 [quote,https://en.wikipedia.org/wiki/Shell_(computing)]
 In computing, a shell is a user interface for access to an operating system's
@@ -39,7 +56,7 @@ similar to the classic Lisp machine interactive environment. Common examples
 include command line shells and similar environments for programming languages,
 and is particularly characteristic of scripting languages.
 
-That sounds pretty much like copied from wikipedia (it is!). What does this mean?
+That also  sounds pretty much like copied from wikipedia (it is!). What does this mean?
 Well, in general it is just a `while(1)` loop some function that reads from `stdin`
 and another function that evaluates the input. It is something like this:
 

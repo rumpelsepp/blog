@@ -6,14 +6,13 @@
       <div class="footer-col footer-col-1">
         <p>{{ site.description | escape }}</p>
       </div>
-
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
-          <li>{% icon fa-github %} <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
+          <li><i class="fab fa-github-square"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
           {% endif %}
 
-          <li>{% icon fa-rss %} <a href="{{ "/feed.xml" | absolute_url }}">RSS</a></li>
+          <li><i class="fas fa-rss-square"></i> <a href="{{ "/feed.xml" | absolute_url }}">RSS</a></li>
         </ul>
       </div>
 
