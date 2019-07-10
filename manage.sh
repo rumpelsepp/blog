@@ -86,7 +86,7 @@ test_links() {
 }
 
 deploy() {
-    rsync -e ssh -rP --delete --exclude .git --exclude "_site/" . deploy@rumpelsepp.org:rumpelsepp.org/
+    rsync -e ssh -rP --delete "_site/" deploy@rumpelsepp.org:rumpelsepp.org/
 }
 
 while getopts "h" opt; do
