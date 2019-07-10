@@ -1,0 +1,4 @@
+== QUIC
+
+* https://www.youtube.com/watch?v=CtsBawwGwns[Netdev 0x13 - QUIC Tutorial]
+* https://www.youtube.com/watch?v=ald5tP2VeGk[Netdev 0x13 - Accelerating QUIC via Hardware Offloads Through a Socket Interface]

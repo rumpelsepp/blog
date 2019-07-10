@@ -15,6 +15,7 @@ usage() {
     echo "  build          Invoke 'jekyll build'"
     echo "  serve          Invoke 'jekyll serve'"
     echo "  test-links     Run 'htmlproofer' against build html files"
+    echo "  deploy         Copy this shit to the server"
     echo ""
     echo "options:"
     echo "  -n             Do not open an editor"
@@ -84,6 +85,10 @@ test_links() {
     bundle exec htmlproofer --allow-hash-href ./_site
 }
 
+deploy() {
+    rsync -e ssh -rP --delete --exclude .git --exclude "_site/" . deploy@rumpelsepp.org:rumpelsepp.org/
+}
+
 while getopts "h" opt; do
     case $opt in
         n)    shift && NOEDITOR=1;;
@@ -100,5 +105,6 @@ case $1 in
     build)      shift && build       "$@" && exit 0;;
     serve)      shift && serve       "$@" && exit 0;;
     test-links) shift && test_links       && exit 0;;
+    deploy)     shift && deploy           && exit 0;;
     *)          usage                     && exit 1;;
 esac

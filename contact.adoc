@@ -1,0 +1,38 @@
+= Contact
+
+Hi, I'm Stefan. I like to mess with Linux, network security, and free
+software. You may find me in the web as `rumpelsepp`, on
+https://git.sr.ht./~rumpelsepp[sourcehut], or on https://github.com/rumpelsepp[github].
+
+Over the years I experimented a lot with mail servers and DNS, so there are a
+few email addresses lurking around in the internet:
+
+* stefan.tatschner@gmail.com
+* stefan@sevenbyte.org
+* rumpelsepp@sevenbyte.org
+* stefan@rumpelsepp.org (<- I use this as my PGP identity)
+
+Everything is collected in a single mailbox, so it doesn't matter
+which one you choose. The more important thing is to use my GPG key to
+ensure end-to-end security.
+
+The reason why I have four mail addresses is: once upon a time I
+started with gmail. Then, my first mail server came and I didn't have
+a domain. In a session with a friend the domain sevenbyte.org popped
+up; but I didn't like it, since it hat no meaning at all. But I used
+it for everything in my infrastructure.  Subsequently, my own DNS
+servers came and I wanted to make a clean cut in ordner to move my own
+DNS with enabled DNSSEC.  So I decided to abandon the old
+sevenbyte.org crap. The mail addresses will stay, since they are
+already there...
+
+== GPG Keys
+
+My PGP key fingerprint is: `2CF06B3BF42BA71EDF7CE330955044B06AC51A93`.
+The key is published on the usual keyservers, for instance:
+https://pgp.mit.edu/pks/lookup?op=get&search=0x955044B06AC51A93.
+
+.Get key with recent gpg
+----
+$ gpg --locate-key stefan@rumpelsepp.org
+----

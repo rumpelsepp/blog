@@ -1,12 +1,12 @@
 # Site settings
-title: ~rumpelsepp/brain
-email: rumpelsepp@sevenbyte.org
-description: Random bits from deep inside my brain
-url: "https://rumpelsepp.github.io" # the base hostname & protocol for your site
+title: ~rumpelsepp
+email: stefan@rumpelsepp.org
+description: I break stuff
+url: "https://rumpelsepp.org" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
-github_username:  rumpelsepp
 
 timezone: Europe/Berlin
+paginate: 5
 
 defaults:
   -
@@ -16,6 +16,10 @@ defaults:
     values:
       layout: post
     #   author: "Stefan Tatschner"
+
+collections:
+  stuff:
+    output: true
 
 # Build settings
 plugins:

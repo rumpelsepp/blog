@@ -1,0 +1,6 @@
+= Misc Useful Stuff
+
+* https://git-send-email.io[git send-email]
+* https://git-rebase.io[git rebase]
+* http://www.catb.org/esr/faqs/smart-questions.html[Asking Smart Questions]
+* http://xyproblem.info[The XZ Problem]

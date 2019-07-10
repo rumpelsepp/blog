@@ -1,0 +1,21 @@
+image: archlinux
+packages:
+  - asciidoctor
+  - rsync
+  - openssh
+  - ruby-bundler
+secrets:
+  - 0d06436c-bc8f-4f65-af13-cad62d4f1127
+
+tasks:
+  - setup: |
+      echo "rumpelsepp.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILF0LTW/x81u/Y/vkDy5+WNyeiiyevRI0p+d3QAxH1us" > $HOME/.ssh/known_hosts
+
+  - build: |
+      cd blog
+      bundle install --path vendor/bundle
+      ./manage.sh build
+
+  - deploy: |
+      cd blog
+      ./manage.sh deploy
