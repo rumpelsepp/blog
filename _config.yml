@@ -9,13 +9,16 @@ timezone: Europe/Berlin
 paginate: 5
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: post
-    #   author: "Stefan Tatschner"
+  - scope:
+      path: ""
+      type: "stuff"
+    values:
+      layout: page
 
 collections:
   stuff:
