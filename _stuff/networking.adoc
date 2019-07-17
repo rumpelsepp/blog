@@ -1,3 +1,11 @@
+== IPv6
+
+* https://tools.ietf.org/html/rfc4862[RFC4862 -- IPv6 Stateless Address Autoconfiguration]
+* https://tools.ietf.org/html/rfc7078[RFC7078 -- Distributing Address Selection Policy Using DHCPv6]
+* https://tools.ietf.org/html/rfc8028[RFC8028 -- First-Hop Router Selection by Hosts in a Multi-Prefix Network]
+* https://tools.ietf.org/html/rfc8043[RFC8043 -- Source-Address-Dependent Routing and Source Address Selection for IPv6 Hosts: Overview of the Problem Space]
+* https://tools.ietf.org/html/rfc8415[RFC8415 -- Dynamic Host Configuration Protocol for IPv6 (DHCPv6)]
+
 == QUIC
 
 * https://www.youtube.com/watch?v=CtsBawwGwns[Netdev 0x13 - QUIC Tutorial]
