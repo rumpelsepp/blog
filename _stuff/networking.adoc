@@ -5,10 +5,14 @@
 * https://tools.ietf.org/html/rfc6890[RFC6890] -- Special-Purpose IP Address Registries
 * https://tools.ietf.org/html/rfc7078[RFC7078] -- Distributing Address Selection Policy Using DHCPv6
 * https://tools.ietf.org/html/rfc8028[RFC8028] -- First-Hop Router Selection by Hosts in a Multi-Prefix Network
-* https://tools.ietf.org/html/rfc8043[RFC8043] -- Source-Address-Dependent Routing and Source Address Selection for IPv6 Hosts: Overview of the ProblemSpace]
+* https://tools.ietf.org/html/rfc8043[RFC8043] -- Source-Address-Dependent Routing and Source Address Selection for IPv6 Hosts: Overview of the ProblemSpace
 * https://tools.ietf.org/html/rfc8415[RFC8415] -- Dynamic Host Configuration Protocol for IPv6 (DHCPv6)
 
 == QUIC
 
 * https://www.youtube.com/watch?v=CtsBawwGwns[Netdev 0x13 - QUIC Tutorial]
 * https://www.youtube.com/watch?v=ald5tP2VeGk[Netdev 0x13 - Accelerating QUIC via Hardware Offloads Through a Socket Interface]
+
+== TLS
+
+* The New Illustrated TLS Connection: https://tls13.ulfheim.net

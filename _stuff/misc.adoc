@@ -1,5 +1,6 @@
 = Misc Useful Stuff
 
+* https://useplaintext.email/[useplaintext email]
 * https://git-send-email.io[git send-email]
 * https://git-rebase.io[git rebase]
 * http://www.catb.org/esr/faqs/smart-questions.html[Asking Smart Questions]
