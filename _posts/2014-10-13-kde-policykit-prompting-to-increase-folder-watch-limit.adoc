@@ -1,7 +1,0 @@
-= KDE Policykit Prompting to Increase Folder Watch Limit
-
-As mentioned https://bbs.archlinux.org/viewtopic.php?id=180466#p1407397[here],
-the solution is to cleanup kde-nepomuk entries in `/etc/sysctl.d`. These
-entries are created on successful kauth authentication.  The obsolete nepomuk
-entries overwrite the baloo entries.
-
