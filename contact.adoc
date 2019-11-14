@@ -6,7 +6,7 @@ software. You may find me in the web as `rumpelsepp`, or on:
 * https://git.sr.ht./~rumpelsepp[sourcehut],
 * https://github.com/rumpelsepp[github],
 * https://mastodon.social/@rumpelsepp[Mastodon], or
-* https://spacepub.space/video-channels/rumpelguitar/videos[peertube].
+* https://spacepub.space/video-channels/rumpelguitar/videos[PeerTube].
 
 Over the years I experimented a lot with mail servers and DNS, so there are a
 few email addresses lurking around in the internet:
