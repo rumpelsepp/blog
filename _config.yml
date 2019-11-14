@@ -6,7 +6,7 @@ url: "https://rumpelsepp.org" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 timezone: Europe/Berlin
-paginate: 5
+# paginate: 5
 
 defaults:
   - scope:
@@ -31,7 +31,7 @@ plugins:
 
 asciidoctor:
   attributes:
-    - source-highlighter=pygments
+    - source-highlighter=rouge
     - pygments-style=default
     - stylesdir=/assets/css
     - imagesdir=/assets/img
