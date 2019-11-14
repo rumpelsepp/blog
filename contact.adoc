@@ -1,8 +1,12 @@
 = Contact
 
 Hi, I'm Stefan. I like to mess with Linux, network security, and free
-software. You may find me in the web as `rumpelsepp`, on
-https://git.sr.ht./~rumpelsepp[sourcehut], or on https://github.com/rumpelsepp[github].
+software. You may find me in the web as `rumpelsepp`, or on:
+
+* https://git.sr.ht./~rumpelsepp[sourcehut],
+* https://github.com/rumpelsepp[github],
+* https://mastodon.social/@rumpelsepp[Mastodon], or
+* https://spacepub.space/video-channels/rumpelguitar/videos[peertube].
 
 Over the years I experimented a lot with mail servers and DNS, so there are a
 few email addresses lurking around in the internet:
