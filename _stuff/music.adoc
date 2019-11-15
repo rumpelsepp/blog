@@ -1,9 +1,9 @@
 = Music
 
-video::https://rumpelsepp.org/assets/vid/c24-solo.mp4[]
+video::https://rumpelsepp.org/assets/vid/c24-solo.mp4[width=640]
 
-video::https://rumpelsepp.org/assets/vid/ruins-of-the-miracle-live-solo.mp4[]
+video::https://rumpelsepp.org/assets/vid/ruins-of-the-miracle-live-solo.mp4[width=640]
 
-video::https://rumpelsepp.org/assets/vid/behind-the-scenes-solo.mp4[]
+video::https://rumpelsepp.org/assets/vid/behind-the-scenes-solo.mp4[width=640]
 
-video::https://rumpelsepp.org/assets/vid/behind-the-scenes-rythm.mp4[]
+video::https://rumpelsepp.org/assets/vid/behind-the-scenes-rythm.mp4[width=640]
