@@ -4,9 +4,8 @@ Hi, I'm Stefan. I like to mess with Linux, network security, and free
 software. You may find me in the web as `rumpelsepp`, or on:
 
 * https://git.sr.ht./~rumpelsepp[sourcehut],
-* https://github.com/rumpelsepp[github],
-* https://mastodon.social/@rumpelsepp[Mastodon], or
-* https://spacepub.space/video-channels/rumpelguitar/videos[PeerTube].
+* https://github.com/rumpelsepp[github], or
+* https://mastodon.social/@rumpelsepp[Mastodon].
 
 Over the years I experimented a lot with mail servers and DNS, so there are a
 few email addresses lurking around in the internet:
@@ -32,11 +31,4 @@ already there...
 
 == GPG Keys
 
-My PGP key fingerprint is: `2CF06B3BF42BA71EDF7CE330955044B06AC51A93`.
-The key is published on the usual keyservers, for instance:
-https://pgp.mit.edu/pks/lookup?op=get&search=0x955044B06AC51A93.
-
-.Get key with recent gpg
-----
-$ gpg --locate-key stefan@rumpelsepp.org
-----
+My GPG key is available here: https://meta.sr.ht/~rumpelsepp.pgp

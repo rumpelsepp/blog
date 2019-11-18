@@ -32,7 +32,6 @@ plugins:
 asciidoctor:
   attributes:
     - source-highlighter=rouge
-    - pygments-style=default
     - stylesdir=/assets/css
     - imagesdir=/assets/img
     - prewrap!
