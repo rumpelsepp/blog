@@ -1,5 +1,59 @@
 = Misc Useful Stuff
 
+== *Nix Stuff
+
+* http://maplant.com/gc.html[Writing a Simple Garbage Collector in C]
+* http://maplant.com/unwind.html[Sticking a Hand Through Time: Adventures on the call stack]
+* https://finnoleary.net/kernel-code.html["Dissecting linux kernel code" or "That syscall shouldn't give that error code!"]
+* https://neilkakkar.com/unix.html[How Unix Works: Become a Better Software Engineer]
+* http://duartes.org/gustavo/blog/post/kernel-boot-process/[The Kernel Boot Process ]
+* https://www.kernel.org/doc/Documentation/x86/boot.txt[Linux Kernel x86 Boot Protocol]
+* Interactive Kernel Map: http://www.makelinux.net/kernel_map/
+* Writing a Kernel Module Tutorial for Beaglebone: http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/
+
+
+== Memory Management
+
+* https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed[A visual guide to Go Memory Allocator from scratch (Golang)]
+* Memory Translation and Segmentation: http://duartes.org/gustavo/blog/post/memory-translation-and-segmentation/
+* Anatomy of a Program in Memory: http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/
+* How the Kernel Manages Your Memory: http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/
+* TLDP -- Memory: http://www.tldp.org/LDP/tlk/mm/memory.html
+* LDD3 -- Memory Management: http://www.makelinux.net/ldd3/chp-15-sect-1
+* Understanding The Linux Virtual Memory Manager: https://www.kernel.org/doc/gorman/pdf/understand.pdf
+* How to translate virtual to physical addresses: 
+  ** http://fivelinesofcode.blogspot.de/2014/03/how-to-translate-virtual-to-physical.html
+  ** https://gist.github.com/rumpelsepp/6a87bcee01939243f4b83fa5bd9a7d40
+* LWN -- The Kernel Hacker's Bookshelf: UNIX Internals: https://lwn.net/Articles/296738/
+
+== Networking
+
+* Linux network queues overview: https://github.com/leandromoreira/linux-network-performance-parameters#linux-network-queues-overview
+* Accelerating networking with AF_XDP: https://lwn.net/Articles/750845/
+* https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/[Monitoring and Tuning the Linux Networking Stack: Receiving Data]
+* https://blog.packagecloud.io/eng/2017/02/06/monitoring-tuning-linux-networking-stack-sending-data/[Monitoring and Tuning the Linux Networking Stack: Sending Data]
+
+== System Calls
+
+* LWN -- Anatomy of a system call, part 1: https://lwn.net/Articles/604287/
+* LWN -- Anatomy of a system call, part 2: https://lwn.net/Articles/604515/
+* Searchable Linux Syscall Table for x86 and x86_64: https://filippo.io/linux-syscall-table/
+* Another Syscall Table: http://syscalls.kernelgrok.com/
+* https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/[The Definitive Guide to Linux System Calls] 
+* https://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/[How does strace work?]
+* https://blog.packagecloud.io/eng/2017/03/06/micro-optimizations-matter/[Micro-optimizations matter: preventing 20 million system calls]
+
+== Books
+
+* Linux Kernel Development: http://www.makelinux.net/books/lkd2/
+* Linux Insides Git Book: https://0xax.gitbooks.io/linux-insides/content/
+
+== CS Lectures
+
+* https://cs144.github.io/
+
+== Misc
+
 * https://useplaintext.email/[useplaintext email]
 * https://git-send-email.io[git send-email]
 * https://git-rebase.io[git rebase]
