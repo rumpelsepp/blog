@@ -8,45 +8,45 @@
 * https://neilkakkar.com/unix.html[How Unix Works: Become a Better Software Engineer]
 * http://duartes.org/gustavo/blog/post/kernel-boot-process/[The Kernel Boot Process ]
 * https://www.kernel.org/doc/Documentation/x86/boot.txt[Linux Kernel x86 Boot Protocol]
-* Interactive Kernel Map: http://www.makelinux.net/kernel_map/
-* Writing a Kernel Module Tutorial for Beaglebone: http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/
+* http://www.makelinux.net/kernel_map/[Interactive Kernel Map]
+* http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/[Writing a Kernel Module Tutorial for Beaglebone]
 
 
 == Memory Management
 
 * https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed[A visual guide to Go Memory Allocator from scratch (Golang)]
-* Memory Translation and Segmentation: http://duartes.org/gustavo/blog/post/memory-translation-and-segmentation/
-* Anatomy of a Program in Memory: http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/
-* How the Kernel Manages Your Memory: http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/
-* TLDP -- Memory: http://www.tldp.org/LDP/tlk/mm/memory.html
-* LDD3 -- Memory Management: http://www.makelinux.net/ldd3/chp-15-sect-1
-* Understanding The Linux Virtual Memory Manager: https://www.kernel.org/doc/gorman/pdf/understand.pdf
+* http://duartes.org/gustavo/blog/post/memory-translation-and-segmentation/[Memory Translation and Segmentation]
+* http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/[Anatomy of a Program in Memory]
+* http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/[How the Kernel Manages Your Memory]
+* http://www.tldp.org/LDP/tlk/mm/memory.html[TLDP -- Memory]
+* http://www.makelinux.net/ldd3/chp-15-sect-1[LDD3 -- Memory Management]
+* https://www.kernel.org/doc/gorman/pdf/understand.pdf[Understanding The Linux Virtual Memory Manager]
 * How to translate virtual to physical addresses: 
   ** http://fivelinesofcode.blogspot.de/2014/03/how-to-translate-virtual-to-physical.html
   ** https://gist.github.com/rumpelsepp/6a87bcee01939243f4b83fa5bd9a7d40
-* LWN -- The Kernel Hacker's Bookshelf: UNIX Internals: https://lwn.net/Articles/296738/
+* https://lwn.net/Articles/296738/[LWN -- The Kernel Hacker's Bookshelf][ UNIX Internals]
 
 == Networking
 
-* Linux network queues overview: https://github.com/leandromoreira/linux-network-performance-parameters#linux-network-queues-overview
-* Accelerating networking with AF_XDP: https://lwn.net/Articles/750845/
+* https://github.com/leandromoreira/linux-network-performance-parameters#linux-network-queues-overview[Linux network queues overview]
+* https://lwn.net/Articles/750845/[Accelerating networking with AF_XDP]
 * https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/[Monitoring and Tuning the Linux Networking Stack: Receiving Data]
 * https://blog.packagecloud.io/eng/2017/02/06/monitoring-tuning-linux-networking-stack-sending-data/[Monitoring and Tuning the Linux Networking Stack: Sending Data]
 
 == System Calls
 
-* LWN -- Anatomy of a system call, part 1: https://lwn.net/Articles/604287/
-* LWN -- Anatomy of a system call, part 2: https://lwn.net/Articles/604515/
-* Searchable Linux Syscall Table for x86 and x86_64: https://filippo.io/linux-syscall-table/
-* Another Syscall Table: http://syscalls.kernelgrok.com/
+* https://lwn.net/Articles/604287/[LWN -- Anatomy of a system call, part 1]
+* https://lwn.net/Articles/604515/[LWN -- Anatomy of a system call, part 2]
+* https://filippo.io/linux-syscall-table/[Searchable Linux Syscall Table for x86 and x86_64]
+* http://syscalls.kernelgrok.com/[Another Syscall Table]
 * https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/[The Definitive Guide to Linux System Calls] 
 * https://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/[How does strace work?]
 * https://blog.packagecloud.io/eng/2017/03/06/micro-optimizations-matter/[Micro-optimizations matter: preventing 20 million system calls]
 
 == Books
 
-* Linux Kernel Development: http://www.makelinux.net/books/lkd2/
-* Linux Insides Git Book: https://0xax.gitbooks.io/linux-insides/content/
+* http://www.makelinux.net/books/lkd2/[Linux Kernel Development]
+* https://0xax.gitbooks.io/linux-insides/content/[Linux Insides Git Book]
 
 == CS Lectures
 
