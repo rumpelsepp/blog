@@ -47,6 +47,7 @@
 
 * http://www.makelinux.net/books/lkd2/[Linux Kernel Development]
 * https://0xax.gitbooks.io/linux-insides/content/[Linux Insides Git Book]
+* https://toc.cryptobook.us/[A Graduate Course in Applied Cryptography]
 
 == CS Lectures
 
