@@ -3,6 +3,7 @@
 Hi, I'm Stefan. I like to mess with Linux, network security, and free
 software. You may find me in the web as `rumpelsepp`, or on:
 
+* Matrix: @rumpelsepp:hackbrettl.de,
 * https://git.sr.ht./~rumpelsepp[sourcehut],
 * https://github.com/rumpelsepp[github], or
 * https://mastodon.social/@rumpelsepp[Mastodon].
