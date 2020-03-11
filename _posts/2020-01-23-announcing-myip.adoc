@@ -1,4 +1,4 @@
-= Announcing myip
+= Announcing /myip
 
 Hi there, I am happy to announce a tool I developed a few hours ago.
 I often configure VPNs and routing and a common task is finding out the internet gateway's IP address.
