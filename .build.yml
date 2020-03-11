@@ -9,7 +9,7 @@ secrets:
 
 tasks:
   - setup: |
-    echo "batuu.sevenbyte.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPNMmSHb2ALfwP1oC2oUlVkUTOMR/HooZUbH4YDMQS/k" > $HOME/.ssh/known_hosts
+      echo "batuu.sevenbyte.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPNMmSHb2ALfwP1oC2oUlVkUTOMR/HooZUbH4YDMQS/k" > $HOME/.ssh/known_hosts
 
   - build: |
       cd homepage
