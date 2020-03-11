@@ -8,9 +8,6 @@ secrets:
   - 0d06436c-bc8f-4f65-af13-cad62d4f1127
 
 tasks:
-  - setup: |
-      echo "rumpelsepp.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILF0LTW/x81u/Y/vkDy5+WNyeiiyevRI0p+d3QAxH1us" > $HOME/.ssh/known_hosts
-
   - build: |
       cd homepage
       bundle install --path vendor/bundle
