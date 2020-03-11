@@ -86,7 +86,7 @@ test_links() {
 }
 
 deploy() {
-    rsync -e "ssh -o VerifyHostKeyDNS=yes" -rP --delete "_site/" deploy@batuu.sevenbyte.org:rumpelsepp.org/
+    rsync -e "ssh -o VerifyHostKeyDNS=yes -o StrictHostKeyChecking=accept-new" -rP --delete "_site/" deploy@batuu.sevenbyte.org:rumpelsepp.org/
 }
 
 while getopts "h" opt; do
