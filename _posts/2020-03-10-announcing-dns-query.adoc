@@ -12,3 +12,8 @@ $ curl -L --doh-url https://rumpelsepp.org/dns-query rumpelsepp.org/myip
 ----
 
 Works!
+
+## Update
+
+I submitted this here: https://github.com/DNSCrypt/dnscrypt-resolvers/pull/239
+I might get more traffic once this is merged, let's see what will happen.
