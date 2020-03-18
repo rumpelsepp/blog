@@ -12,7 +12,7 @@ Hint: Use the raw tcp port 5025, it is a very simple ASCII line based protocol.
 Even `telnet` can be used to remote control the device.
 
 The challanging thing was video.
-During my testing a need visual feedback for what I am doing, i.e. "hit enter, look at the power consumption. Anything changed?".
+During my testing I need visual feedback for what I am doing, i.e. "hit enter, look at the power consumption. Anything changed?".
 I had set up a cheap Logitech webcam in order to stream the video over the network (through VPN and who knows…).
 The problem was… 30 sec delay.
 Unusable.
