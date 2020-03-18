@@ -1,7 +1,7 @@
 = Low Latency Video Streaming
 
 Due to the COVID-19 madness in Germany I was forced to perform all my penetration testing remotely.footnote:[I break automotive ECU's at my dayjob]
-This is quite challenging when you have to make sure that devicess can be powercycled reliably.
+This is quite challenging when you have to make sure that devices can be powercycled reliably.
 Additionally, the power consumption is often an indicator for a crash.
 Having on overview of the current consumption of my setup makes perfect sense.
 
