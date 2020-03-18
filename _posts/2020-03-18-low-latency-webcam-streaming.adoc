@@ -1,6 +1,6 @@
 = Low Latency Video Streaming
 
-Due to the COVID-19 madness in Germany I was forced to perform all my penetration testing remotely.footnote:[I break automotive ECU's at my dayjob]
+Due to the COVID-19 madness in Germany I was forced to perform all my penetration testing remotely.footnote:[I break automotive ECU's at `$DAYJOB`]
 This is quite challenging when you have to make sure that devices can be powercycled reliably.
 Additionally, the power consumption is often an indicator for a crash.
 Having on overview of the current consumption of my setup makes perfect sense.
@@ -20,12 +20,12 @@ Unusable.
 
 After *a lot* of tinkering, I found out these settings:
 
-[on the server]
+.on the server
 ----
 $ cvlc v4l2:// :v4l2-vdev="/dev/video0" --sout '#transcode{vcodec=h264,venc=x264{preset=ultrafast,tune=zerolatency,intra-refresh,lookahead=10,keyint=15},scale=auto,ab=128}:std{access=http{mime=video/x-ms-wmv},dst=:8082/stream.wmv}'  -v --no-sout-audio
 ----
 
-[on the client]
+.on the client
 ----
 $ mpv --profile=low-latency --stream-lavf-o=reconnect_streamed=1 HOST:8082/stream.wmv
 ----
