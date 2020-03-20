@@ -1,7 +1,7 @@
 = Static Binaries for Common Tools
 
 Heya!
-Since I often need some common tools (e.g. `strace`, `tcpdump`, …) on obscure embedded devices which do not offer a package manager.
+I often need some common tools (e.g. `strace`, `tcpdump`, …) on obscure embedded devices which do not offer a package manager.
 Being tired with fighting dependencies and read only root file systems I created http://rumpelsepp.org/binaries/[binaries]!
 I wrote a small script which downloads https://buildroot.org/[buildroot], builds it with a predefined config, and pushes the result to my server.
 The results are statically linked using the musl C-library and the binaries run standalone without dependencies.
