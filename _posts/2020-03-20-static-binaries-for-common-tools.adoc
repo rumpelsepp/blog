@@ -9,3 +9,12 @@ The sources are here: https://git.sr.ht/~rumpelsepp/binaries
 
 Currently only x86_64 is built, but I want to support more architectures making this thing usable for people.
 I hope Drew is ok with buildroot causing load every now and then on builds.sr.ht…
+
+Let's test it:
+
+----
+$ file buildroot-2020.02/output/target/usr/bin/strace
+buildroot-2020.02/output/target/usr/bin/strace: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
+$ldd buildroot-2020.02/output/target/usr/bin/strace
+        not a dynamic executable
+----
