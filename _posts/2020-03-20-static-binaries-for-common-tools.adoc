@@ -15,6 +15,6 @@ Let's test it:
 ----
 $ file buildroot-2020.02/output/target/usr/bin/strace
 buildroot-2020.02/output/target/usr/bin/strace: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
-$ldd buildroot-2020.02/output/target/usr/bin/strace
+$ ldd buildroot-2020.02/output/target/usr/bin/strace
         not a dynamic executable
 ----
