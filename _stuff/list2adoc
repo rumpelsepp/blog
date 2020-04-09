@@ -1,0 +1,44 @@
+#!/bin/bash
+
+set -u
+
+# $1: url
+gettitle() {
+    curl -Ls "$1" | grep -iPo '(?<=<title>)(.*)(?=</title>)'
+}
+
+main() {
+    local infile
+    infile="$1"
+
+    while read line; do
+        if [[ ! "$line" =~ ^\*.* ]]; then
+            echo "$line"
+            continue
+        fi
+
+        local url
+        local title
+        local rfc
+
+        rfc=""
+        url=""
+        line="${line//\* /}"
+        if [[ "$line" =~ ^rfc[0-9]+ ]]; then
+            rfc="$line"
+            url="https://tools.ietf.org/html/$rfc"
+        else
+            url="$(echo "${line//\* /}" | sed 's/\s+$//')"
+        fi
+
+        title="$(gettitle "$url")"
+
+        if [[ "$rfc" != "" ]]; then
+            echo "* $url[$(echo $rfc | awk '{ print toupper($0) }')] -- $(echo $title | sed 's/.*-\s//')"
+        else
+            echo "* $url[$title]"
+        fi
+    done < "$infile"
+}
+
+main "$@"
