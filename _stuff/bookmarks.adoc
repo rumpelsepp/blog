@@ -17,8 +17,8 @@ Random stuff I found on the internet…
 * 2020-05-12: http://www.tldp.org/LDP/tlk/mm/memory.html[TLDP -- Memory]
 * 2020-05-12: http://www.makelinux.net/ldd3/chp-15-sect-1[LDD3 -- Memory Management]
 * 2020-05-12: https://www.kernel.org/doc/gorman/pdf/understand.pdf[Understanding The Linux Virtual Memory Manager]
-  2020-05-12: * http://fivelinesofcode.blogspot.de/2014/03/how-to-translate-virtual-to-physical.html
-  2020-05-12: * https://gist.github.com/rumpelsepp/6a87bcee01939243f4b83fa5bd9a7d40
+  2020-05-12: http://fivelinesofcode.blogspot.de/2014/03/how-to-translate-virtual-to-physical.html
+  2020-05-12: https://gist.github.com/rumpelsepp/6a87bcee01939243f4b83fa5bd9a7d40
 * 2020-05-12: https://lwn.net/Articles/296738/[LWN -- The Kernel Hacker's Bookshelf][ UNIX Internals]
 * 2020-05-12: https://github.com/leandromoreira/linux-network-performance-parameters#linux-network-queues-overview[Linux network queues overview]
 * 2020-05-12: https://lwn.net/Articles/750845/[Accelerating networking with AF_XDP]
@@ -34,10 +34,10 @@ Random stuff I found on the internet…
 * 2020-05-12: http://www.makelinux.net/books/lkd2/[Linux Kernel Development]
 * 2020-05-12: https://0xax.gitbooks.io/linux-insides/content/[Linux Insides Git Book]
 * 2020-05-12: https://toc.cryptobook.us/[A Graduate Course in Applied Cryptography]
-* 2020-05-12: https://cs144.github.io/
+* 2020-05-12: https://cs144.github.io/[CS 144: Introduction to Computer Networking]
 * 2020-05-12: https://useplaintext.email/[useplaintext email]
-* 2020-05-12: https://git-send-email.io[git send-email]
-* 2020-05-12: https://git-rebase.io[git rebase]
+* 2020-05-12: https://git-send-email.io[Learn to use email with git!]
+* 2020-05-12: https://git-rebase.io[Learn to change history with git rebase!]
 * 2020-05-12: http://www.catb.org/esr/faqs/smart-questions.html[Asking Smart Questions]
 * 2020-05-12: http://xyproblem.info[The XZ Problem]
 * 2020-05-12: https://git.sr.ht/~trhd/dsac[trhd/dsac - sourcehut git]
@@ -45,4 +45,4 @@ Random stuff I found on the internet…
 * 2020-05-12: https://medium.com/a-journey-with-go[A Journey With Go – Medium]
 * 2020-05-12: https://blog.golang.org/ismmkeynote[Getting to Go: The Journey of Go&#39;s Garbage Collector - The Go Blog
 Search]
-* 2020-05-12: https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed[]
+* 2020-05-12: https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed
