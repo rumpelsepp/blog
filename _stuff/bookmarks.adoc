@@ -46,3 +46,4 @@ Random stuff I found on the internet…
 * 2020-05-12: https://blog.golang.org/ismmkeynote[Getting to Go: The Journey of Go&#39;s Garbage Collector - The Go Blog
 Search]
 * 2020-05-12: https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed[A visual guide to Go Memory Allocator from scratch (Golang)]
+* 2020-05-12: https://dev.to/anuj_bansal_/git-internal-architecture-o1j[Git internal architecture - DEV Community]
