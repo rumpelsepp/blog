@@ -17,9 +17,8 @@ Random stuff I found on the internet…
 * 2020-05-12: http://www.tldp.org/LDP/tlk/mm/memory.html[TLDP -- Memory]
 * 2020-05-12: http://www.makelinux.net/ldd3/chp-15-sect-1[LDD3 -- Memory Management]
 * 2020-05-12: https://www.kernel.org/doc/gorman/pdf/understand.pdf[Understanding The Linux Virtual Memory Manager]
-* 2020-05-12: How to translate virtual to physical addresses: 
-  2020-05-12: ** http://fivelinesofcode.blogspot.de/2014/03/how-to-translate-virtual-to-physical.html
-  2020-05-12: ** https://gist.github.com/rumpelsepp/6a87bcee01939243f4b83fa5bd9a7d40
+  2020-05-12: * http://fivelinesofcode.blogspot.de/2014/03/how-to-translate-virtual-to-physical.html
+  2020-05-12: * https://gist.github.com/rumpelsepp/6a87bcee01939243f4b83fa5bd9a7d40
 * 2020-05-12: https://lwn.net/Articles/296738/[LWN -- The Kernel Hacker's Bookshelf][ UNIX Internals]
 * 2020-05-12: https://github.com/leandromoreira/linux-network-performance-parameters#linux-network-queues-overview[Linux network queues overview]
 * 2020-05-12: https://lwn.net/Articles/750845/[Accelerating networking with AF_XDP]
