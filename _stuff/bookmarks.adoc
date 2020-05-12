@@ -40,7 +40,7 @@ Random stuff I found on the internet…
 * 2020-05-12: https://git-rebase.io[Learn to change history with git rebase!]
 * 2020-05-12: http://www.catb.org/esr/faqs/smart-questions.html[Asking Smart Questions]
 * 2020-05-12: http://xyproblem.info[The XZ Problem]
-* 2020-05-12: https://git.sr.ht/~trhd/dsac[trhd/dsac - sourcehut git]
+* 2020-05-12: https://git.sr.ht/~trhd/dsac[DATA STRUCTURES AND ALGORITHMS FOR C]
 * 2020-05-12: https://unixism.net/loti/[Welcome to Lord of the io_uring &#8212; Lord of the io_uring  documentation]
 * 2020-05-12: https://medium.com/a-journey-with-go[A Journey With Go – Medium]
 * 2020-05-12: https://blog.golang.org/ismmkeynote[Getting to Go: The Journey of Go&#39;s Garbage Collector - The Go Blog
