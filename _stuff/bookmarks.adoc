@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-13: https://wayland-book.com/[Introduction - The Wayland Protocol]
 * 2020-05-13: https://lwn.net/SubscriberLink/820217/47ed80088c03b18d/[What's coming in Go 1.15]
 * 2020-05-13: https://zserge.com/posts/containers/[Linux containers in a few lines of code]
 * 2020-05-13: https://citizenlab.ca/2020/05/we-chat-they-watch/[We Chat, They Watch: How International Users Unwittingly Build up WeChat’s Chinese Censorship Apparatus - The Citizen Lab]
