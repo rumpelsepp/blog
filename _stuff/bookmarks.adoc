@@ -47,3 +47,4 @@ Random stuff I found on the internet…
 Search]
 * 2020-05-12: https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed[A visual guide to Go Memory Allocator from scratch (Golang)]
 * 2020-05-12: https://dev.to/anuj_bansal_/git-internal-architecture-o1j[Git internal architecture - DEV Community]
+* 2020-05-13: http://osblog.stephenmarz.com/index.html[Stephen Marz: Blog]
