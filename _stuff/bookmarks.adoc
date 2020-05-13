@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-13: https://www.golem.de/news/3g-telekom-nennt-mehr-details-zur-umts-abschaltung-2005-148457.html[3G: Telekom nennt mehr Details zur UMTS-Abschaltung - Golem.de]
 * 2020-05-13: https://github.com/spacerace/romfont[GitHub - spacerace/romfont: VGA and BIOS rom font extraction]
 * 2020-05-13: https://wayland-book.com/[Introduction - The Wayland Protocol]
 * 2020-05-13: https://lwn.net/SubscriberLink/820217/47ed80088c03b18d/[What's coming in Go 1.15]
