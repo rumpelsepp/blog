@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-13: https://github.com/Fraunhofer-AISEC/frankencert[GitHub - Fraunhofer-AISEC/frankencert: Continuation of the frankencert project with python-cryptography]
 * 2020-05-13: https://medium.com/@mujjingun_23509/full-proof-that-c-grammar-is-undecidable-34e22dd8b664[Full Proof that C++ Grammar is Undecidable]
 * 2020-05-13: http://osblog.stephenmarz.com/index.html[The Adventures of OS: Making a RISC-V Operating System using Rust]
 * 2020-05-12: https://dev.to/anuj_bansal_/git-internal-architecture-o1j[Git internal architecture - DEV Community]
