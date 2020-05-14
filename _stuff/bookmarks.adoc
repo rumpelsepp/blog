@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-14: https://github.com/in3rsha/sha256-animation[GitHub - in3rsha/sha256-animation: Animation of the SHA-256 hash function in your terminal.]
 * 2020-05-14: https://lwn.net/Articles/819452/[Making Emacs popular again [LWN.net]]
 * 2020-05-14: https://lwn.net/Articles/819834/[Blocking userfaultfd() kernel-fault handling]
 * 2020-05-14: https://lwn.net/Articles/820424/[Subinterpreters for Python]
