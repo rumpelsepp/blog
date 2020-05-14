@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-14: https://lwn.net/Articles/819834/[Subscription required [LWN.net]]
 * 2020-05-14: https://lwn.net/Articles/820424/[Subinterpreters for Python]
 * 2020-05-14: https://shouldiusethreads.com/[Should I use threads?]
 * 2020-05-14: https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/[A trip through the Graphics Pipeline 2011: Index | The ryg blog]
