@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-14: https://shouldiusethreads.com/[Should I use threads?]
 * 2020-05-14: https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/[A trip through the Graphics Pipeline 2011: Index | The ryg blog]
 * 2020-05-13: https://www.golem.de/news/3g-telekom-nennt-mehr-details-zur-umts-abschaltung-2005-148457.html[3G: Telekom nennt mehr Details zur UMTS-Abschaltung - Golem.de]
 * 2020-05-13: https://github.com/spacerace/romfont[GitHub - spacerace/romfont: VGA and BIOS rom font extraction]
