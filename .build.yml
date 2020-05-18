@@ -13,7 +13,7 @@ tasks:
 
   - build: |
       cd homepage
-      bundle install --path vendor/bundle
+      bundle install
       ./manage.sh build
 
   - deploy: |
