@@ -19,9 +19,16 @@ defaults:
       type: "stuff"
     values:
       layout: page
+  - scope:
+      path: ""
+      type: "specs"
+    values:
+      layout: page
 
 collections:
   stuff:
+    output: true
+  specs:
     output: true
 
 # Build settings

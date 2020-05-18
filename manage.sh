@@ -89,6 +89,11 @@ deploy() {
     rsync -e "ssh -o VerifyHostKeyDNS=yes -o StrictHostKeyChecking=accept-new" -rP --delete "_site/" deploy@batuu.sevenbyte.org:rumpelsepp.org/
 }
 
+update_specs() {
+    cd _specs
+    curl -LOs "https://git.sr.ht/~rumpelsepp/opennetzteil/blob/master/man/netzteil-http.7.adoc"
+}
+
 while getopts "h" opt; do
     case $opt in
         n)    shift && NOEDITOR=1;;
@@ -100,11 +105,12 @@ done
 shift $((OPTIND - 1))
 
 case $1 in
-    new-post)   shift && post_create      && exit 0;;
-    upload)     shift && upload      "$@" && exit 0;;
-    build)      shift && build       "$@" && exit 0;;
-    serve)      shift && serve       "$@" && exit 0;;
-    test-links) shift && test_links       && exit 0;;
-    deploy)     shift && deploy           && exit 0;;
-    *)          usage                     && exit 1;;
+    new-post)     shift && post_create      && exit 0;;
+    upload)       shift && upload      "$@" && exit 0;;
+    build)        shift && build       "$@" && exit 0;;
+    serve)        shift && serve       "$@" && exit 0;;
+    test-links)   shift && test_links       && exit 0;;
+    deploy)       shift && deploy           && exit 0;;
+    update-specs) shift && update_specs     && exit 0;;
+    *)            usage                     && exit 1;;
 esac

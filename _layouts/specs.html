@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+  <h2>Specs</h2>
+
+  <ul class="post-list">
+    {% for item in site.specs %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
