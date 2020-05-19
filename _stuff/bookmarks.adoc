@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-19: https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf[Linux Productivity Tools]
 * 2020-05-18: https://nwidger.github.io/blog/post/writing-an-nes-emulator-in-go-part-1/[Writing an NES emulator in Go, Part 1]
 * 2020-05-15: https://frenxi.com/http-headers-you-dont-expect/[The HTTP headers you don't expect]
 * 2020-05-14: https://marc.info/?l=openbsd-tech&m=158926407905492&w=2['WireGuard patchset for OpenBSD' - MARC]
