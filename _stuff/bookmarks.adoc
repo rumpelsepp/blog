@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-20: http://blog.kevmod.com/2020/05/python-performance-its-not-just-the-interpreter/[Python performance: it&#8217;s not just the interpreter &laquo; kmod&#039;s blog]
 * 2020-05-20: https://smallstep.com/blog/ssh-agent-explained/[SSH Agent Explained]
 * 2020-05-19: https://www.eff.org/deeplinks/2020/04/victory-icann-rejects-org-sale-private-equity-firm-ethos-capital[Victory! ICANN Rejects .ORG Sale to Private Equity Firm Ethos Capital | Electronic Frontier Foundation]
 * 2020-05-19: https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf[Linux Productivity Tools]
