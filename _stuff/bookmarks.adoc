@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-20: https://marc.info/?l=openbsd-announce&m=158989783626149&w=2['OpenBSD 6.7 released - May 19, 2020' - MARC]
 * 2020-05-20: https://lwn.net/SubscriberLink/820829/c11e2be9a35c871a/[The state of the AWK [LWN.net]]
 * 2020-05-20: http://blog.kevmod.com/2020/05/python-performance-its-not-just-the-interpreter/[Python performance: it&#8217;s not just the interpreter &laquo; kmod&#039;s blog]
 * 2020-05-20: https://smallstep.com/blog/ssh-agent-explained/[SSH Agent Explained]
