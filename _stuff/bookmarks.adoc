@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-25: https://michael.stapelberg.ch/posts/2020-05-23-desk-setup/[stapelberg uses this: my 2020 desk setup]
 * 2020-05-20: https://nullsweep.com/why-is-this-website-port-scanning-me/[Why is This Website Port Scanning me]
 * 2020-05-20: https://blog.yossarian.net/2020/05/20/Things-I-hate-about-rust[Things I hate about Rust]
 * 2020-05-20: https://www.mail-tester.com/[Newsletters spam test by mail-tester.com]
