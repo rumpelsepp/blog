@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-25: https://meltware.com/2019/01/16/gccgo-benchmarks-2019.html[Gccgo in 2019: Faster, but still yielding (much) slower code than the standard compiler | Meltware]
 * 2020-05-25: https://dayzerosec.com/posts/adventures-of-porting-musl-to-ps4/[Adventures of porting MUSL to PS4 - DAY[0]]
 * 2020-05-25: https://news.ycombinator.com/item?id=23295975[Linus Torvalds has switched to AMD | Hacker News]
 * 2020-05-25: https://www.integralist.co.uk/posts/python-asyncio/[Guide to Concurrency in Python with Asyncio ⋆ Mark McDonnell]
