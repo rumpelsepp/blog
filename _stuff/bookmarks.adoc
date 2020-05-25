@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-25: https://www.youtube.com/watch?v=Bt-vmPC_-Ho&app=desktop[We can have nice things - YouTube]
 * 2020-05-25: https://www.youtube.com/watch?v=NG0s3-s3whY&app=desktop[GopherCon 2018: Sugu Sougoumarane - How to Write a Parser in Go - YouTube]
 * 2020-05-25: https://www.youtube.com/watch?v=HxaD_trXwRE&app=desktop[Lexical Scanning in Go - Rob Pike - YouTube]
 * 2020-05-25: https://www.bleepingcomputer.com/news/security/ebay-port-scans-visitors-computers-for-remote-access-programs/[eBay port scans visitors' computers for remote access programs]
