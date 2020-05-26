@@ -92,6 +92,7 @@ deploy() {
 update_specs() {
     cd _specs
     curl -LOs "https://git.sr.ht/~rumpelsepp/opennetzteil/blob/master/man/netzteil-http.7.adoc"
+    curl -LOs "https://raw.githubusercontent.com/Fraunhofer-AISEC/penlog/master/man/penlog.7.adoc"
 }
 
 while getopts "h" opt; do
