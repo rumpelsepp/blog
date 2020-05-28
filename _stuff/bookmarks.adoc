@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-05-28: https://www.raspberrypi.org/blog/8gb-raspberry-pi-4-on-sale-now-at-75/[8GB Raspberry Pi 4 on sale now at $75 - Raspberry Pi]
 * 2020-05-28: https://lwn.net/SubscriberLink/821412/860dd67076078e90/[Some sessions from the Python Language Summit [LWN.net]]
 * 2020-05-28: https://www.collabora.com/news-and-blog/blog/2020/05/27/using-regmaps-to-make-linux-drivers-more-generic/[Using regmaps to make Linux drivers more generic]
 * 2020-05-26: https://reverseengineering.stackexchange.com/questions/18380/extracting-compressed-firmware-nrv-for-analysis[unpacking - Extracting compressed firmware (NRV) for analysis - Reverse Engineering Stack Exchange]
