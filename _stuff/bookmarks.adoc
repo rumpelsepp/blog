@@ -2,6 +2,8 @@
 
 Random stuff I found on the internet…
 
+* 2020-06-04: https://notcurses.com/[notcurses]
+* 2020-06-04: https://engineering.shopify.com/blogs/engineering/understanding-programs-using-graphs[Understanding Programs Using Graphs – Shopify Engineering]
 * 2020-06-04: https://ketancmaheshwari.github.io/posts/2020/05/24/SMC18-Data-Challenge-4.html[Running Awk in parallel to process 256M records]
 * 2020-06-04: http://www.os2museum.com/wp/those-win9x-crashes-on-fast-machines/[403 Forbidden]
 * 2020-06-04: https://www.europarl.europa.eu/doceo/document/E-9-2020-002042-ASW_EN.html[Answer for question E-002042/20]
