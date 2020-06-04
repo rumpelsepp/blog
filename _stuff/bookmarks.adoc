@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-06-04: https://blog.codavel.com/quic-vs-tcptls-and-why-quic-is-not-the-next-big-thing[QUIC vs TCP+TLS and why QUIC is not the next big thing]
 * 2020-06-04: https://lwn.net/SubscriberLink/821817/5a9be9eec66afdff/[Free user space for non-graphics drivers [LWN.net]]
 * 2020-06-04: https://www.phoronix.com/scan.php?page=news_item&px=Linux-Kernel-Deprecates-80-Col[The Linux Kernel Deprecates The 80 Character Line Coding Style - Phoronix]
 * 2020-06-04: http://www.linusakesson.net/programming/tty/[The TTY demystified]
