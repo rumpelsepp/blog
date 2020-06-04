@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-06-04: http://www.linusakesson.net/programming/tty/[The TTY demystified]
 * 2020-06-04: https://notcurses.com/[notcurses]
 * 2020-06-04: https://engineering.shopify.com/blogs/engineering/understanding-programs-using-graphs[Understanding Programs Using Graphs – Shopify Engineering]
 * 2020-06-04: https://ketancmaheshwari.github.io/posts/2020/05/24/SMC18-Data-Challenge-4.html[Running Awk in parallel to process 256M records]
