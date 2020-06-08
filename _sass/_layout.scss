@@ -202,6 +202,9 @@
 .post-content {
     margin-bottom: $spacing-unit;
     text-align: justify;
+    #footnotes {
+        text-align: left;
+    }
 }
 
 .post-content #toc {
