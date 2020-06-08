@@ -10,7 +10,9 @@ I hope it will replace the mess we are currently in with x86 and ARM…
 
 I am (not yet) an expert in RISC-V assembler and the low level details of the code here.
 But I hope I will understand all this in the future. :)
-Anyway, I copy pasted footnote:[assembly code: https://theintobooks.wordpress.com/2019/12/28/hello-world-on-risc-v-with-qemu/] footnote:[linker script: https://github.com/michaeljclark/riscv-probe/blob/9f14353dd03af063c2bd93df5168964d77bbfa3a/env/qemu-sifive_u/default.lds] a bare metal hello world program together and I want to share the code.
+Anyway, I copy pasted a bare metal hello world program together and I want to share the code.
+footnote:[assembly code: https://theintobooks.wordpress.com/2019/12/28/hello-world-on-risc-v-with-qemu/]
+footnote:[linker script: https://github.com/michaeljclark/riscv-probe/blob/9f14353dd03af063c2bd93df5168964d77bbfa3a/env/qemu-sifive_u/default.lds]
 The linker script had one problem which I fixed in my code; lld does not seem to support `(wxa!ri)`.
 Thus I removed it.
 
