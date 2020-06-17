@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-06-17: http://silas.net.br/codereading/netbsd-code.html[NetBSD code study - Silas' website]
 * 2020-06-13: https://github.com/Fizzadar/pyinfra[GitHub - Fizzadar/pyinfra: pyinfra automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more.]
 * 2020-06-12: https://www.kino-zeit.de/film-kritiken-trailer-streaming/tread-2019[Tread (2019) | Film, Trailer, Kritik]
 * 2020-06-12: http://www.esa.int/ESA_Multimedia/Images/2020/06/Global_air_pollution_maps_now_available[ESA - Global air pollution maps now available ]
