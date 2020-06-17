@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-06-17: https://mdlayher.com/blog/go-generics-draft-design-building-a-hashtable/[Go generics draft design: building a hashtable · Matt Layher]
 * 2020-06-17: https://blog.golang.org/generics-next-step[The Next Step for Generics - The Go Blog]
 * 2020-06-17: http://silas.net.br/codereading/netbsd-code.html[NetBSD code study - Silas' website]
 * 2020-06-13: https://github.com/Fizzadar/pyinfra[GitHub - Fizzadar/pyinfra: pyinfra automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more.]
