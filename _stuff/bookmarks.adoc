@@ -2,6 +2,9 @@
 
 Random stuff I found on the internet…
 
+* 2020-07-18: https://arxiv.org/abs/2005.14242[[2005.14242] The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL]
+* 2020-07-17: https://arxiv.org/pdf/2005.14242.pdf[]
+* 2020-07-15: https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/[Understanding and Decoding a JPEG Image using Python - Yasoob Khalid]
 * 2020-06-26: https://git.sr.ht/~kennylevinsen/seatd[~kennylevinsen/seatd - sourcehut git]
 * 2020-06-26: https://github.com/chubin/wttr.in[GitHub - chubin/wttr.in: The right way to check the weather]
 * 2020-06-23: https://s-matyukevich.github.io/raspberry-pi-os/[Learning operating system development using Linux kernel and Raspberry Pi | raspberry-pi-os]
