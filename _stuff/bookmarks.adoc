@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-08-09: https://rarehistoricalphotos.com/hans-hildenbrand-german-front-in-rare-color-photos-1914-1918/[Hans Hildenbrand: The German front in rare color photos, 1914-1918 - Rare Historical Photos]
 * 2020-07-18: https://arxiv.org/abs/2005.14242[[2005.14242] The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL]
 * 2020-07-17: https://arxiv.org/pdf/2005.14242.pdf[]
 * 2020-07-15: https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/[Understanding and Decoding a JPEG Image using Python - Yasoob Khalid]
