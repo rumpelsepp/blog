@@ -2,6 +2,7 @@
 
 Random stuff I found on the internet…
 
+* 2020-08-23: https://degoogle.jmoore.dev/[degoogle | A huge list of alternatives to Google products. Privacy tips, tricks, and links.]
 * 2020-08-17: https://yalantis.com/blog/speed-up-json-encoding-decoding/[How to Speed Up JSON Encoding and Decoding in Golang]
 * 2020-08-15: https://peercalls.com/[Peer Calls - Video calls to anybody in the world with a private direct connection]
 * 2020-08-09: https://rarehistoricalphotos.com/hans-hildenbrand-german-front-in-rare-color-photos-1914-1918/[Hans Hildenbrand: The German front in rare color photos, 1914-1918 - Rare Historical Photos]
