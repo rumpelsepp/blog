@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-24: ["Structural pattern matching" for Python, part 1 [LWN.net]](https://lwn.net/Articles/827179/)
 * 2020-08-24: [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 * 2020-08-24: [Talk: An Introduction to OpenBSD - lambda.cx blog](https://blog.lambda.cx/posts/openbsd-introduction-talk/)
 * 2020-08-24: [LibreSSL documentation status update](http://undeadly.org/cgi?action=article;sid=20200817063735)
