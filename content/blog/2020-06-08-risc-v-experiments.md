@@ -13,7 +13,7 @@ I hope it will replace the mess we are currently in with x86 and ARM…
 I am (not yet) an expert in RISC-V assembler and the low level details of the code here.
 But I hope I will understand all this in the future. :)
 Anyway, I copy pasted a bare metal hello world program together and I want to share the code[^1] [^2].
-The linker script had one problem which I fixed in my code; lld does not seem to support `(wxa!ri)`.
+The linker script had one problem which I fixed in my code; `lld` does not seem to support `(wxa!ri)`.
 Thus I removed it.
 
 [^1]: assembly code: https://theintobooks.wordpress.com/2019/12/28/hello-world-on-risc-v-with-qemu/
