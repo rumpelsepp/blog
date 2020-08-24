@@ -2,6 +2,7 @@ Random stuff I found on the internet…
 
 * 2020-08-23: [degoogle | A huge list of alternatives to Google products. Privacy tips, tricks, and links.](https://degoogle.jmoore.dev/)
 * 2020-08-17: [How to Speed Up JSON Encoding and Decoding in Golang](https://yalantis.com/blog/speed-up-json-encoding-decoding/)
+* 2020-08-24: [Btrfs Coming to Fedora 33 - Fedora Magazine](https://fedoramagazine.org/btrfs-coming-to-fedora-33/)
 * 2020-08-24: [How NAT traversal works · Tailscale Blog](https://tailscale.com/blog/how-nat-traversal-works/)
 * 2020-08-15: [Peer Calls - Video calls to anybody in the world with a private direct connection](https://peercalls.com/)
 * 2020-08-09: [Hans Hildenbrand: The German front in rare color photos, 1914-1918 - Rare Historical Photos](https://rarehistoricalphotos.com/hans-hildenbrand-german-front-in-rare-color-photos-1914-1918/)
