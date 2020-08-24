@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-24: [Latches inside: Reverse-engineering the Intel 8086's instruction register](http://www.righto.com/2020/08/latches-inside-reverse-engineering.html)
 * 2020-08-24: [Generics for Go LWN.net](https://lwn.net/Articles/824716/)
 * 2020-08-24: [Dr. Brian Robert Callahan](https://briancallahan.net/blog/20200808.html)
 * 2020-08-24: [Surviving Rust async interfaces - fasterthanli.me](https://fasterthanli.me/articles/surviving-rust-async-interfaces)
