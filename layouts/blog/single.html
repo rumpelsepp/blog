@@ -3,10 +3,13 @@
 
 <header>
     <h1>
-      {{$.Title}}
+        {{$.Title}}
     </h1>
     <small>
-        <time datetime="{{.Date}}">{{.Date.Format "January 2, 2006"}}</span>
+        <time datetime="{{.Date}}">{{.Date.Format "January 2, 2006"}}</time>,
+        {{ with .GitInfo }}
+        <a href="https://git.sr.ht/~rumpelsepp/homepage/commit/{{ $.GitInfo.AbbreviatedHash }}">{{ $.GitInfo.AbbreviatedHash }}</a>
+        {{ end }}
     </small>
 <header>
 

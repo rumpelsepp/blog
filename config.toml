@@ -2,6 +2,7 @@ baseURL = "http://rumpelsepp.org/"
 languageCode = "en-us"
 title = "~rumpelsepp"
 pygmentsUseClasses = true
+enableGitInfo = true
 
 [frontmatter]
 date  = [":filename", ":default"]
