@@ -1,13 +1,13 @@
 Random stuff I found on the internet…
 
-* 2020-08-23: [degoogle | A huge list of alternatives to Google products. Privacy tips, tricks, and links.](https://degoogle.jmoore.dev/)
-* 2020-08-17: [How to Speed Up JSON Encoding and Decoding in Golang](https://yalantis.com/blog/speed-up-json-encoding-decoding/)
 * 2020-08-24: [Local locks in the kernel [LWN.net]](https://lwn.net/Articles/828477/)
 * 2020-08-24: [Chromium’s impact on root DNS traffic | APNIC Blog](https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/)
 * 2020-08-24: [Why Did Mozilla Remove XUL Add-ons?](https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/)
 * 2020-08-24: [Go: Should I Use a Pointer instead of a Copy of my Struct? | by Vincent Blanchon | A Journey With Go | Medium](https://medium.com/a-journey-with-go/go-should-i-use-a-pointer-instead-of-a-copy-of-my-struct-44b43b104963)
 * 2020-08-24: [Btrfs Coming to Fedora 33 - Fedora Magazine](https://fedoramagazine.org/btrfs-coming-to-fedora-33/)
 * 2020-08-24: [How NAT traversal works · Tailscale Blog](https://tailscale.com/blog/how-nat-traversal-works/)
+* 2020-08-23: [degoogle | A huge list of alternatives to Google products. Privacy tips, tricks, and links.](https://degoogle.jmoore.dev/)
+* 2020-08-17: [How to Speed Up JSON Encoding and Decoding in Golang](https://yalantis.com/blog/speed-up-json-encoding-decoding/)
 * 2020-08-15: [Peer Calls - Video calls to anybody in the world with a private direct connection](https://peercalls.com/)
 * 2020-08-09: [Hans Hildenbrand: The German front in rare color photos, 1914-1918 - Rare Historical Photos](https://rarehistoricalphotos.com/hans-hildenbrand-german-front-in-rare-color-photos-1914-1918/)
 * 2020-07-17: [The Impact of a Major Security Event on an Open Source Project:The Case of OpenSSL](https://arxiv.org/pdf/2005.14242.pdf)
