@@ -1,9 +1,8 @@
 image: archlinux
 packages:
-  - asciidoctor
+  - hugo
   - rsync
   - openssh
-  - ruby-bundler
 secrets:
   - 0d06436c-bc8f-4f65-af13-cad62d4f1127
 
@@ -13,9 +12,8 @@ tasks:
 
   - build: |
       cd homepage
-      bundle install
-      ./manage.sh build
+      hugo
 
   - deploy: |
       cd homepage
-      ./manage.sh deploy
+      rsync -e "ssh -o VerifyHostKeyDNS=yes -o StrictHostKeyChecking=accept-new" -rP --delete "public/" deploy@batuu.sevenbyte.org:rumpelsepp.org/

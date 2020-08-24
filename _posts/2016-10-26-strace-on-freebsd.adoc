@@ -1,8 +1,0 @@
-= strace on FreeBSD -> truss
-
-This is just a short post, more of a reminder for myself. If one searches
-http://man7.org/linux/man-pages/man1/strace.1.html[`strace`] for FreeBSD, he
-might not be successful as there is no `strace` for FreeBSD. **BUT** there is
-https://www.freebsd.org/cgi/man.cgi?query=truss&manpath=FreeBSD+11.0-RELEASE+and+Ports[`truss`],
-which does pretty much the same as `strace`; `truss` is part of the base system
-and can be used for the same purpose as `strace`.

@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="index">
+    <section class="article-list">
+        {{ range (where .Site.RegularPages "Section" "blog") }}
+        <article>
+            <header>
+                <time datetime="{{.Date}}">{{.Date.Format "January 2, 2006"}}</time>
+                <a href="{{.Permalink}}">{{.Title}}</a>
+            </header>
+        </article>
+        {{ end }}
+    </section>
+</main>
+
+{{ partial "footer.html" . }}

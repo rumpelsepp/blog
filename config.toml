@@ -1,0 +1,10 @@
+baseURL = "http://rumpelsepp.org/"
+languageCode = "en-us"
+title = "~rumpelsepp"
+pygmentsUseClasses = true
+
+[frontmatter]
+date  = [":filename", ":default"]
+
+[markup.goldmark.renderer]
+unsafe = true
