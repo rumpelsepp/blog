@@ -2,6 +2,7 @@ Random stuff I found on the internet…
 
 * 2020-08-23: [degoogle | A huge list of alternatives to Google products. Privacy tips, tricks, and links.](https://degoogle.jmoore.dev/)
 * 2020-08-17: [How to Speed Up JSON Encoding and Decoding in Golang](https://yalantis.com/blog/speed-up-json-encoding-decoding/)
+* 2020-08-24: [Why Did Mozilla Remove XUL Add-ons?](https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/)
 * 2020-08-24: [Go: Should I Use a Pointer instead of a Copy of my Struct? | by Vincent Blanchon | A Journey With Go | Medium](https://medium.com/a-journey-with-go/go-should-i-use-a-pointer-instead-of-a-copy-of-my-struct-44b43b104963)
 * 2020-08-24: [Btrfs Coming to Fedora 33 - Fedora Magazine](https://fedoramagazine.org/btrfs-coming-to-fedora-33/)
 * 2020-08-24: [How NAT traversal works · Tailscale Blog](https://tailscale.com/blog/how-nat-traversal-works/)
