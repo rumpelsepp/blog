@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-24: [Some Ugly Code Can Get NVIDIA's Linux Driver Working With Accelerated XWayland - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=GLX-Delay-Accel-NV-XWayland)
 * 2020-08-24: [GitHub - simdjson/simdjson: Parsing gigabytes of JSON per second](https://github.com/simdjson/simdjson)
 * 2020-08-24: [Latches inside: Reverse-engineering the Intel 8086's instruction register](http://www.righto.com/2020/08/latches-inside-reverse-engineering.html)
 * 2020-08-24: [Generics for Go LWN.net](https://lwn.net/Articles/824716/)
