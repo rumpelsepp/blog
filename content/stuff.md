@@ -4,6 +4,7 @@
 
 * [Blogpost]({{< ref "2020-03-20-static-binaries-for-common-tools.md" >}})
 * URL: https://rumpelsepp.org/binaries
+* Source: https://git.sr.ht/~rumpelsepp/binaries
 
 ### /dns-query
 
@@ -14,6 +15,7 @@
 
 * [Blogpost]({{< ref "2020-01-23-announcing-myip.md" >}})
 * URL: https://rumpelsepp.org/myip
+* Source: https://git.sr.ht/~rumpelsepp/myip
 
 ## Random
 
