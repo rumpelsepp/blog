@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-24: [Dr. Brian Robert Callahan](https://briancallahan.net/blog/20200808.html)
 * 2020-08-24: [Surviving Rust async interfaces - fasterthanli.me](https://fasterthanli.me/articles/surviving-rust-async-interfaces)
 * 2020-08-24: [Proposal: Register-based Go calling convention](https://go.googlesource.com/proposal/+/refs/changes/78/248178/1/design/40724-register-calling.md)
 * 2020-08-24: ["Structural pattern matching" for Python, part 1 LWN.net](https://lwn.net/Articles/827179/)
