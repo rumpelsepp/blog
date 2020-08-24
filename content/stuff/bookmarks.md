@@ -1,7 +1,8 @@
 Random stuff I found on the internet…
 
+* 2020-08-24: [Talk: An Introduction to OpenBSD - lambda.cx blog](https://blog.lambda.cx/posts/openbsd-introduction-talk/)
 * 2020-08-24: [LibreSSL documentation status update](http://undeadly.org/cgi?action=article;sid=20200817063735)
-* 2020-08-24: [Local locks in the kernel [LWN.net]](https://lwn.net/Articles/828477/)
+* 2020-08-24: [Local locks in the kernel LWN.net](https://lwn.net/Articles/828477/)
 * 2020-08-24: [Chromium’s impact on root DNS traffic | APNIC Blog](https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/)
 * 2020-08-24: [Why Did Mozilla Remove XUL Add-ons?](https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/)
 * 2020-08-24: [Go: Should I Use a Pointer instead of a Copy of my Struct? | by Vincent Blanchon | A Journey With Go | Medium](https://medium.com/a-journey-with-go/go-should-i-use-a-pointer-instead-of-a-copy-of-my-struct-44b43b104963)
