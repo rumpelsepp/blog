@@ -68,13 +68,12 @@ The padding was the part which took the most time to get right in the
 C implementation...
 
 One final hint, which is important. The length `l` of the encoded string
-can be calculated with the following macro; `n` is the length of the
+can be calculated with the following formula; `n` is the length of the
 input string.
 
+{{< figure alt="Rendeder LaTex formula: `l = \left \lceil{4 \cdot \frac{n}{3}}\right \rceil`" src="/ceil.png" width=100 >}}
+
 I have implemented the `ceil` function in C with a macro:
-
-TODO: die latex geschichte weglassen
-
 
 ``` c
 #define CEIL(x) ((x) - (int) (x) > 0 ? (int) ((x) + 1) : (int) (x))
@@ -89,9 +88,7 @@ data must be dividable by 3, the padding length can be calculated with the
 following formula; as before `n` is the length of the input data in number
 of bytes:
 
-```
-l_{\mathrm{pad}} = 3 - (n \mod 3)
-```
+{{< figure alt="Rendeder LaTex formula: `l_{\mathrm{pad}} = 3 - (n \mod 3)`" src="/base64_padding.png" width=200 >}}
 
 ## Implementation in C
 

@@ -42,7 +42,7 @@ is:
 For simplification I have written a little python wrapper which extracts these
 parameters from a given URL and builds the rtmpdump command line string:
 
-```
+``` python
 import re
 import sys
 import subprocess

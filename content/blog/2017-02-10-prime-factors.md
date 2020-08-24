@@ -12,7 +12,7 @@ First, what is prime factorization? [Wikipedia](https://en.wikipedia.org/wiki/In
 
 In maths it would look somehow like this:
 
-{{< figure alt="Rendered LaTex Formula: `n=p_{1}^{{\;\;e_{1}}}\cdot p_{2}^{{\;\;e_{2}}}\dotsm p_{M}^{{\ \ e_{M}}}=\prod _{{k=1}}^{{M}}p_{k}^{{\;\;e_{k}}}`" src="https://files.rumpelsepp.org/prime-formula.png" width=300 >}}
+{{< figure alt="Rendered LaTex Formula: `n=p_{1}^{{\;\;e_{1}}}\cdot p_{2}^{{\;\;e_{2}}}\dotsm p_{M}^{{\ \ e_{M}}}=\prod _{{k=1}}^{{M}}p_{k}^{{\;\;e_{k}}}`" src="/prime-formula.png" width=300 >}}
 
 There are a lot of methods to accomplish the given task of compositing a number
 into a product of primes. I just want to present the IMO most naive and straight
