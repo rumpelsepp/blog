@@ -26,6 +26,8 @@ Subsequently, my own DNS servers came and I wanted to make a clean cut in ordner
 Well, the mail addresses will stay, since they are already there.
 We will see what kind of stuff will join my pool…
 
+Thanks to sourcehut, I also have a [public inbox](https://lists.sr.ht/~rumpelsepp/public-inbox) which you can use to send comments or rants.
+
 ## GPG Keys
 
 My GPG key is available via [WKD](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/).
