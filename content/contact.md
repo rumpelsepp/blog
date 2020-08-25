@@ -30,10 +30,12 @@ We will see what kind of stuff will join my pool…
 
 Thanks to sourcehut, I also have a [public inbox](https://lists.sr.ht/~rumpelsepp/public-inbox) which you can use to send comments or rants.
 
-## GPG Keys
+## GPG Key
 
-My GPG key is available via [WKD](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/).
+My GPG key is available via [WKD](https://rumpelsepp.org/.well-known/openpgpkey/hu/7cr8xbb43oh9t55xqjw3g9xq1cqdqmjd)[^1].
 
 ```
 $ gpg --locate-key stefan@rumpelsepp.org
 ```
+
+[^1]: https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/
