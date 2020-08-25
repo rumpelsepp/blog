@@ -1,5 +1,9 @@
 ---
 title: Base64 Encoder
+markup:
+  goldmark:
+    renderer:
+      unsafe = true
 ---
 
 As usual, here is the definition of the algorithm, copied from

@@ -1,4 +1,11 @@
+---
+title: Stuff
+---
+
 ## Side Projects
+
+On this page my mentionable side projects are listed.
+For my other stuff, check out my [sourcehut](https://git.sr.ht/~rumpelsepp) account!
 
 ### /binaries
 

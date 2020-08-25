@@ -2,7 +2,7 @@
 {{ partial "header.html" . }}
 
 <main class="index">
-    <section class="article-list">
+    <div class="article-list">
         {{ range (where .Site.RegularPages "Section" "blog") }}
         <article>
             <header>
@@ -11,7 +11,7 @@
             </header>
         </article>
         {{ end }}
-    </section>
+    </div>
 </main>
 
 {{ partial "footer.html" . }}

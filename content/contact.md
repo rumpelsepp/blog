@@ -1,4 +1,6 @@
-# Contact
+---
+title: Contact
+---
 
 Hi, I'm Stefan. I like to mess with Linux, network security, and free
 software. You may find me in the web as `rumpelsepp`, or on:

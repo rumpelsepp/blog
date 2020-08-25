@@ -1,4 +1,6 @@
-# Impressum
+---
+title: Impressum
+---
 
 Alle Texte wurden mit Hilfe von http://www.e-recht24.de erzeugt.
 
