@@ -6,7 +6,7 @@
         <h1>{{$.Title}}</h1>
         <small>
             {{ with .GitInfo }}
-            Last Modified: <time datetime="{{ $.GitInfo.AuthorDate}}">{{ $.GitInfo.AuthorDate.Format "January 2, 2006 15:04:05"}}</time>
+            Modified: <time datetime="{{ $.GitInfo.AuthorDate}}">{{ $.GitInfo.AuthorDate.Format "January 2, 2006 15:04:05"}}</time>
             ·
             <a href="https://git.sr.ht/~rumpelsepp/homepage/commit/{{ $.GitInfo.Hash }}">{{ $.GitInfo.AbbreviatedHash }}</a>
             {{ end }}
