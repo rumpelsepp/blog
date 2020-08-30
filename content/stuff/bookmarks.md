@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-30: [Tips for Using the Sockets API | Erik Rigtorp](https://rigtorp.se/sockets/)
 * 2020-08-28: [mnot’s blog: RFC8890: The Internet is for End Users](https://www.mnot.net/blog/2020/08/28/for_the_users)
 * 2020-08-26: [The Longest Train Ride in the World - Basement Geographer](https://basementgeographer.com/the-longest-train-ride-in-the-world/)
 * 2020-08-24: [Some Ugly Code Can Get NVIDIA's Linux Driver Working With Accelerated XWayland - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=GLX-Delay-Accel-NV-XWayland)
