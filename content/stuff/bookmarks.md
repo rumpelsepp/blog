@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-31: [Louis Rossmann - YouTube](https://www.youtube.com/user/rossmanngroup/videos)
 * 2020-08-31: [unmaintainable-code/README.md at master · Droogans/unmaintainable-code · GitHub](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
 * 2020-08-31: [Introduction | WebRTC for the Curious](https://webrtcforthecurious.com/)
 * 2020-08-30: [Latency Implications of Virtual Memory | Erik Rigtorp](https://rigtorp.se/virtual-memory/)
