@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-08-31: [Low Latency Tuning Guide | Erik Rigtorp](https://rigtorp.se/low-latency-guide/)
 * 2020-08-31: [The Repair Association](https://repair.org/)
 * 2020-08-31: [Louis Rossmann - YouTube](https://www.youtube.com/user/rossmanngroup/videos)
 * 2020-08-31: [unmaintainable-code/README.md at master · Droogans/unmaintainable-code · GitHub](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
