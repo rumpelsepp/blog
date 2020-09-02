@@ -20,9 +20,10 @@
 ## SCTP
 
 * [RFC4960](https://tools.ietf.org/html/rfc4960) -- Stream Control Transmission Protocol
+* [RFC6083](https://tools.ietf.org/html/rfc6083) -- Datagram Transport Layer Security (DTLS) for Stream Control Transmission Protocol (SCTP)
 * [RFC6096](https://tools.ietf.org/html/rfc6096) -- Stream Control Transmission Protocol (SCTP) Chunk Flags Registration
-* [RFC7053](https://tools.ietf.org/html/rfc7053) -- SACK-IMMEDIATELY Extension for the Stream Control Transmission Protocol
 * [RFC6458](https://tools.ietf.org/html/rfc6458) -- Sockets API Extensions for the Stream Control Transmission Protocol (SCTP)
+* [RFC7053](https://tools.ietf.org/html/rfc7053) -- SACK-IMMEDIATELY Extension for the Stream Control Transmission Protocol
 
 ## QUIC
 
