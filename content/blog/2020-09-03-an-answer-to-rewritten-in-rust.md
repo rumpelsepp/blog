@@ -67,7 +67,7 @@ My "interactive" profile is quite different.
 Since I am used to do almost everything in the terminal, tools must be **efficient** and **easy to remember**.
 I am a bit more relaxed about the stability requirement here.
 Since I have the tools under my fingers every day, I can adapt to changes or new features rather quickly with learning by doing.
-What's more important for me is: features that differ from the automated profile are minimal and must be easy to remember.
+What's more important for me is: features that differ from the automated profile must be minimal and easy to remember.
 Otherwise I forget about them and won't use them.
 Examples for good tools for my interactive profile are:
 
