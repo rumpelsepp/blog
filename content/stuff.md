@@ -10,7 +10,7 @@ For my other stuff, check out my [sourcehut](https://git.sr.ht/~rumpelsepp) acco
 ### /binaries
 
 * [Blogpost]({{< ref "2020-03-20-static-binaries-for-common-tools.md" >}})
-* URL: https://rumpelsepp.org/binaries
+* URL: https://rumpelsepp.org/binaries/
 * Source: https://git.sr.ht/~rumpelsepp/binaries
 
 ### /dns-query
