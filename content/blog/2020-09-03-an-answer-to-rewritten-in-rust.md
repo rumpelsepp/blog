@@ -16,7 +16,8 @@ The focus of Rust is on "Performance", "Reliability", and "Productivity"[^1].
 
 [^1]: Taken from the homepage https://www.rust-lang.org/
 
-Since I started my engineering "career" with digging through horrible, proprietary, and ugly embedded C code, I was quite hyped by the goals of Rust.
+A few years ago, I started my engineering "career" with digging through horrible, proprietary, and ugly embedded C code.
+Once I discovered Rust, I was quite hyped by its goals.
 Finally we have a tool to fix enterprise guys writing bad C code and we can eventually improve all tooling…
 Not a bit of it!
 In the following I want to give an overview where "Modern Alternatives" of well known programs in Rust miss the point or are actually improvements.
