@@ -12,7 +12,7 @@ software. You may find me in the web as `rumpelsepp`, or on:
 
 Over the years I experimented a lot with mail servers and DNS, so there are a few email addresses lurking around in the internet:
 
-* stefan.tatschner@gmail.com (please don't use this)
+* stefan.tatschner@gmail.com
 * rumpelsepp@sevenbyte.org
 * stefan@sevenbyte.org
 * stefan@rumpelsepp.org (<- I use this as my PGP identity)
