@@ -1,7 +1,6 @@
 ---
 title: "An Answer to Rewritten in Rust"
 date: 2020-09-03T07:54:03+02:00
-draft: true
 ---
 
 This post is some kind of an answer to [Rewritten in Rust: Modern Alternatives of Command-Line Tools][1].
