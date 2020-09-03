@@ -28,8 +28,8 @@ For my other stuff, check out my [sourcehut](https://git.sr.ht/~rumpelsepp) acco
 
 At work I published a few projects.
 
-* [PENLog](https://github.com/Fraunhofer-AISEC/penlog): PENLog provides a specification, library, and tooling for simple machine readable logging
-* [frankencert](https://github.com/Fraunhofer-AISEC/frankencert): Frankencert - Adversarial Testing of Certificate Validation in SSL/TLS Implementations
+* [PENLog](https://github.com/Fraunhofer-AISEC/penlog) provides a specification, library, and tooling for simple machine readable logging
+* [frankencert](https://github.com/Fraunhofer-AISEC/frankencert) - Adversarial Testing of Certificate Validation in SSL/TLS Implementations
 
 ## Random
 
