@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-09-10: [http://antirez.com/news/124](http://antirez.com/news/124)
 * 2020-09-04: [Brief History of HTTP](https://hpbn.co/brief-history-of-http/)
 * 2020-09-04: [Series of posts on HTTP status codes](https://evertpot.com/http/)
 * 2020-09-04: [The land before modern APIs – Increment: APIs](https://increment.com/apis/land-before-modern-apis/)
