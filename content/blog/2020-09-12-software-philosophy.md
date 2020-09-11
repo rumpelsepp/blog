@@ -35,7 +35,7 @@ In order to achieve this goal there are a few things I consider important:
   If things are reused, they naturally improve over time and your software benefits.
 * (Re-)Read the code you have written and the code written by others.
   Restructure complex parts and do little cleanups regularly.
-* Try hard writing readable code in the first place and don't clean it up later.
+* Try hard writing readable code in the first place and don't promise to clean it up later.
   The problem with this is: You won't cleanup anything!
 
 ## The Power of (Good) Defaults
