@@ -1,7 +1,6 @@
 ---
 title: "Software Philosophy"
 date: 2020-09-12T00:37:09+02:00
-draft: true
 ---
 
 Motivated by the current trend towards a more complex and less understandable[^1] [^2] [^3] [^4] [^5] [^6] software world, I tried to formulate my personal software philosophy.
