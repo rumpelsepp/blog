@@ -15,7 +15,9 @@ I came up with these four headlines.
 
 ## Simplicity and Readability Counts
 
-> You do not write code for computers, but for *humans*.
+> You do not write code for computers, but for *humans*.[^8]
+
+[^8]: http://www.jauu.net/
 
 This very statement says it all.
 Since we developers must deal with all the mess we create, it is priority number one to create a *readable* mess.
