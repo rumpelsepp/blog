@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-09-24: [CPython Internals Book – Real Python](https://realpython.com/products/cpython-internals-book/)
 * 2020-09-24: [Python behind the scenes #2: how the CPython compiler works](https://tenthousandmeters.com/blog/python-behind-the-scenes-2-how-the-cpython-compiler-works/)
 * 2020-09-24: [rendaw - ALSA, exposed!](https://rendaw.gitlab.io/blog/2125f09a85f2.html#alsa-exposed)
 * 2020-09-21: [  CVE: 2020-14356 & 2020-25220 : pi3 blog](http://blog.pi3.com.pl/?p=720)
