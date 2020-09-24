@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-09-24: [rendaw - ALSA, exposed!](https://rendaw.gitlab.io/blog/2125f09a85f2.html#alsa-exposed)
 * 2020-09-21: [  CVE: 2020-14356 & 2020-25220 : pi3 blog](http://blog.pi3.com.pl/?p=720)
 * 2020-09-10: [http://antirez.com/news/124](http://antirez.com/news/124)
 * 2020-09-04: [Brief History of HTTP](https://hpbn.co/brief-history-of-http/)
