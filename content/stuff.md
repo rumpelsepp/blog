@@ -6,6 +6,7 @@ title: Stuff
 
 On this page my mentionable side projects are listed.
 For my other stuff, check out my [sourcehut](https://git.sr.ht/~rumpelsepp) account!
+Rendered manpages of my projects are available at [/man](https://rumpelsepp.org/man).
 
 ### mnotify
 
