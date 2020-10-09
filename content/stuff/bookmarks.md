@@ -4,7 +4,6 @@ Random stuff I found on the internet…
 * 2020-10-09: [OpenSSH ProxyUseFdPass - /dev/posts/](https://www.gabriel.urdhr.fr/2016/08/07/openssh-proxyusefdpass/#fn:nc)
 * 2020-10-09: [sendmsg(2) SCM_RIGHTS demo · GitHub](https://gist.github.com/rcrowley/9096494)
 * 2020-09-28: [How to properly manage ssh keys for server access :: Päpper's Coding Blog — Have fun coding.](https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/)
-* 2020-09-28: [How to properly manage ssh keys for server access :: Päpper's Coding Blog — Have fun coding.](https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/)
 * 2020-09-24: [CPython Internals Book – Real Python](https://realpython.com/products/cpython-internals-book/)
 * 2020-09-24: [Python behind the scenes #2: how the CPython compiler works](https://tenthousandmeters.com/blog/python-behind-the-scenes-2-how-the-cpython-compiler-works/)
 * 2020-09-24: [rendaw - ALSA, exposed!](https://rendaw.gitlab.io/blog/2125f09a85f2.html#alsa-exposed)
