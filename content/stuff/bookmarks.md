@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-10-09: [GNU/Linux host name resolution - /dev/posts/](https://www.gabriel.urdhr.fr/2020/04/20/linux-host-name-resolution/)
 * 2020-10-09: [OpenSSH ProxyUseFdPass - /dev/posts/](https://www.gabriel.urdhr.fr/2016/08/07/openssh-proxyusefdpass/#fn:nc)
 * 2020-10-09: [sendmsg(2) SCM_RIGHTS demo · GitHub](https://gist.github.com/rcrowley/9096494)
 * 2020-09-28: [How to properly manage ssh keys for server access :: Päpper's Coding Blog — Have fun coding.](https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/)
