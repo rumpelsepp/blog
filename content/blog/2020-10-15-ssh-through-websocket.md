@@ -114,3 +114,8 @@ initiator <-> port 2222 <-> ssh <-> server S <-> reverse.socks <-> ssh through w
 Happy tunneling.
 I am not responsible for any data leaks you create with my software.
 Use it at your own risk!
+
+## Bonus Points
+
+The `ProxyCommand` and many other settings can be put into `~/.ssh/config` and you can entirely forget about this.
+Just read the wonderful [manpages](https://www.openssh.com/manual.html), e.g. [`ssh(1)`](https://man.openbsd.org/ssh) or [`ssh_config(5)`](https://man.openbsd.org/ssh_config).
