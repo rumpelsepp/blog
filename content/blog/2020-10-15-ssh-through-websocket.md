@@ -70,7 +70,7 @@ To solve this problem I jumps over S to T.
 This solution works only, if T is connected to S and maintains this connection to be reachable.
 Since the connection between S and T is also "secured" by a shitty HTTP proxy, it must be tunneled through `webcat`.
 
-### S <-> T
+### T <-> S
 
 Let's do a reverse port forwarding with SSH through Websocket and expose this connection on a UNIX domain socket **on the server**.
 It is a bit more secure to not open any ports on the server.
