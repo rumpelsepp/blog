@@ -84,7 +84,7 @@ $ ssh -o 'ProxyCommand=./webcat -k 25 wss://webcat.example.org/ssh/' -TN -R "rev
 Thats easy.
 Forward a local port (e.g. 2222) to the previously opened unix domain socket `reverse.sock`.
 If a Websocket tunnel is desired, just set `ProxyCommand` as well.
-I leave it here.
+I omit it here.
 
 ```
 $ ssh -TN -L 2222:reverse.sock user@example.org
