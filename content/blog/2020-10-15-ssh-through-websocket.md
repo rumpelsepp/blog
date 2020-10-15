@@ -69,6 +69,7 @@ In this scenario, I wants to connect to T who is behind a corporate firewall, NA
 To solve this problem I jumps over S to T.
 This solution works only, if T is connected to S and maintains this connection to be reachable.
 Since the connection between S and T is also "secured" by a shitty HTTP proxy, it must be tunneled through `webcat`.
+`webcat` understands any HTTP or SOCKS proxy configuration and uses it automatically.
 
 ### T <-> S
 
@@ -109,3 +110,7 @@ The whole picture might be this:
       home network           |                internet                   |        super secure network
 initiator <-> port 2222 <-> ssh <-> server S <-> reverse.socks <-> ssh through webcat <-> target <-> port 22
 ```
+
+Happy tunneling.
+I am not responsible for any data leaks you create with my software.
+Use it at your own risk!
