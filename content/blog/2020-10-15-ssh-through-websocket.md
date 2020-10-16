@@ -68,11 +68,13 @@ Now this whole setup can be used like the following:
 $ ssh -NT -D 127.0.0.1:1080 -o 'ProxyCommand=webcat -k 25 -t wss://webcat.example.org/ssh' user@example.org
 ```
 
-Eventually, the internet can be accessed via example.org like this:
+Eventually, the internet can be accessed via example.org like this[^2]:
 
 ```
-$ all_proxy=localhost:1080 curl https://google.de
+$ all_proxy=socks5://localhost:1080 curl https://google.de
 ```
+
+[^2]: If you want to do the DNS resolution on the server side, then use `all_proxy=socks5h://localhost:1080`.
 
 ## Reverse Tunnel via SSH
 
