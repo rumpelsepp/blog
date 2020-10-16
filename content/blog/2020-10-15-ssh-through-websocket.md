@@ -43,6 +43,19 @@ On a webserver like [`caddy`](https://caddyserver.com/) a config snippet like th
 reverse_proxy /ssh localhost:4444
 ```
 
+nginx requires this:
+
+```
+location /ssh {
+        proxy_pass http://127.0.0.1:4444;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+        proxy_set_header Host $host;
+        proxy_http_version 1.1;
+}
+```
+
 Now the following forwarding on the server is established:
 
 ```
