@@ -65,7 +65,7 @@ port 443 -> caddy <-> webcat <-> ssh port 22
 Now this whole setup can be used like the following:
 
 ```
-$ ssh -NT -D 127.0.0.1:1080 -O 'ProxyCommand=webcat -k 25 -t wss://webcat.example.org/ssh' user@example.org
+$ ssh -NT -D 127.0.0.1:1080 -o 'ProxyCommand=webcat -k 25 -t wss://webcat.example.org/ssh' user@example.org
 ```
 
 Eventually, the internet can be accessed via example.org like this:
