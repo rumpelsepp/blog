@@ -52,7 +52,7 @@ port 443 -> caddy <-> webcat <-> ssh port 22
 Now this whole setup can be used like the following:
 
 ```
-$ ssh -NT -D 127.0.0.1:1080 -O 'ProxyCommand=webcat -k 25 wss://webcat.example.org/ssh' user@example.org
+$ ssh -NT -D 127.0.0.1:1080 -O 'ProxyCommand=webcat -k 25 -t wss://webcat.example.org/ssh' user@example.org
 ```
 
 Eventually, the internet can be accessed via example.org like this:
@@ -77,7 +77,7 @@ Let's do a reverse port forwarding with SSH through Websocket and expose this co
 It is a bit more secure to not open any ports on the server.
 
 ```
-$ ssh -o 'ProxyCommand=./webcat -k 25 wss://webcat.example.org/ssh/' -TN -R "reverse.sock":localhost:22 user@example.org
+$ ssh -o 'ProxyCommand=./webcat -k 25 -t wss://webcat.example.org/ssh/' -TN -R "reverse.sock":localhost:22 user@example.org
 ```
 
 ### I <-> S
