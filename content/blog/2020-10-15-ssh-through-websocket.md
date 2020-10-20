@@ -102,6 +102,9 @@ Forward a local port (e.g. 2222) to the previously opened unix domain socket `re
 If a Websocket tunnel is desired, just set `ProxyCommand` as well.
 I omit it here.
 
+On your local machine you create a local portforwarding to your server.
+This portforwarding connects to the reverse tunnel to the target.
+
 ```
 $ ssh -TN -L 2222:reverse.sock user@example.org
 ```
@@ -114,6 +117,8 @@ Connect to the local port 2222 which:
 * is piped into `reverse.socks`
 * which is connected to the reverse tunnel to T on port 22
 * which goes through the `webcat` tunnel.
+
+On your local machine you can now connect to your local portforwarding with:
 
 ```
 $ ssh -p 2222 user@localhost
