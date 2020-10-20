@@ -1,5 +1,5 @@
 ---
-title: "SSH Reverse Tunnel Through Websocket"
+title: "SSH (Reverse) Tunnel Through Websocket"
 date: 2020-10-15T22:12:42+02:00
 ---
 
