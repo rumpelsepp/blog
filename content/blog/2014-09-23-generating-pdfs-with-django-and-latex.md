@@ -3,7 +3,7 @@ title: Generating pdfs with Django and Latex
 ---
 
 Generating pdfs in a webapplication often is tricky. The
-https://docs.djangoproject.com/en/1.7/howto/outputting-pdf/[django docs]
+[django docs](https://docs.djangoproject.com/en/1.7/howto/outputting-pdf/)
 provide a chapter about generating pdfs with third party libraries. I don't
 think I would like the result of these libraries, because I always use latex to
 write scientific documents. So is it possible to use latex in a django
@@ -96,10 +96,10 @@ def entry_as_pdf(request, pk):
     content from the database; this code is available in the `rendered_tpl`
     variable.
 4.  To generate the pdf we call pdflatex twice within a 
-    https://docs.python.org/3.4/library/tempfile.html?highlight=tempdir#tempfile.TemporaryDirectory[temporary directory]
-    using https://docs.python.org/3.4/library/subprocess.html#popen-constructor[Popen]. 
+    [temporary directory](https://docs.python.org/3.4/library/tempfile.html?highlight=tempdir#tempfile.TemporaryDirectory)
+    using [Popen](https://docs.python.org/3.4/library/subprocess.html#popen-constructor).
     The tempdir is removed automatically because we're using a
-    https://docs.python.org/3.4/reference/datamodel.html#context-managers[context manager].
+    [context manager](https://docs.python.org/3.4/reference/datamodel.html#context-managers).
 5.  We read the generated pdf and write its content into the HttpResponse. If we
     uncomment the Content-Disposition line the pdf is downloaded automatically.
     Otherwise it could be displayed in the browser by browser plugins.
