@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-11-03: [EME, CDM, AES, CENC, and Keys - The Essential Building Blocks of DRM - OTTVerse](https://ottverse.com/eme-cenc-cdm-aes-keys-drm-digital-rights-management/)
 * 2020-11-02: [File Descriptor Transfer over Unix Domain Sockets | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec)
 * 2020-10-09: [GNU/Linux host name resolution - /dev/posts/](https://www.gabriel.urdhr.fr/2020/04/20/linux-host-name-resolution/)
 * 2020-10-09: [OpenSSH ProxyUseFdPass - /dev/posts/](https://www.gabriel.urdhr.fr/2016/08/07/openssh-proxyusefdpass/#fn:nc)
