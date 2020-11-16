@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-11-16: [Decrypting OpenSSH sessions for fun and profit – NCC Group Research](https://research.nccgroup.com/2020/11/11/decrypting-openssh-sessions-for-fun-and-profit/)
 * 2020-11-09: [Introduction to Linux interfaces for virtual networking - Red Hat Developer](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/)
 * 2020-11-03: [EME, CDM, AES, CENC, and Keys - The Essential Building Blocks of DRM - OTTVerse](https://ottverse.com/eme-cenc-cdm-aes-keys-drm-digital-rights-management/)
 * 2020-11-02: [File Descriptor Transfer over Unix Domain Sockets | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec)
