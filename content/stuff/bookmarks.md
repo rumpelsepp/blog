@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-12-10: [Sci-Hub: removing barriers in the way of science](https://sci-hub.st/)
 * 2020-11-16: [XDP minimal example](https://ruderich.org/simon/notes/xdp-minimal-example)
 * 2020-11-16: [Himadri Pandya's Blog - Linux Kernel Bug Fixing Mentorship](https://himadripandya.me/post/634481719919165440/linux-kernel-bug-fixing-mentorship)
 * 2020-11-16: [Decrypting OpenSSH sessions for fun and profit – NCC Group Research](https://research.nccgroup.com/2020/11/11/decrypting-openssh-sessions-for-fun-and-profit/)
