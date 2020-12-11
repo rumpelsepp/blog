@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2020-12-11: [CS 6120: The Self-Guided Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
 * 2020-12-10: [Sci-Hub: removing barriers in the way of science](https://sci-hub.st/)
 * 2020-11-16: [XDP minimal example](https://ruderich.org/simon/notes/xdp-minimal-example)
 * 2020-11-16: [Himadri Pandya's Blog - Linux Kernel Bug Fixing Mentorship](https://himadripandya.me/post/634481719919165440/linux-kernel-bug-fixing-mentorship)
