@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [Python behind the scenes #1: how the CPython VM works](https://tenthousandmeters.com/blog/python-behind-the-scenes-1-how-the-cpython-vm-works/)
 * 2021-01-05: [Chris's Wiki :: blog/python/CPythonCTypesHaveTree](https://utcc.utoronto.ca/~cks/space/blog/python/CPythonCTypesHaveTree)
 * 2021-01-05: [FAQ - VARLINK](https://varlink.org/FAQ)
 * 2021-01-05: [Rust is now overall faster than C in benchmarks | Hacker News](https://news.ycombinator.com/item?id=25623634)
