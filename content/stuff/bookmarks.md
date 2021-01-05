@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [media.ccc.de -Very Pwnable Network (VPN)](https://media.ccc.de/v/rc3-228534-very_pwnable_network_vpn)
 * 2021-01-05: [media.ccc.de -How to survive in spacecraft](https://media.ccc.de/v/rc3-158638-how_to_survive_in_spacecraft)
 * 2021-01-05: [media.ccc.de -Lesung: Qualityland 2.0](https://media.ccc.de/v/rc3-11595-lesung_qualityland_2_0)
 * 2021-01-05: [media.ccc.de -Wie Nerds überleben, wenn pizza.de down ist](https://media.ccc.de/v/rc3-11561-wie_nerds_uberleben_wenn_pizza_de_down_ist)
