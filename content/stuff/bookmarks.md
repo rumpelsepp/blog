@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [media.ccc.de -Scientific Literacy 101](https://media.ccc.de/v/rc3-11430-scientific_literacy_101)
 * 2021-01-05: [media.ccc.de -Attacking CPUs with Power Side Channels from Software: Warum leaked hier Strom? (en)](https://media.ccc.de/v/rc3-11404-attacking_cpus_with_power_side_channels_from_software_warum_leaked_hier_strom_en)
 * 2021-01-05: [media.ccc.de -remote Stellwerk Experience](https://media.ccc.de/v/rc3-11381-remote_stellwerk_experience)
 * 2021-01-05: [media.ccc.de -Datenkanal: IT bei der Polizei](https://media.ccc.de/v/rc3-110705-datenkanal)
