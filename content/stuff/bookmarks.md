@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [media.ccc.de -Tracking Ransomware End-to-end](https://media.ccc.de/v/rc3-61895-tracking_ransomware_end_to_end)
 * 2021-01-05: [media.ccc.de -When Lightning Strikes Thrice: Breaking Thunderbolt 3 Security](https://media.ccc.de/v/rc3-534188-when_lightning_strikes_thrice)
 * 2021-01-05: [media.ccc.de -Very Pwnable Network (VPN)](https://media.ccc.de/v/rc3-228534-very_pwnable_network_vpn)
 * 2021-01-05: [media.ccc.de -How to survive in spacecraft](https://media.ccc.de/v/rc3-158638-how_to_survive_in_spacecraft)
