@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [FAQ - VARLINK](https://varlink.org/FAQ)
 * 2021-01-05: [Rust is now overall faster than C in benchmarks | Hacker News](https://news.ycombinator.com/item?id=25623634)
 * 2021-01-05: [media.ccc.de - Porting Linux to your favorite obscure Arm SoC](https://media.ccc.de/v/rc3-80571-porting_linux_to_your_favorite_obscure_arm_soc)
 * 2021-01-05: [media.ccc.de - Tracking Ransomware End-to-end](https://media.ccc.de/v/rc3-61895-tracking_ransomware_end_to_end)
