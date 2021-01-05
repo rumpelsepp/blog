@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [Python behind the scenes #6: how Python object system works](https://tenthousandmeters.com/blog/python-behind-the-scenes-6-how-python-object-system-works/)
 * 2021-01-05: [Python behind the scenes #5: how variables are implemented in CPython](https://tenthousandmeters.com/blog/python-behind-the-scenes-5-how-variables-are-implemented-in-cpython/)
 * 2021-01-05: [Python behind the scenes #4: how Python bytecode is executed](https://tenthousandmeters.com/blog/python-behind-the-scenes-4-how-python-bytecode-is-executed/)
 * 2021-01-05: [Python behind the scenes #3: stepping through the CPython source code](https://tenthousandmeters.com/blog/python-behind-the-scenes-3-stepping-through-the-cpython-source-code/)
