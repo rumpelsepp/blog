@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-01-05: [media.ccc.de -Porting Linux to your favorite obscure Arm SoC](https://media.ccc.de/v/rc3-80571-porting_linux_to_your_favorite_obscure_arm_soc)
 * 2021-01-05: [media.ccc.de -Tracking Ransomware End-to-end](https://media.ccc.de/v/rc3-61895-tracking_ransomware_end_to_end)
 * 2021-01-05: [media.ccc.de -When Lightning Strikes Thrice: Breaking Thunderbolt 3 Security](https://media.ccc.de/v/rc3-534188-when_lightning_strikes_thrice)
 * 2021-01-05: [media.ccc.de -Very Pwnable Network (VPN)](https://media.ccc.de/v/rc3-228534-very_pwnable_network_vpn)
