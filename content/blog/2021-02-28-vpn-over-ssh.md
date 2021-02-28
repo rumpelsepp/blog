@@ -31,7 +31,7 @@ $ socat TCP-LISTEN:1234 -
 This command creates a TCP listener at port 1234 and connects it to stdin/stdout of the socat process.
 Eventually, this is a stupid replacement of `nc -l -p 1234`.
 
-One step further, `socat` let's us create arbitrary processes and pipe data into them.
+One step further, `socat` enables creating arbitrary processes and piping data into them.
 With the TCP listener example we can pipe data from the network in a subprocess like `grep`[^1].
 
 ```
