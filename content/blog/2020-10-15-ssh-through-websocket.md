@@ -92,13 +92,13 @@ Let's do a reverse port forwarding with SSH through Websocket and expose this co
 It is a bit more secure to not open any ports on the server.
 
 ```
-$ ssh -o 'ProxyCommand=./webcat -k 25 -t wss://webcat.example.org/ssh/' -TN -R "reverse.sock":localhost:22 user@example.org
+$ ssh -o 'ProxyCommand=./webcat -k 25 -t wss://webcat.example.org/ssh/' -TN -R "/tmp/reverse.sock":localhost:22 user@example.org
 ```
 
 ### I <-> S
 
 Thats easy.
-Forward a local port (e.g. 2222) to the previously opened unix domain socket `reverse.sock`.
+Forward a local port (e.g. 2222) to the previously opened unix domain socket `/tmp/reverse.sock`.
 If a Websocket tunnel is desired, just set `ProxyCommand` as well.
 I omit it here.
 
@@ -106,7 +106,7 @@ On your local machine you create a local portforwarding to your server.
 This portforwarding connects to the reverse tunnel to the target.
 
 ```
-$ ssh -TN -L 2222:reverse.sock user@example.org
+$ ssh -TN -L 2222:/tmp/reverse.sock user@example.org
 ```
 
 ### I <-> T
@@ -114,7 +114,7 @@ $ ssh -TN -L 2222:reverse.sock user@example.org
 Connect to the local port 2222 which:
 
 * forwards to S
-* is piped into `reverse.socks`
+* is piped into `/tmp/reverse.sock`
 * which is connected to the reverse tunnel to T on port 22
 * which goes through the `webcat` tunnel.
 
@@ -127,8 +127,8 @@ $ ssh -p 2222 user@localhost
 The whole picture might be this:
 
 ```
-      home network           |                internet                   |        super secure network
-initiator <-> port 2222 <-> ssh <-> server S <-> reverse.socks <-> ssh through webcat <-> target <-> port 22
+      home network           |                internet                       |        super secure network
+initiator <-> port 2222 <-> ssh <-> server S <-> /tmp/reverse.socks <-> ssh through webcat <-> target <-> port 22
 ```
 
 Happy tunneling.
