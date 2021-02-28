@@ -15,6 +15,8 @@ Below are a few examples of how to use `webcat` to raise your attention.
 In order to use `webcat` on a server, a reverse proxy like `nginx` or `caddy` with TLS is desired.
 I will not go into the correct configuration of such a reverse proxy.
 
+HINT: If you just want the reverse tunnel with no websocket at all, just ignore all options with `webcat`.
+
 ## SOCKS Tunnel via SSH
 
 [`openssh`](https://man.openbsd.org/ssh) provides the `-D` flag.
