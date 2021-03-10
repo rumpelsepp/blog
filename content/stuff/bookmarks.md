@@ -1,5 +1,9 @@
 Random stuff I found on the internet…
 
+* 2021-03-10: [netaddr.IP: a new IP address type for Go · Tailscale Blog](https://tailscale.com/blog/netaddr-new-ip-type-for-go/)
+* 2021-03-02: [Path to OSCP - localhost exposed](https://localhost.exposed/path-to-oscp/)
+* 2021-02-26: [Fritz!Box als reines Modem verwenden | Boerny's Blog](https://www.boernyblog.de/fritzbox-als-reines-modem-verwenden/)
+* 2021-02-02: [A journey into Radare 2 – Part 2: Exploitation – Megabeets](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
 * 2021-01-21: [MuscleWiki](https://musclewiki.com/)
 * 2021-01-10: [Building a runtime reflection system for Rust 🦀️ (Part 3)](https://www.osohq.com/post/runtime-reflection-pt-3)
 * 2021-01-10: [Reed-Solomon error recovery in RAID-6 - antek's tech blog](https://anadoxin.org/blog/error-recovery-in-raid6.html/)
