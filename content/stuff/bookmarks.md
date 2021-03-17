@@ -1,5 +1,7 @@
 Random stuff I found on the internet…
 
+* 2021-03-17: [x0.at Filehost](https://x0.at/)
+* 2021-03-17: [ix.io](http://ix.io/)
 * 2021-03-10: [netaddr.IP: a new IP address type for Go · Tailscale Blog](https://tailscale.com/blog/netaddr-new-ip-type-for-go/)
 * 2021-03-02: [Path to OSCP - localhost exposed](https://localhost.exposed/path-to-oscp/)
 * 2021-02-26: [Fritz!Box als reines Modem verwenden | Boerny's Blog](https://www.boernyblog.de/fritzbox-als-reines-modem-verwenden/)
