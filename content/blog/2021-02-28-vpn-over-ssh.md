@@ -59,7 +59,7 @@ Everything which is written to `ssh`'s stdin is written to the remote process' s
 Well, let's spawn a `socat` an the remote side as well:
 
 ```
-$ sudo socat TUN:192.168.255.1/24,up EXEC:'ssh -l root HOST "socat TUN:192.168.255.2/24,up"'
+$ sudo socat TUN:192.168.255.1/24,up EXEC:'ssh -l root HOST "socat TUN:192.168.255.2/24,up -"'
 ```
 
 The right argument (`EXEC:"…"`) spaws `ssh` logs into `HOST` and starts a `socat` which is connected to a tunnel device.
