@@ -26,3 +26,5 @@ $ curl -s https://rumpelsepp.org/myip | jq '.'
 ```
 
 The sourcecode is here: https://git.sr.ht/~rumpelsepp/myip
+
+UPDATE 31.03.2020: Use https://ifconfig.co instead. :)

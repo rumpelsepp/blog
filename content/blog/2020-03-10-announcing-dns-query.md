@@ -19,3 +19,5 @@ Works!
 
 I submitted this here: https://github.com/DNSCrypt/dnscrypt-resolvers/pull/239
 I might get more traffic once this is merged, let's see what will happen.
+
+UPDATE: 31.03.2021: I had stability issues and dropped this for the time being.

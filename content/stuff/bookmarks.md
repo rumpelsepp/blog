@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-03-31: [ifconfig.co — What is my IP address?](ifconfig.co/json)
 * 2021-03-17: [x0.at Filehost](https://x0.at/)
 * 2021-03-17: [ix.io](http://ix.io/)
 * 2021-03-10: [netaddr.IP: a new IP address type for Go · Tailscale Blog](https://tailscale.com/blog/netaddr-new-ip-type-for-go/)
