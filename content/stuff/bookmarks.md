@@ -1,5 +1,7 @@
 Random stuff I found on the internet…
 
+* 2021-04-25: [256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL](https://jonasjacek.github.io/colors/)
+* 2021-04-12: [What exactly was the point of  “x$var” = “xval” ? – Vidar's Blog](https://www.vidarholen.net/contents/blog/?p=1035)
 * 2021-03-31: [ifconfig.co — What is my IP address?](ifconfig.co/json)
 * 2021-03-17: [x0.at Filehost](https://x0.at/)
 * 2021-03-17: [ix.io](http://ix.io/)
