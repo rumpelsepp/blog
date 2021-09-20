@@ -21,7 +21,7 @@ Thus I removed it.
 
 I use Arch Linux and these are the required packages: `qemu`, `qemu-extra-arch`, `clang`, `lld`, `make`.
 No creepy third party software is required to run this.
-My code is here: https://git.sr.ht/~rumpelsepp/riscv-experiments
+My code is here: https://codeberg.org/rumpelsepp/riscv-experiments
 It can be run like this:
 
 ```

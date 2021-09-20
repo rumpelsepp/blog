@@ -8,7 +8,7 @@
             {{ with .GitInfo }}
             Modified: <time datetime="{{ $.GitInfo.AuthorDate}}">{{ $.GitInfo.AuthorDate.Format "January 2, 2006 15:04"}}</time>
             ·
-            <a href="https://git.sr.ht/~rumpelsepp/homepage/commit/{{ $.GitInfo.Hash }}">{{ $.GitInfo.AbbreviatedHash }}</a>
+            <a href="https://codeberg.org/rumpelsepp/homepage/commit/{{ $.GitInfo.Hash }}">{{ $.GitInfo.AbbreviatedHash }}</a>
             {{ end }}
         </small>
     </header>

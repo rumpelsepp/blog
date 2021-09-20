@@ -11,7 +11,7 @@ Having on overview of the current consumption of my setup makes perfect sense.
 
 The powercycle problem was trivial.
 I grabbed a R&S power supply which offers a [programming interface](https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/h/hmc804x/HMC804x_SCPI_ProgrammersManual_en_02.pdf).
-A few [lines of python](https://git.sr.ht/~rumpelsepp/netzteil/tree/master/netzteil) and I'm done.
+A few [lines of python](https://codeberg.org/rumpelsepp/netzteil/tree/master/netzteil) and I'm done.
 Hint: Use the raw tcp port 5025, it is a very simple ASCII line based protocol.
 Even `telnet` can be used to remote control the device.
 

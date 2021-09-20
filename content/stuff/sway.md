@@ -2,15 +2,15 @@ Meine Tools sind (einfach mal gedumped aus dem Kopf):
 - terminal: [alacritty](https://github.com/alacritty/alacritty)
   - da drin dann `tmux`
   - alternativen: [foot](https://codeberg.org/dnkl/foot) oder [kitty](https://github.com/kovidgoyal/kitty)
-- anwendungsstarter: https://git.sr.ht/~rumpelsepp/dotfiles/tree/master/item/.local/bin/sway-starter.sh
+- anwendungsstarter: https://codeberg.org/rumpelsepp/dotfiles/tree/master/item/.local/bin/sway-starter.sh
 - Nachtlicht: `gammastep -m wayland -l 48.81666:13.481332`
 - Filemanager: `thunar` (der ist von xfce und den kann man a bissl besser konfigurieren wie nautilus)
 - Netzwerk: Alles über NetworkManager (`nmcli`, `nm-connection-editor`, `nmtui-connect`, `nmtui`). Auch Wireguard kannst darüber machen.
-- Mail: [evolution](https://git.sr.ht/~rumpelsepp/dotfiles/tree/master/item/.local/bin/evolution), und ich arbeite hart an `mutt`.
-- Browser: [firefox](https://git.sr.ht/~rumpelsepp/dotfiles/tree/master/item/.local/bin/firefox)
+- Mail: [evolution](https://codeberg.org/rumpelsepp/dotfiles/tree/master/item/.local/bin/evolution), und ich arbeite hart an `mutt`.
+- Browser: [firefox](https://codeberg.org/rumpelsepp/dotfiles/tree/master/item/.local/bin/firefox)
 - Sound Mixer: `pavolumecontrol`
 - Bluetooth: `bluetoothctl` (musst `bluetoothd` über systemd enablen, dann läuft es einfach)
 - Hintergrundbeleuchtung: [light](https://github.com/haikarainen/light)
-- Screenshot (ich nimm [slurp](https://github.com/emersion/slurp), und [grim](https://github.com/emersion/grim)), hier ist mein Script (hab ich auf `<Print>` und `<Super>+Print` gebindet): https://git.sr.ht/~rumpelsepp/dotfiles/tree/master/item/.local/bin/screenshot.sh
+- Screenshot (ich nimm [slurp](https://github.com/emersion/slurp), und [grim](https://github.com/emersion/grim)), hier ist mein Script (hab ich auf `<Print>` und `<Super>+Print` gebindet): https://codeberg.org/rumpelsepp/dotfiles/tree/master/item/.local/bin/screenshot.sh
 - Screencast (kannst mit `slurp` verwenden für nen Ausschnitt): [wf-recorder](https://github.com/ammen99/wf-recorder)
 - Displays konfigurieren: [wdisplays](https://github.com/artizirk/wdisplays)

@@ -5,7 +5,7 @@ date: 2020-10-15T22:12:42+02:00
 
 Have you ever been in a restricted corporate network where the only way to reach the internet is a dumb HTTP Proxy?
 It sucks.
-That's why i wrote [`webcat`](https://git.sr.ht/~rumpelsepp/webcat).
+That's why i wrote [`webcat`](https://codeberg.org/rumpelsepp/webcat).
 Webcat aims to be the swiss army knife for websocket connections as [`netcat`](https://man.openbsd.org/nc.1) is for plain TCP.
 It does not aim to provide a shitload of features as [`websocat`](https://github.com/vi/websocat) does.
 

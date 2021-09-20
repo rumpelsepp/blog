@@ -87,7 +87,7 @@ validate those strings as well. IMO I am on the safe side using this way.
 
 Not sharing the code would be boring, so here as another code snippet; I have
 omitted the IPv6 address handling, since I have not tested this yet (it is on
-[sourcehut](https://git.sr.ht/~rumpelsepp/openbl/tree/master/fetch.go), though):
+[codeberg](https://codeberg.org/rumpelsepp/openbl/tree/master/fetch.go), though):
 
 ``` go
 import (
@@ -276,6 +276,6 @@ way: `select`.
 
 I seem to like Golang a lot and I think it might become my new day to day
 programming language (as Python was). So, for practicing purposes, I started a
-project called [`i3gostatus`](https://git.sr.ht/~rumpelsepp/i3gostatus). It aims
+project called [`i3gostatus`](https://codeberg.org/rumpelsepp/i3gostatus). It aims
 to be a complete implementation for a `i3status` bar. Basically, it is port of
 [`i3pystatus`](https://github.com/enkore/i3pystatus) in Go.

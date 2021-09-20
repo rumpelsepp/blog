@@ -215,7 +215,7 @@ These are the little differences where I prefer an old tool over a "modern" one.
 
 ### bat
 
-A long time ago while learning Python I wrote [`c.py`](https://git.sr.ht/~rumpelsepp/c.py).
+A long time ago while learning Python I wrote [`c.py`](https://codeberg.org/rumpelsepp/c.py).
 As a novice, I thought it might be a good idea to actually have this kind of functionality the [bat](https://github.com/sharkdp/bat) tool claims to have:
 
 > bat is a cat clone with syntax highlighting and Git integration that works on Windows, MacOS and Linux. It provides syntax highlighting for many file extensions by default.
