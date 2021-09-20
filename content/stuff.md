@@ -12,14 +12,14 @@ Rendered manpages of my projects are available at [/man](https://rumpelsepp.org/
 
 A matrix cli client.
 
-* sr.ht: https://codeberg.org/rumpelsepp/mnotify
+* codeberg: https://codeberg.org/rumpelsepp/mnotify
 
 ### opennetzteil
 
 A [specification](https://rumpelsepp.org/man/netzteil-http.7.html) for a platform-agnostic http interface to remote control power supplies.
 A reference implementation of a server and a client in Go is included.
 
-* sr.ht: https://sr.ht/~rumpelsepp/opennetzteil
+* codeberg: https://sr.ht/~rumpelsepp/opennetzteil
 * URL: https://rumpelsepp.org/man/netzteil-http.7.html
 
 ### /binaries
