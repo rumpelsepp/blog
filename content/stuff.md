@@ -5,14 +5,14 @@ title: Stuff
 ## Side Projects
 
 On this page my mentionable side projects are listed.
-For my other stuff, check out my [sourcehut](https://git.sr.ht/~rumpelsepp) account!
+For my other stuff, check out my [codeberg](https://codeberg.org/rumpelsepp) account!
 Rendered manpages of my projects are available at [/man](https://rumpelsepp.org/man).
 
 ### mnotify
 
 A matrix cli client.
 
-* sr.ht: https://sr.ht/~rumpelsepp/mnotify
+* sr.ht: https://codeberg.org/rumpelsepp/mnotify
 
 ### opennetzteil
 
@@ -26,18 +26,7 @@ A reference implementation of a server and a client in Go is included.
 
 * [Blogpost]({{< ref "2020-03-20-static-binaries-for-common-tools.md" >}})
 * URL: https://rumpelsepp.org/binaries/
-* Source: https://git.sr.ht/~rumpelsepp/binaries
-
-### /dns-query
-
-* [Blogpost]({{< ref "2020-03-10-announcing-dns-query.md" >}})
-* URL: https://rumpelsepp.org/dns-query
-
-### /myip
-
-* [Blogpost]({{< ref "2020-01-23-announcing-myip.md" >}})
-* URL: https://rumpelsepp.org/myip
-* Source: https://git.sr.ht/~rumpelsepp/myip
+* Source: https://codeberg.org/rumpelsepp/binaries
 
 ## Work
 

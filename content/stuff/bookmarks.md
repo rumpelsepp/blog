@@ -26,7 +26,6 @@ Random stuff I found on the internet…
 * 2021-04-27: [Synchronize audio and video with FFmpeg - Geeky Hacker](https://www.geekyhacker.com/2020/05/17/synchronize-audio-and-video-with-ffmpeg/)
 * 2021-04-27: [OpenBSD Router | HomeAndOfficeIT.com](http://www.homeandofficeit.com/Main/OpenBSDRouter)
 * 2021-04-27: [OpenBSD 6.7 on PC Engines APU4D4 - TuM'Fatig](https://www.tumfatig.net/20200530/openbsd-6-7-on-pc-engines-apu4d4/)
-* 2021-04-26: [OpenBSD 6.7 on PC Engines APU4D4 - TuM'Fatig](https://www.tumfatig.net/20200530/openbsd-6-7-on-pc-engines-apu4d4/)
 * 2021-04-25: [256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL](https://jonasjacek.github.io/colors/)
 * 2021-04-12: [What exactly was the point of  “x$var” = “xval” ? – Vidar's Blog](https://www.vidarholen.net/contents/blog/?p=1035)
 * 2021-03-31: [ifconfig.co — What is my IP address?](ifconfig.co/json)
