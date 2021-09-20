@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-09-20: [Running DOOM on a Hacked CaptionCall Landline](https://joshumax.github.io/general/2021/08/11/running-doom-on-captioncall.html)
 * 2021-09-20: [FreeBSD SSH Hardening · GitHub](https://gist.github.com/koobs/e01cf8869484a095605404cd0051eb11)
 * 2021-09-20: [how to update APIs for generics · Discussion #48287 · golang/go · GitHub](https://github.com/golang/go/discussions/48287)
 * 2021-09-20: [JSON Schema bundling finally formalised | JSON Schema Blog](https://json-schema.org/blog/posts/bundling-json-schema-compound-documents)
