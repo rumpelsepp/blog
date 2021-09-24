@@ -1,5 +1,7 @@
 Random stuff I found on the internet…
 
+* 2021-09-24: [ifconfig.co — What is my IP address?](https://ifconfig.co)
+* 2021-09-24: [ipapi - IP Address Lookup and Geolocation API | No SignUp](https://ipapi.co/)
 * 2021-09-20: [Running DOOM on a Hacked CaptionCall Landline](https://joshumax.github.io/general/2021/08/11/running-doom-on-captioncall.html)
 * 2021-09-20: [FreeBSD SSH Hardening · GitHub](https://gist.github.com/koobs/e01cf8869484a095605404cd0051eb11)
 * 2021-09-20: [how to update APIs for generics · Discussion #48287 · golang/go · GitHub](https://github.com/golang/go/discussions/48287)
