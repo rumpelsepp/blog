@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-09-28: [That Didn't Take Long: KSMBD In-Kernel File Server Already Needs Important Security Fix - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=SMB3-File-Server-Security-Fix)
 * 2021-09-24: [Examining btrfs, Linux’s perpetually half-finished filesystem | Ars Technica](https://arstechnica.com/gadgets/2021/09/examining-btrfs-linuxs-perpetually-half-finished-filesystem/)
 * 2021-09-24: [ifconfig.co — What is my IP address?](https://ifconfig.co)
 * 2021-09-24: [ipapi - IP Address Lookup and Geolocation API | No SignUp](https://ipapi.co/)
