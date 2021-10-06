@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-10-06: [50 Key Stats About Freedom of the Internet Around the World](https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/)
 * 2021-10-05: [Attention Required! | Cloudflare](https://www.cloudflare.com/learning/security/glossary/what-is-bgp/)
 * 2021-09-28: [That Didn't Take Long: KSMBD In-Kernel File Server Already Needs Important Security Fix - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=SMB3-File-Server-Security-Fix)
 * 2021-09-24: [Examining btrfs, Linux’s perpetually half-finished filesystem | Ars Technica](https://arstechnica.com/gadgets/2021/09/examining-btrfs-linuxs-perpetually-half-finished-filesystem/)
