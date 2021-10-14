@@ -1,5 +1,6 @@
 pipeline:
   setup:
+    when: { branch: master }
     image: archlinux:latest
     commands:
       - pacman -Syu --noconfirm
