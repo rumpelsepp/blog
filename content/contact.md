@@ -10,7 +10,7 @@ software. You may find me in the web as `rumpelsepp`, or on:
 * [Github](https://github.com/rumpelsepp), or
 * [Mastodon](https://mastodon.social/@rumpelsepp).
 
-You might also find me as `Steff` who is playing the guitar on [youtube](https://www.youtube.com/channel/UCwEd6ddfgsjP_naRbS1q9JA).
+You might also find me as `Steff` who is playing the guitar on [youtube](https://www.youtube.com/channel/UCwEd6ddfgsjP_naRbS1q9JA) or in my [band](https://www.youtube.com/channel/UC_f3A1kUkOkQzo7GXy6x-Hg).
 
 Over the years I experimented a lot with mail servers and DNS, so there are a few email addresses lurking around in the internet:
 
