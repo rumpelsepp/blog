@@ -1,7 +1,6 @@
 ---
 title: "Use `tee` to Stream to a Process and Handle Ctrl+c"
 date: 2021-10-24T10:42:16+02:00
-draft: true
 ---
 
 Using the `tee` utility is often a nice method to save and view the output of a certain command at the same time.
