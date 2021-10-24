@@ -36,8 +36,7 @@ Programs can communicate with the terminal via so called [escape codes](https://
 The relevant command is called OSC52 (Operating System Command 52); see [here; grep for clipboard](https://www.xfree86.org/4.8.0/ctlseqs.html).
 My terminal emulator mix of choice ([`tmux`](https://github.com/tmux/tmux) and [`foot`](https://codeberg.org/dnkl/foot)) both support OSC52.
 Check if your terminal emulator supports OSC52; I know that [`alacritty`](https://github.com/alacritty/alacritty) supports OSC52 as well.
-I always use `tmux` in my terminal, especially on remote servers.
-The OSC52 clipboard can be enabled in the config:
+I always use `tmux` in my terminal, especially on remote servers and its OSC52 clipboard can be enabled in the config:
 
 ```
 $ cat ~/.config/tmux/tmux.conf
