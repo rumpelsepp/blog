@@ -1,5 +1,7 @@
 Random stuff I found on the internet…
 
+* 2021-10-24: [video - How to encode for YouTube with ffmpeg? - Video Production Stack Exchange](https://video.stackexchange.com/a/24481)
+* 2021-10-24: [Using FFmpeg to Encode a Video for WhatsApp | newspaint](https://newspaint.wordpress.com/2020/05/17/using-ffmpeg-to-encode-a-video-for-whatsapp/)
 * 2021-10-07: [blockdiag - simple diagram images generator — blockdiag 1.0 documentation](http://blockdiag.com)
 * 2021-10-06: [50 Key Stats About Freedom of the Internet Around the World](https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/)
 * 2021-10-05: [Attention Required! | Cloudflare](https://www.cloudflare.com/learning/security/glossary/what-is-bgp/)
