@@ -6,7 +6,6 @@ title: Stuff
 
 On this page my mentionable side projects are listed.
 For my other stuff, check out my [codeberg](https://codeberg.org/rumpelsepp) account!
-Rendered manpages of my projects are available at [/man](https://rumpelsepp.org/man).
 
 ### mnotify
 
@@ -16,11 +15,10 @@ A matrix cli client.
 
 ### opennetzteil
 
-A [specification](https://rumpelsepp.org/man/netzteil-http.7.html) for a platform-agnostic http interface to remote control power supplies.
+A [specification](https://codeberg.org/rumpelsepp/opennetzteil/src/branch/master/man/netzteil-http.7.adoc) for a platform-agnostic http interface to remote control power supplies.
 A reference implementation of a server and a client in Go is included.
 
-* codeberg: https://sr.ht/~rumpelsepp/opennetzteil
-* URL: https://rumpelsepp.org/man/netzteil-http.7.html
+* codeberg: https://codeberg.org/rumpelsepp/opennetzteil
 
 ### /binaries
 
