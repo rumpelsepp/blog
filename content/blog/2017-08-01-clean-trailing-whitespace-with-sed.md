@@ -9,18 +9,16 @@ I have come up with some cool `sed` stuff. Here is my short
 script:
 
 ```
-#!/bin/sh
+#!/bin/sed -f
 
-sed '
-    :a
-    /^\n*$/ {
-        $d
-        N
-        ba
-    }
+:a
+/^\n*$/ {
+    $d
+    N
+    ba
+}
 
-    s/[[:space:]]\+$//
-' $@
+s/[[:space:]]\+$//
 ```
 
 Here are some links about this topic:
