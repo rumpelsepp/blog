@@ -14,7 +14,7 @@ Best part, it [doesn't work](https://gitlab.freedesktop.org/geoclue/geoclue/-/is
 Annoying.
 
 Eventually, I wrote my own simple wrapper for `gammastep` using a [web service](https://ipapi.co/) I found while I was procastinating.
-Here is the shell two-liner (six-liner including shebang, blank lines, and bash settings):
+Here is the shell two-liner (six-liner including shebang, blank lines, and bash settings); paste this into `~/.local/bin/gammastep-wrapper.sh`:
 
 ```bash
 #!/usr/bin/env bash
