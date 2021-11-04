@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-11-04: [Linux x86 Program Start Up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
 * 2021-11-02: [Anatomy of a Terminal Emulator :: poor.dev](https://www.poor.dev/terminal-anatomy/)
 * 2021-10-24: [video - How to encode for YouTube with ffmpeg? - Video Production Stack Exchange](https://video.stackexchange.com/a/24481)
 * 2021-10-24: [Using FFmpeg to Encode a Video for WhatsApp | newspaint](https://newspaint.wordpress.com/2020/05/17/using-ffmpeg-to-encode-a-video-for-whatsapp/)
