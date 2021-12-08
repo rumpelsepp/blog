@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-12-08: [Digging into Linux namespaces - part 1](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html)
 * 2021-11-28: [Underrated reasons to be thankful](https://dynomight.net/thanks/)
 * 2021-11-25: [Decompressing a gzip file by hand - Thomas Tay's blog](https://ttay.me/blog/gzip_investigations/)
 * 2021-11-17: [Porting Doom to an nRF52840-based USB Bluetooth-LE Dongle – next-hack.com](https://next-hack.com/index.php/2021/11/13/porting-doom-to-an-nrf52840-based-usb-bluetooth-le-dongle/)
