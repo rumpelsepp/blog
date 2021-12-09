@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-12-09: [GitHub - WerWolv/ImHex: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.](https://github.com/WerWolv/ImHex)
 * 2021-12-08: [Digging into Linux namespaces - part 1](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html)
 * 2021-11-28: [Underrated reasons to be thankful](https://dynomight.net/thanks/)
 * 2021-11-25: [Decompressing a gzip file by hand - Thomas Tay's blog](https://ttay.me/blog/gzip_investigations/)
