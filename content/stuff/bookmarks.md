@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2021-12-14: [Sprache und Identität: Was es über Sie verrät, ob Sie Frikadelle oder Bulette sagen - WELT](https://www.welt.de/kultur/article172063642/Sprache-und-Identitaet-Was-es-ueber-Sie-verraet-ob-Sie-Frikadelle-oder-Bulette-sagen.html)
 * 2021-12-14: [Man Pages Archive - manned.org](https://manned.org/)
 * 2021-12-09: [GitHub - WerWolv/ImHex: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.](https://github.com/WerWolv/ImHex)
 * 2021-12-08: [Digging into Linux namespaces - part 1](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html)
