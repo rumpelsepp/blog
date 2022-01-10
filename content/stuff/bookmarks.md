@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-01-10: [Why I went back to using a ThinkPad from 2012](https://ounapuu.ee/posts/2022/01/09/why-i-went-back-to-using-a-thinkpad-from-2012/)
 * 2021-12-21: [](https://parsiya.net/blog/2021-12-20-rce-in-visual-studio-codes-remote-wsl-for-fun-and-negative-profit/)
 * 2021-12-14: [Sprache und Identität: Was es über Sie verrät, ob Sie Frikadelle oder Bulette sagen - WELT](https://www.welt.de/kultur/article172063642/Sprache-und-Identitaet-Was-es-ueber-Sie-verraet-ob-Sie-Frikadelle-oder-Bulette-sagen.html)
 * 2021-12-14: [Man Pages Archive - manned.org](https://manned.org/)
