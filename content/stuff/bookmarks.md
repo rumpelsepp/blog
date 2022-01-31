@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-01-31: [Uninitialized Memory: Unsafe Rust is Too Hard | Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * 2022-01-31: [GitHub - liyue201/gostl: Data structure and algorithm library for go, designed to provide functions similar to C++ STL](https://github.com/liyue201/gostl)
 * 2022-01-12: [Parsing Text with Nom](https://blog.adamchalmers.com/nom-chars/)
 * 2022-01-10: [Why I went back to using a ThinkPad from 2012](https://ounapuu.ee/posts/2022/01/09/why-i-went-back-to-using-a-thinkpad-from-2012/)
