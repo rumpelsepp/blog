@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-01-31: [GitHub - liyue201/gostl: Data structure and algorithm library for go, designed to provide functions similar to C++ STL](https://github.com/liyue201/gostl)
 * 2022-01-12: [Parsing Text with Nom](https://blog.adamchalmers.com/nom-chars/)
 * 2022-01-10: [Why I went back to using a ThinkPad from 2012](https://ounapuu.ee/posts/2022/01/09/why-i-went-back-to-using-a-thinkpad-from-2012/)
 * 2021-12-21: [](https://parsiya.net/blog/2021-12-20-rce-in-visual-studio-codes-remote-wsl-for-fun-and-negative-profit/)
