@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-01-31: [Einschränkung des Betretungsrechts im Nationalpark Bayerischer Wald](https://www.nationalpark-bayerischer-wald.bayern.de/service/wegeservice/betretungsrecht.htm)
 * 2022-01-31: [Uninitialized Memory: Unsafe Rust is Too Hard | Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * 2022-01-31: [GitHub - liyue201/gostl: Data structure and algorithm library for go, designed to provide functions similar to C++ STL](https://github.com/liyue201/gostl)
 * 2022-01-12: [Parsing Text with Nom](https://blog.adamchalmers.com/nom-chars/)
