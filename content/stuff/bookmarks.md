@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-02-08: [Fretastic - A Free Interactive Guitar Fretboard App](https://fretastic.com/guitar)
 * 2022-02-03: [Optimizing GoAWK with a bytecode compiler and virtual machine](https://benhoyt.com/writings/goawk-compiler-vm/)
 * 2022-01-31: [Einschränkung des Betretungsrechts im Nationalpark Bayerischer Wald](https://www.nationalpark-bayerischer-wald.bayern.de/service/wegeservice/betretungsrecht.htm)
 * 2022-01-31: [Uninitialized Memory: Unsafe Rust is Too Hard | Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
