@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-02-09: [Kochkurse, Kreativraum, Team Events in München - Kochstudio Bilou - Kochkurse in München](https://www.bilou-kitchen.de/)
 * 2022-02-09: [More To That](https://moretothat.com/)
 * 2022-02-08: [Fretastic - A Free Interactive Guitar Fretboard App](https://fretastic.com/guitar)
 * 2022-02-03: [Optimizing GoAWK with a bytecode compiler and virtual machine](https://benhoyt.com/writings/goawk-compiler-vm/)
