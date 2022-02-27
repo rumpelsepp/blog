@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-02-27: [JSON improvements in SQLite 3.38.0](https://tirkarthi.github.io/programming/2022/02/26/sqlite-json-improvements.html)
 * 2022-02-27: [Rust is now overall faster than C in benchmarks | Hacker News](https://news.ycombinator.com/item?id=25623634)
 * 2022-02-27: [Python behind the scenes #7: how Python attributes work](https://tenthousandmeters.com/blog/python-behind-the-scenes-7-how-python-attributes-work/)
 * 2022-02-27: [Python behind the scenes #6: how Python object system works](https://tenthousandmeters.com/blog/python-behind-the-scenes-6-how-python-object-system-works/)
