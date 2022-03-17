@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-03-17: [H.264 is magic: a technical walkthrough of a remarkable technology.](https://sidbala.com/h-264-is-magic/)
 * 2022-03-04: [Duck DNS - spec](https://www.duckdns.org/spec.jsp)
 * 2022-03-04: [Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
 * 2022-02-27: [JSON improvements in SQLite 3.38.0](https://tirkarthi.github.io/programming/2022/02/26/sqlite-json-improvements.html)
