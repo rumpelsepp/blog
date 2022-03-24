@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-03-24: [If You're Not Using SSH Certificates You're Doing SSH Wrong | Smallstep Blog](https://smallstep.com/blog/use-ssh-certificates/)
 * 2022-03-17: [H.264 is magic: a technical walkthrough of a remarkable technology.](https://sidbala.com/h-264-is-magic/)
 * 2022-03-04: [Duck DNS - spec](https://www.duckdns.org/spec.jsp)
 * 2022-03-04: [Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
