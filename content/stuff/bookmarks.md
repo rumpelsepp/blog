@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-04-19: [Using tc to simulate network latency and packet loss under Linux](https://programmer.ink/think/using-tc-to-simulate-network-latency-and-packet-loss-under-linux.html)
 * 2022-04-19: [What's New in Neovim 0.7 | g.p. anders](https://gpanders.com/blog/whats-new-in-neovim-0-7/)
 * 2022-03-31: [Generics can make your Go code slower](https://planetscale.com/blog/generics-can-make-your-go-code-slower)
 * 2022-03-24: [If You're Not Using SSH Certificates You're Doing SSH Wrong | Smallstep Blog](https://smallstep.com/blog/use-ssh-certificates/)
