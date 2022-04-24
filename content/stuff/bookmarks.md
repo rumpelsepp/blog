@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-04-24: [How Nix and NixOS Get So Close to Perfect - Xe](https://christine.website/talks/nixos-pain-2021-11-10)
 * 2022-04-19: [Using tc to simulate network latency and packet loss under Linux](https://programmer.ink/think/using-tc-to-simulate-network-latency-and-packet-loss-under-linux.html)
 * 2022-04-19: [What's New in Neovim 0.7 | g.p. anders](https://gpanders.com/blog/whats-new-in-neovim-0-7/)
 * 2022-03-31: [Generics can make your Go code slower](https://planetscale.com/blog/generics-can-make-your-go-code-slower)
@@ -7,6 +8,7 @@ Random stuff I found on the internet…
 * 2022-03-17: [H.264 is magic: a technical walkthrough of a remarkable technology.](https://sidbala.com/h-264-is-magic/)
 * 2022-03-04: [Duck DNS - spec](https://www.duckdns.org/spec.jsp)
 * 2022-03-04: [Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
+=======
 * 2022-02-27: [JSON improvements in SQLite 3.38.0](https://tirkarthi.github.io/programming/2022/02/26/sqlite-json-improvements.html)
 * 2022-02-27: [Rust is now overall faster than C in benchmarks | Hacker News](https://news.ycombinator.com/item?id=25623634)
 * 2022-02-27: [Python behind the scenes #7: how Python attributes work](https://tenthousandmeters.com/blog/python-behind-the-scenes-7-how-python-attributes-work/)
