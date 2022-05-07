@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-05-07: [Dennis Ritchie: Why I do not like X3J11 type qualifiers](http://www.lysator.liu.se/c/dmr-on-noalias.html)
 * 2022-04-26: [shell-storm | Home](http://shell-storm.org/)
 * 2022-04-24: [How Nix and NixOS Get So Close to Perfect - Xe](https://christine.website/talks/nixos-pain-2021-11-10)
 * 2022-04-19: [Using tc to simulate network latency and packet loss under Linux](https://programmer.ink/think/using-tc-to-simulate-network-latency-and-packet-loss-under-linux.html)
