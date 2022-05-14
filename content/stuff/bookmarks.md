@@ -1,5 +1,8 @@
 Random stuff I found on the internet…
 
+* 2022-05-14: [Introduction · Linux Inside](https://0xax.gitbooks.io/linux-insides)
+* 2022-05-12: [Use pwntools for your exploits - DEV Community](https://dev.to/hextrace/use-pwntools-for-your-exploits-40m3)
+* 2022-05-12: [Tut00: Introduction - CS6265: Information Security Lab](https://tc.gts3.org/cs6265/tut/tut00-intro.html)
 * 2022-05-07: [Dennis Ritchie: Why I do not like X3J11 type qualifiers](http://www.lysator.liu.se/c/dmr-on-noalias.html)
 * 2022-04-26: [shell-storm | Home](http://shell-storm.org/)
 * 2022-04-24: [How Nix and NixOS Get So Close to Perfect - Xe](https://christine.website/talks/nixos-pain-2021-11-10)
