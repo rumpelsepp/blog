@@ -6,7 +6,6 @@ Hi, I'm Stefan. I like to mess with Linux, network security, and free
 software. You may find me in the web as `rumpelsepp`, or on:
 
 * Matrix: @rumpelsepp:hackbrettl.de,
-* [codeberg](codeberg.org/rumpelsepp),
 * [Github](https://github.com/rumpelsepp), or
 * [Mastodon](https://mastodon.social/@rumpelsepp).
 
@@ -23,12 +22,5 @@ Everything is collected in a single mailbox, so it doesn't matter that much whic
 
 ## GPG Key
 
-TODO. :D
-
-My GPG key is available via [WKD](https://rumpelsepp.org/.well-known/openpgpkey/hu/7cr8xbb43oh9t55xqjw3g9xq1cqdqmjd)[^1].
-
-```
-$ gpg --locate-key stefan@rumpelsepp.org
-```
-
-[^1]: https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/
+I hate PGP, thus I prefer to not use it.
+Just contact me via matrix and enable E2EE.

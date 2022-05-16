@@ -7,7 +7,7 @@ I often need some common tools (e.g. `strace`, `tcpdump`, …) on obscure embedd
 Being tired with fighting dependencies and read only root file systems I created [binaries](http://rumpelsepp.org/binaries/)!
 I wrote a small script which downloads [buildroot](https://buildroot.org/), builds it with a predefined config, and pushes the result to my server.
 The results are statically linked using the musl C-library and the binaries run standalone without dependencies.
-The sources are here: https://codeberg.org/rumpelsepp/binaries
+The sources are here: https://github.com/rumpelsepp/binaries
 
 Currently only x86\_64 is built, but I want to support more architectures making this thing usable for people.
 I hope Drew is ok with buildroot causing load every now and then on builds.sr.ht…

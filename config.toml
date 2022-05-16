@@ -1,4 +1,4 @@
-baseURL = "http://rumpelsepp.org/"
+baseURL = "https://rumpelsepp.org/"
 languageCode = "en-us"
 title = "~rumpelsepp"
 pygmentsUseClasses = true
