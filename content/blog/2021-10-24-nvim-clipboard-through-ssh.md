@@ -82,7 +82,7 @@ end
 If you do not like `tmux` and want to use OSC52 direcly, I am experimenting with writing a tool for this.
 Perhaps it works, then I can release it sometime.
 
-UPDATE: I did write a tool which works somehow: https://codeberg.org/rumpelsepp/oscclip
-It is available on Arch in the AUR: https://aur.archlinux.org/packages/oscclip/
+UPDATE: I did write a tool -- [oscclip](https://github.com/rumpelsepp/oscclip) which works somehow.
+It is available on Arch in the [AUR](https://aur.archlinux.org/packages/oscclip/) or on [PyPi](https://pypi.org/project/oscclip/).
 
 [^1]: There was a bug in `tmux` preventing this. It is already merged: https://github.com/tmux/tmux/pull/2942
