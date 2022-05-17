@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-05-17: [Laurence Tratt: Using a "Proper" Camera as a Webcam](https://tratt.net/laurie/blog/2022/using_a_proper_camera_as_a_webcam.html)
 * 2022-05-16: [JSON and virtual columns in SQLite](https://antonz.org/json-virtual-columns/)
 * 2022-05-14: [Introduction · Linux Inside](https://0xax.gitbooks.io/linux-insides)
 * 2022-05-12: [Use pwntools for your exploits - DEV Community](https://dev.to/hextrace/use-pwntools-for-your-exploits-40m3)
