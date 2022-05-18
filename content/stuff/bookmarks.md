@@ -1,5 +1,7 @@
 Random stuff I found on the internet…
 
+* 2022-05-18: [DEF CON 22 - Dominic White and Ian de Villiers - Manna from Heaven - YouTube](https://www.youtube.com/watch?v=i2-jReLBSVk)
+* 2022-05-18: [bcachefs: Principles of Operation](https://bcachefs.org/bcachefs-principles-of-operation.pdf)
 * 2022-05-17: [Laurence Tratt: Using a "Proper" Camera as a Webcam](https://tratt.net/laurie/blog/2022/using_a_proper_camera_as_a_webcam.html)
 * 2022-05-16: [JSON and virtual columns in SQLite](https://antonz.org/json-virtual-columns/)
 * 2022-05-14: [Introduction · Linux Inside](https://0xax.gitbooks.io/linux-insides)
