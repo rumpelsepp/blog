@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-06-02: [Ffmpeg Buddy | Hacker News](https://news.ycombinator.com/item?id=31557809)
 * 2022-06-02: [ffmpeg buddy](https://evanhahn.github.io/ffmpeg-buddy/)
 * 2022-05-18: [DEF CON 22 - Dominic White and Ian de Villiers - Manna from Heaven - YouTube](https://www.youtube.com/watch?v=i2-jReLBSVk)
 * 2022-05-18: [bcachefs: Principles of Operation](https://bcachefs.org/bcachefs-principles-of-operation.pdf)
