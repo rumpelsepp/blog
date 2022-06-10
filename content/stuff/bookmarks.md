@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-06-10: [Absolute Zero](https://0048ba.com/pc-engines_apu2-boards_pfsense.html)
 * 2022-06-02: [How fast are Linux pipes anyway?](https://mazzo.li/posts/fast-pipes.html)
 * 2022-06-02: [Ffmpeg Buddy | Hacker News](https://news.ycombinator.com/item?id=31557809)
 * 2022-06-02: [ffmpeg buddy](https://evanhahn.github.io/ffmpeg-buddy/)
