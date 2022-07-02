@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-07-02: [rsync, article 1: Scenarios - Michael Stapelberg](https://michael.stapelberg.ch/posts/2022-06-18-rsync-article-1-scenarios/)
 * 2022-06-20: [Kostenlose topografische Karten, Höhe, Relief](https://de-de.topographic-map.com)
 * 2022-06-10: [Nix Flakes, Part 1: An introduction and tutorial - Tweag](https://www.tweag.io/blog/2020-05-25-flakes/)
 * 2022-06-10: [Absolute Zero](https://0048ba.com/pc-engines_apu2-boards_pfsense.html)
