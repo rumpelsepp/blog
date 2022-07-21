@@ -1,5 +1,6 @@
 Random stuff I found on the internet…
 
+* 2022-07-21: [GitHub - cpredef/predef: Pre-defined Compiler Macros wiki](https://github.com/cpredef/predef)
 * 2022-07-13: [Even DOOM Can Now Run DOOM! | Hackaday](https://hackaday.com/2022/07/12/even-doom-can-now-run-doom/)
 * 2022-07-13: [LinuxCard - Dmitry.GR](https://dmitry.gr/?r=05.Projects&proj=33.%20LinuxCard)
 * 2022-07-02: [rsync, article 1: Scenarios - Michael Stapelberg](https://michael.stapelberg.ch/posts/2022-06-18-rsync-article-1-scenarios/)
