@@ -1,23 +1,13 @@
 ---
 title: "Software Philosophy"
-date: 2020-09-12T00:37:09+02:00
 ---
 
 Motivated by the current trend towards a more complex and less understandable[^1] [^2] [^3] [^4] [^5] [^6] software world, I tried to formulate my personal software philosophy.
 I came up with these four headlines.
 
-[^1]: https://drewdevault.com/2020/08/13/Web-browsers-need-to-stop.html
-[^2]: http://webgpu.io/
-[^3]: https://www.w3.org/TR/webrtc/
-[^4]: https://www.docker.com/
-[^5]: https://kubernetes.io/
-[^6]: https://wicg.github.io/web-codecs/
-
 ## Simplicity and Readability Counts
 
 > You do not write code for computers, but for *humans*.[^8]
-
-[^8]: http://www.jauu.net/
 
 This very statement says it all.
 Since we developers must deal with all the mess we create, it is priority number one to create a *readable* mess.
@@ -51,8 +41,6 @@ The defaults are annoying[^7] and small tweaks (e.g. `set background=dark`) are 
 I migrated to [`nvim`](https://neovim.io/) which has “strong defaults” as a design goal.
 Deploying a fresh Linux machine and installing/configuring a few programmes is refreshing now, since I can just use my tools without any tweaks.
 
-[^7]: It got better the last years, though.
-
 To make your software usable my thoughts are:
 
 * Run reasonably out of the box with no (best) or minimal (ok) configuration.
@@ -82,3 +70,21 @@ Think outside the box and use tools which are simple, easy to remember, and avai
 Do not start writing a e.g. custom Python script for every small task.
 A lot of problems are solved and there are a lot of good solutions available.
 Know these solutions and use them wisely.
+
+---
+
+[^1]: <https://drewdevault.com/2020/08/13/Web-browsers-need-to-stop.html>
+
+[^2]: <http://webgpu.io/>
+
+[^3]: <https://www.w3.org/TR/webrtc/>
+
+[^4]: <https://www.docker.com/>
+
+[^5]: <https://kubernetes.io/>
+
+[^6]: <https://wicg.github.io/web-codecs/>
+
+[^7]: It got better the last years, though.
+
+[^8]: <http://www.jauu.net/>

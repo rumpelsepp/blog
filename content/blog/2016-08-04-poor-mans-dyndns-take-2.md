@@ -2,7 +2,7 @@
 title: Poor Man's Dynamic DNS -- Take 2!
 ---
 
-Recently I have [written]({{< ref "2016-05-16-poor-mans-dyndns.md" >}})
+Recently I have [written](@/blog/2016-05-16-poor-mans-dyndns.md)
 about how to create a "poor man's dyndns" service using the global
 discovery system of Syncthing. Since there have been changes in the global
 discovery system, my awesome shell script did not work any more... I just

@@ -1,6 +1,6 @@
----
-title: Generating pdfs with Django and Latex
----
++++
+title = "Generating pdfs with Django and Latex"
++++
 
 Generating pdfs in a webapplication often is tricky. The
 [django docs](https://docs.djangoproject.com/en/1.7/howto/outputting-pdf/)

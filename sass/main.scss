@@ -1,0 +1,99 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.main-header {
+    a, a:visited {
+        color: inherit;
+    }
+    nav {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.index {
+    display: flex;
+    flex-direction: row;
+
+    .article-list {
+        flex-grow: 1;
+
+        article {
+            margin-bottom: 1rem;
+        }
+
+        time {
+            display: block;
+            color: #333;
+        }
+    }
+}
+
+.page {
+    header {
+        border-bottom: 1px dashed #555;
+    }
+
+    article {
+        margin: 0 auto;
+
+        img, video {
+            display: block;
+            margin: 0 auto;
+            max-width: 75%;
+
+            @media(max-width: 640px) {
+                max-width: calc(100% - 2rem);
+            }
+        }
+    }
+
+    .footnote-definition {
+        font-size: 0.75rem;
+        padding-left: 2em;
+
+        .footnote-definition-label {
+            display: inline;
+        }
+            p {
+                display: inline;
+            }
+    }
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.float-img {
+    float: right;
+    display: inline;
+    padding-left: 1rem;
+
+    @media(max-width: 640px) {
+        display: block;
+        float: none;
+        padding-left: inherit;
+    }
+}
+
+pre {
+    // background-color: #eee;
+    padding: 0.25rem 1rem;
+    margin: 0 -1rem;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.text-center {
+    text-align: center;
+}

@@ -2,6 +2,8 @@
 title: Poor Man's Dynamic DNS
 ---
 
+**Update: The discovery server has changed and it returns a differnt JSON string now.**
+
 When you want to connect to a computer remotely, you usually need to know its
 IP address. Major ISPs assign you a dynamic IP address, to avoid that you
 actually run a production server at home. To avoid connecting to IP addresses
@@ -206,6 +208,3 @@ ssh "$ip"
 ```
 
 Have fun! :)
-
-*Update*: The discovery server has changed and it returns a differnt JSON string now.
-I will adjust this shortly!

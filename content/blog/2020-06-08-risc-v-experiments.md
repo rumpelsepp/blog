@@ -16,9 +16,6 @@ Anyway, I copy pasted a bare metal hello world program together and I want to sh
 The linker script had one problem which I fixed in my code; `lld` does not seem to support `(wxa!ri)`.
 Thus I removed it.
 
-[^1]: assembly code: https://theintobooks.wordpress.com/2019/12/28/hello-world-on-risc-v-with-qemu/
-[^2]: linker script: https://github.com/michaeljclark/riscv-probe/blob/9f14353dd03af063c2bd93df5168964d77bbfa3a/env/qemu-sifive_u/default.lds
-
 I use Arch Linux and these are the required packages: `qemu`, `qemu-extra-arch`, `clang`, `lld`, `make`.
 No creepy third party software is required to run this.
 My code is here: https://codeberg.org/rumpelsepp/riscv-experiments
@@ -39,3 +36,10 @@ Hello
 As I do not yet understand what's going on here, the post is finished.
 But there is a minimal environment now to tinker with.
 I hope this helps, have fun.
+
+---
+
+[^1]: [assembly code](https://theintobooks.wordpress.com/2019/12/28/hello-world-on-risc-v-with-qemu/)
+
+[^2]: [linker script](https://github.com/michaeljclark/riscv-probe/blob/9f14353dd03af063c2bd93df5168964d77bbfa3a/env/qemu-sifive_u/default.lds)
+

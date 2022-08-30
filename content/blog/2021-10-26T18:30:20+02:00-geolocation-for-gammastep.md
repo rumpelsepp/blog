@@ -1,6 +1,5 @@
 ---
 title: "Geolocation for Gammastep"
-date: 2021-10-26T18:30:20+02:00
 ---
 
 I use the [`gammastep`](https://gitlab.com/chinstrap/gammastep) utility for enabling a redshifty nightlight on my desktop.

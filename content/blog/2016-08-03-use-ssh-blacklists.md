@@ -2,7 +2,7 @@
 title: Use SSH Blacklists on FreeBSD
 ---
 
-NOTE: openbl has been discontinued. So, I leave this article for the archive…
+**NOTE: openbl has been discontinued. So, I leave this article for the archive…**
 
 Since I am a very lazy person, I am quoting the introduction of https://openbl.org:
 
@@ -236,13 +236,13 @@ EDIT: Migrated to markdown, works as well. :)
 7. Do some preparations, add the lookup table, flush it, make coffe, ...
 8. Initialize logging framework. I want logging, when this crap is run by `cron`.
 9. That's the argument parser, most variables can be overwritten on the commandline.
-<10> That's needed because of `aiohttp`; it might be possible to replace it with
-     a simple call to `requests.get()` or something...
-<11> String post processing. The downloaded string has to be converted to the proper
-     Python data types, and most importantly, comments should be removed in advance.
-<12> A simple counter, to count how many ip addresses have been added to the block list.
-<13> That's the main loop of my script. It iterates over the list of ip addresses,
-     calls the verify methods and, if true, adds them to the firewall block table.
+10. That's needed because of `aiohttp`; it might be possible to replace it with
+    a simple call to `requests.get()` or something...
+11. String post processing. The downloaded string has to be converted to the proper
+    Python data types, and most importantly, comments should be removed in advance.
+12. A simple counter, to count how many ip addresses have been added to the block list.
+13. That's the main loop of my script. It iterates over the list of ip addresses,
+    calls the verify methods and, if true, adds them to the firewall block table.
 
 And finally add this script to cron, e.g. like this:
 

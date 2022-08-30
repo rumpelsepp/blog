@@ -7,9 +7,9 @@ Alle Texte wurden mit Hilfe von http://www.e-recht24.de erzeugt.
 ## Angaben gemäß § 5 TMG
 
 Stefan Tatschner  
-Granitweg 20  
-94481 Grafenau  
-E-Mail: stefan@rumpelsepp.org
+Gräfelfinger Straße 169a  
+81375 München  
+E-Mail: stefan.tatschner@mailbox.org
 
 ## Haftungsausschluss (Disclaimer)
 ### Haftung für Inhalte

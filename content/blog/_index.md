@@ -1,5 +1,5 @@
 +++
-title = "Stuff"
+title = ""
 
 description = ""
 
@@ -7,7 +7,7 @@ description = ""
 draft = false
 
 # Used to sort pages by "date", "update_date", "title", "title_bytes", "weight", or "none". See below for more information.
-sort_by = "title"
+sort_by = "date"
 
 # Used by the parent section to order its subsections.
 # Lower values have higher priority.

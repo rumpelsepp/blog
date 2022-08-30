@@ -44,9 +44,5 @@ $ venv use testenv
 (testenv) $
 ```
 
-CAUTION: Currently there seems to be a bug, since it generates a syntactically wrong
-         fish script. You have to fix line 58 in the generated fish script 
-         (`$HOME/.venvs/testenv/bin/activate.fish`). Just remove the `$` sign... 
-
 To disable a virtualenv just type `deactivate`. To remove a virtualenv remove the
 directory `$HOME/.venvs/VIRTUALENV`. There is no need for bloated wrapper scripts.

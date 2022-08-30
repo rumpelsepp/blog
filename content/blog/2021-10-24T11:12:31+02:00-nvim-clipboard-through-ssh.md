@@ -1,6 +1,5 @@
 ---
 title: "How to use the nvim clipboard through SSH?"
-date: 2021-10-24T11:12:31+02:00
 ---
 
 [Neovim](https://neovim.io/) is awesome.

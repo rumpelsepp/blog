@@ -1,7 +1,31 @@
-Random stuff I found on the internet…
++++
+title = "Bookmarks"
++++
 
+Random stuff I found on the internet…
 * 2022-08-30: [Git's database internals I: packed object store | The GitHub Blog](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/)
 * 2022-08-30: [Cost of a integer cast in Go | Ben E. C. Boyter](https://boyter.org/posts/cost-of-integer-cast-in-go/)
+* 2022-08-30: [RFC2045](https://tools.ietf.org/html/rfc2045) -- Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies
+* 2022-08-30: [RFC2046](https://tools.ietf.org/html/rfc2046) -- Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types
+* 2022-08-30: [RFC2047](https://tools.ietf.org/html/rfc2047) -- MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text
+* 2022-08-30: [RFC2183](https://tools.ietf.org/html/rfc2183) -- Communicating Presentation Information in Internet Messages: The Content-Disposition Header Field
+* 2022-08-30: [RFC5321](https://tools.ietf.org/html/rfc5321) -- Simple Mail Transfer Protocol
+* 2022-08-30: [RFC5322](https://tools.ietf.org/html/rfc5322) -- Internet Message Format
+* 2022-08-30: [RFC4193](https://tools.ietf.org/html/rfc4193) -- Unique Local IPv6 Unicast Addresses
+* 2022-08-30: [RFC4862](https://tools.ietf.org/html/rfc4862) -- IPv6 Stateless Address Autoconfiguration
+* 2022-08-30: [RFC6890](https://tools.ietf.org/html/rfc6890) -- Special-Purpose IP Address Registries
+* 2022-08-30: [RFC7078](https://tools.ietf.org/html/rfc7078) -- Distributing Address Selection Policy Using DHCPv6
+* 2022-08-30: [RFC8028](https://tools.ietf.org/html/rfc8028) -- First-Hop Router Selection by Hosts in a Multi-Prefix Network
+* 2022-08-30: [RFC8043](https://tools.ietf.org/html/rfc8043) -- Source-Address-Dependent Routing and Source Address Selection for IPv6 Hosts: Overview of the Problem Space
+* 2022-08-30: [RFC8415](https://tools.ietf.org/html/rfc8415) -- Dynamic Host Configuration Protocol for IPv6 (DHCPv6)
+* 2022-08-30: [RFC4960](https://tools.ietf.org/html/rfc4960) -- Stream Control Transmission Protocol
+* 2022-08-30: [RFC6083](https://tools.ietf.org/html/rfc6083) -- Datagram Transport Layer Security (DTLS) for Stream Control Transmission Protocol (SCTP)
+* 2022-08-30: [RFC6096](https://tools.ietf.org/html/rfc6096) -- Stream Control Transmission Protocol (SCTP) Chunk Flags Registration
+* 2022-08-30: [RFC6458](https://tools.ietf.org/html/rfc6458) -- Sockets API Extensions for the Stream Control Transmission Protocol (SCTP)
+* 2022-08-30: [RFC7053](https://tools.ietf.org/html/rfc7053) -- SACK-IMMEDIATELY Extension for the Stream Control Transmission Protocol
+* 2022-08-30: [Netdev 0x13 - QUIC Tutorial - YouTube](https://www.youtube.com/watch?v=CtsBawwGwns)
+* 2022-08-30: [Netdev 0x13 - Accelerating QUIC via Hardware Offloads Through a Socket Interface - YouTube](https://www.youtube.com/watch?v=ald5tP2VeGk)
+* 2022-08-30: [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net)
 * 2022-07-21: [GitHub - cpredef/predef: Pre-defined Compiler Macros wiki](https://github.com/cpredef/predef)
 * 2022-07-13: [Even DOOM Can Now Run DOOM! | Hackaday](https://hackaday.com/2022/07/12/even-doom-can-now-run-doom/)
 * 2022-07-13: [LinuxCard - Dmitry.GR](https://dmitry.gr/?r=05.Projects&proj=33.%20LinuxCard)

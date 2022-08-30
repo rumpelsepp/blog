@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+{% block head %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <meta name="description" content="{{ config.description }}">
+    <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
+
+    {% if config.generate_feed %}
+        <link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
+    {% endif %}
+    <link rel="icon" type="image/png" href="{{ get_url(path="favicon-96x96.png", trailing_slash=false) }}">
+</head>
+{% endblock head %}
+
+{% block header %}
+<header class="main-header">
+    <nav>
+        <a href="{{ config.base_url }}">~rumpelsepp</a>
+        ·
+        <a href="{{ get_url(path="@/blog/_index.md") }}">blog</a>
+        ·
+        <a href="{{ get_url(path="@/about.md") }}">about</a>
+    </nav>
+</header>
+{% endblock header %}
+
+{% block main %}
+<main class="index">
+    <section class="article-list">
+        {% set section = get_section(path="blog/_index.md") %}
+        {% for page in section.pages %}
+        <article>
+            <header>
+                <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %e, %Y") }}</time>
+                <a href="{{ page.permalink }}">{{ page.title }}</a>
+            </header>
+        </article>
+        {% endfor %}
+    </section>
+</main>
+{% endblock %}
+
+{% block footer %}
+<footer>
+  The content for this site is
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>.
+  The <a href="https://github.com/rumpelsepp/blog">code for this site</a>
+  is <a href="https://opensource.org/licenses/MIT">MIT</a> licensed.
+  German law stuff: <a href="{{ get_url(path="@/impressum.md") }}">Impressum</a>.
+</footer>
+{% endblock footer %}

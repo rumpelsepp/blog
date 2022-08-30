@@ -2,7 +2,7 @@
 title: "FreeBSD and Blacklists in Go (or: My First Steps in Golang)"
 ---
 
-Some people might remember my [first attempt]({{< ref "2016-08-03-use-ssh-blacklists.md" >}})
+Some people might remember my [first attempt](@/blog/2016-08-03-use-ssh-blacklists.md)
 to download and validate ip addresses from public abuser blacklists in order to
 apply them onto the FreeBSD firewall `ipfw`. This first attempt worked well;
 but it  was a bit buggt though. I might fix these bugs and publish the

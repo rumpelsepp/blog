@@ -2,6 +2,8 @@
 title: How to download rtmp streams?
 ---
 
+**UPDATE 2020-08-24: Just use [`youtube-dl`](https://ytdl-org.github.io/youtube-dl/). It does everything automagically and is maintained.**
+
 > Real Time Messaging Protocol (RTMP) was initially a proprietary protocol
 > developed by Macromedia for streaming audio, video and data over the Internet,
 > between a Flash player and a server. Macromedia is now owned by Adobe, which has
@@ -85,5 +87,3 @@ subprocess.call([
     '-o', title + '.mp4'
 ])
 ```
-
-UPDATE 2020-08-24: Just use [`youtube-dl`](https://ytdl-org.github.io/youtube-dl/). It does everything automagically and is maintained.

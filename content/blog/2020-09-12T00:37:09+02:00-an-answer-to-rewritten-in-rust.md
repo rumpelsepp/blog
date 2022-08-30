@@ -1,6 +1,5 @@
 ---
 title: "An Answer to Rewritten in Rust"
-date: 2020-09-03T07:54:03+02:00
 ---
 
 This post is some kind of an answer to [Rewritten in Rust: Modern Alternatives of Command-Line Tools][1].
@@ -13,8 +12,6 @@ They praise Rust with the slogan:
 > A language empowering everyone to build reliable and efficient software.[^1]
 
 The focus of Rust is on "Performance", "Reliability", and "Productivity"[^1].
-
-[^1]: Taken from the homepage https://www.rust-lang.org/
 
 A few years ago, I started my engineering "career" with digging through horrible, proprietary, and ugly embedded C code.
 Once I discovered Rust, I was quite hyped by its goals.
@@ -47,11 +44,6 @@ Examples for such tools are:
 All these tools have in common that they have a stable interface for *scripting*[^3].
 These interfaces might or might not be optimized for modern usage, such as the availability of structured data, for instance JSON.
 But they are well known and consequently there is tons of high quality documentation and resources available.
-
-[^2]: I mostly use Arch Linux, a bit Debian, and from time to time FreeBSD.
-      I might even enforce POSIX variants of these tools, but it was not neccessary in the past.
-      Here is a good reference about how to **not** publish software: https://drewdevault.com/2019/12/09/Developers-shouldnt-distribute.html
-[^3]: git is a good example, since they provide `--porcelain` flags for some commands to ensure their output will never change its structure.
 
 If I ever accept a new tool for my automated profile, it MUST meet my requirements of availability and stability.
 I consider a tool as stable if it hadn't broken my scripts in the past; preferably the behaviour of the tool is standardized by e.g. POSIX.
@@ -131,13 +123,13 @@ sys 0.14
 `exa` is fast, but `ls` is faster.
 `exa` extensively uses colors claiming that it improves the situation for the user:
 
-{{< figure alt="screenshot of ls and exa" src="/screenshot-2020-09-03-10:52:43.png" width=500 >}}
+<img alt="screenshot of ls and exa" src="/screenshot-2020-09-03-10:52:43.png" width=500>
 
 The sorting is different, there are column headers, the group is abscent, and there are a lot of colors…
 I know this is a question of taste, but for me these colors add no value at all.
 They are even confusing for me, since I can't parse what kind of information they actually encode.
 
-{{< figure alt="second screenshot of ls and exa" src="/screenshot-2020-09-03-11:05:58.png" width=700 >}}
+<img alt="second screenshot of ls and exa" src="/screenshot-2020-09-03-11:05:58.png" width=700>
 
 Why are README and Makefile underlined and yellow?
 Rewritten in Rust, but I don't see the real reason why this is important.
@@ -181,7 +173,7 @@ The delta to `du -sh` really is the graphical respresentation of the file and di
 Also the tool name ist well chosen, since it begins with the same letters plus the `-st` flags of `du`.
 A picture shows it best:
 
-{{< figure alt="screenshot of ls and exa" src="/screenshot-2020-09-03-13:56:36.png" width=600 >}}
+<img alt="screenshot of ls and exa" src="/screenshot-2020-09-03-13:56:36.png" width=600>
 
 I am not sure if I often need such a tool.
 There is [`ncdu`](https://dev.yorhel.nl/ncdu) which is more powerful in the interactive profile.
@@ -195,7 +187,7 @@ There is [`ncdu`](https://dev.yorhel.nl/ncdu) which is more powerful in the inte
 Let's check it out!
 For comparison with the next picture I addet the `-t` flag for the tree view.
 
-{{< figure alt="screenshot of ls and exa" src="/screenshot-2020-09-03-15:25:00.png" width=600 >}}
+<img alt="screenshot of ls and exa" src="/screenshot-2020-09-03-15:25:00.png" width=600>
 
 Okay.
 Once again I am not sure which information is actually encoded by the colors.
@@ -207,7 +199,7 @@ For example, colors are used to outline *differences*.
 The resource utilization columns use colors to highlight bytes, megabytes, and gigabytes differently.
 The `procs` tool just colorizes everything in the same color which carries no information at all.
 
-{{< figure alt="screenshot of ls and exa" src="/screenshot-2020-09-03-15:27:27.png" width=600 >}}
+<img alt="screenshot of ls and exa" src="/screenshot-2020-09-03-15:27:27.png" width=600>
 
 Further, in `htop` the tree view is designed that the user can follow the branches easily.
 I leave comparing the visualization with the `procs` tool as an excercise to the reader.
@@ -281,3 +273,14 @@ Please, dear Rust community, write software which actually improves the status q
 There are great examples that actually do improve my workflow, like `ripgrep` (vs `grep`) and `fd` (vs `find`).
 These examples improve my workflow because they are well designed for me as a *user*.
 They do not improve my workflow because they are written in Rust.
+
+---
+
+[^1]: Taken from the homepage https://www.rust-lang.org/
+
+[^2]: I mostly use Arch Linux, a bit Debian, and from time to time FreeBSD.
+      I might even enforce POSIX variants of these tools, but it was not neccessary in the past.
+      Here is a good reference about how to **not** publish software: https://drewdevault.com/2019/12/09/Developers-shouldnt-distribute.html
+
+[^3]: git is a good example, since they provide `--porcelain` flags for some commands to ensure their output will never change its structure.
+

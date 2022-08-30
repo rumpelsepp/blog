@@ -24,7 +24,7 @@ Week" or so.
 Let's start with some simple math stuff. I decided to do some computation in
 Python to get the factorial of a given number. The factorial is defined as such:
 
-{{< figure alt="Rendered LaTex Formula: `n! = \prod_{k=1}^{n} k`" src="/factorial.png" width=100 >}}
+<img alt="Rendered LaTex Formula: `n! = \prod_{k=1}^{n} k`" src="/factorial.png" width=100>
 
 That's pretty easy to implement in Python! Let's just do it!
 
@@ -40,7 +40,7 @@ I also found out that this way of solving this problem is the so called
 _iterative_ way. There is almost always another approach called _recursion_.
 We can define the factorial also in a recursive manner:
 
-{{< figure alt="Rendered LaTex Formula" src="/factorial_recursive.png" width=300 >}}
+<img alt="Rendered LaTex Formula" src="/factorial_recursive.png" width=300>
 
 This means that we devide the problem into several problems of the same type;
 each distinct problem is simpler to solve as the whole problem. This is

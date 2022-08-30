@@ -75,7 +75,7 @@ One final hint, which is important. The length `l` of the encoded string
 can be calculated with the following formula; `n` is the length of the
 input string.
 
-{{< figure alt="Rendeder LaTex formula: `l = \left \lceil{4 \cdot \frac{n}{3}}\right \rceil`" src="/ceil.png" width=100 >}}
+<img alt="Rendederd LaTex formula: `l = \left \lceil{4 \cdot \frac{n}{3}}\right \rceil`" src="/ceil.png" width=100>
 
 I have implemented the `ceil` function in C with a macro:
 
@@ -92,7 +92,7 @@ data must be dividable by 3, the padding length can be calculated with the
 following formula; as before `n` is the length of the input data in number
 of bytes:
 
-{{< figure alt="Rendeder LaTex formula: `l_{\mathrm{pad}} = 3 - (n \mod 3)`" src="/base64_padding.png" width=200 >}}
+<img alt="Rendeder LaTex formula: `l_{\mathrm{pad}} = 3 - (n \mod 3)`" src="/base64_padding.png" width=200 >
 
 ## Implementation in C
 

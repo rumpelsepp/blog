@@ -1,6 +1,5 @@
 ---
 title: "SSH (Reverse) Tunnel Through Websocket"
-date: 2020-10-15T22:12:42+02:00
 ---
 
 Have you ever been in a restricted corporate network where the only way to reach the internet is a dumb HTTP Proxy?
@@ -29,8 +28,6 @@ As the manpage explains it:
 In other words you can access the internet through a SSH tunnel which is in a Websocket tunnel which goes over your fancy corporate shit proxy.
 `-N` and `-T` is useful of you want to disable the pty and shell functionality for this ssh session.
 In order to use the Websocket tunnel, `webcat` will be used via the `ProxyCommand` setting:
-
-[^1]: Usually via the `all_proxy` environment variable.
 
 First, a few preparations are required.
 On the server webcat.example.org, `webcat` must be listening like this:
@@ -141,3 +138,8 @@ Use it at your own risk!
 
 The `ProxyCommand` and many other settings can be put into `~/.ssh/config` and you can entirely forget about this.
 Just read the wonderful [manpages](https://www.openssh.com/manual.html), e.g. [`ssh(1)`](https://man.openbsd.org/ssh) or [`ssh_config(5)`](https://man.openbsd.org/ssh_config).
+
+---
+
+[^1]: Usually via the `all_proxy` environment variable.
+

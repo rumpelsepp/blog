@@ -7,8 +7,6 @@ This is quite challenging when you have to make sure that devices can be powercy
 Additionally, the power consumption is often an indicator for a crash.
 Having on overview of the current consumption of my setup makes perfect sense.
 
-[^1]: I break automotive ECU's at `$DAYJOB`
-
 The powercycle problem was trivial.
 I grabbed a R&S power supply which offers a [programming interface](https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/h/hmc804x/HMC804x_SCPI_ProgrammersManual_en_02.pdf).
 A few [lines of python](https://codeberg.org/rumpelsepp/netzteil/tree/master/netzteil) and I'm done.
@@ -39,3 +37,8 @@ $ mpv --profile=low-latency --stream-lavf-o=reconnect_streamed=1 HOST:8082/strea
 I works quite well.
 Due to the massive amount of profiles and settings (and not being a video pro) I simply got lost.
 Hope this help.
+
+---
+
+[^1]: I break automotive ECU's at `$DAYJOB`
+
