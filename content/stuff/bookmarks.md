@@ -1,5 +1,7 @@
 Random stuff I found on the internet…
 
+* 2022-08-30: [Git's database internals I: packed object store | The GitHub Blog](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/)
+* 2022-08-30: [Cost of a integer cast in Go | Ben E. C. Boyter](https://boyter.org/posts/cost-of-integer-cast-in-go/)
 * 2022-07-21: [GitHub - cpredef/predef: Pre-defined Compiler Macros wiki](https://github.com/cpredef/predef)
 * 2022-07-13: [Even DOOM Can Now Run DOOM! | Hackaday](https://hackaday.com/2022/07/12/even-doom-can-now-run-doom/)
 * 2022-07-13: [LinuxCard - Dmitry.GR](https://dmitry.gr/?r=05.Projects&proj=33.%20LinuxCard)
