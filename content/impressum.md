@@ -24,6 +24,6 @@ Gräfelfinger Straße 169a
 Der Webserver schreibt Logdateien, die die Zugriffe und Metadaten des Zugreifers beinhalten.
 Diese Webseite stellt keine Benutzerkonten bereit und es werden keine Cookies gesetzt.
 Die Daten in den Logdateien sind keinen bestimmten Personen zuordenbar.
-Diese Daten werden zur im Fehlerfall zur Fehlersuche verwendet und ansonsten nicht ausgewertet.
+Diese Daten werden im Fehlerfall zur Fehlersuche verwendet und ansonsten nicht ausgewertet.
 
 Von den Logdateien abgesehen werden keine Daten erhoben, gespeichert oder ausgewertet.
