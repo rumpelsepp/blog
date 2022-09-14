@@ -3,6 +3,7 @@ title = "Bookmarks"
 +++
 
 Random stuff I found on the internet…
+* 2022-09-14: [Creating a QR Code step by step](https://www.nayuki.io/page/creating-a-qr-code-step-by-step)
 
 * 2022-09-14: [QR codes | Dan Hollick 🇿🇦](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 * 2022-08-30: [Git's database internals I: packed object store | The GitHub Blog](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/)
