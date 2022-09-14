@@ -3,6 +3,8 @@ title = "Bookmarks"
 +++
 
 Random stuff I found on the internet…
+
+* 2022-09-14: [QR codes | Dan Hollick 🇿🇦](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 * 2022-08-30: [Git's database internals I: packed object store | The GitHub Blog](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/)
 * 2022-08-30: [Cost of a integer cast in Go | Ben E. C. Boyter](https://boyter.org/posts/cost-of-integer-cast-in-go/)
 * 2022-08-30: [RFC2045](https://tools.ietf.org/html/rfc2045) -- Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies
