@@ -10,7 +10,6 @@ Gräfelfinger Straße 169a
 
 ## Kontakt
 
-Telefon: +49 151 24096409  
 E-Mail: <stefan.tatschner@mailbox.org>
 
 ## Redaktionell verantwortlich
