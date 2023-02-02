@@ -9,7 +9,7 @@ You may find me in the web as `rumpelsepp`, or on:
 * [Github](https://github.com/rumpelsepp), or
 * [Mastodon](https://mastodon.social/@rumpelsepp).
 
-You might also find me as `steff` who is playing the guitar on [youtube](https://www.youtube.com/channel/UCwEd6ddfgsjP_naRbS1q9JA) or in my [band](https://www.youtube.com/channel/UC_f3A1kUkOkQzo7GXy6x-Hg).
+You might also find me as `steff` who is playing the guitar on [youtube](https://www.youtube.com/@rumpelsteff) or in my [band](https://www.youtube.com/@TerminusKillBand).
 
 ## email
 
