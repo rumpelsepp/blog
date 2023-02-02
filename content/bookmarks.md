@@ -4,6 +4,7 @@ title = "Bookmarks"
 
 Random stuff I found on the internet…
 
+* 2023-02-02: [Baby Steps](https://smallcultfollowing.com/babysteps/blog/2023/02/01/async-trait-send-bounds-part-1-intro/)
 * 2023-02-02: [Comparing Compiler Errors for Developer Productivity | Amazing CTO](https://www.amazingcto.com/developer-productivity-compiler-errors/)
 * 2023-02-02: [Rewrite it in Rust](https://github.com/fish-shell/fish-shell/pull/9512)
 * 2023-02-02: [Go 1.20 Release Notes - The Go Programming Language](https://go.dev/doc/go1.20)
