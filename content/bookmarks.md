@@ -4,6 +4,7 @@ title = "Bookmarks"
 
 Random stuff I found on the internet…
 
+* 2023-02-14: [telemetry in the Go toolchain · Discussion #58409 · golang/go · GitHub](https://github.com/golang/go/discussions/58409)
 * 2023-02-14: [cURL audit: How a joke led to significant findings | Trail of Bits Blog](https://blog.trailofbits.com/2023/02/14/curl-audit-fuzzing-libcurl-command-line-interface/)
 * 2023-02-14: [How Rust went from a side project to the world's most-loved programming language | MIT Technology Review](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
 * 2023-02-02: [FOSDEM 2023 - gallia: An Extendable Pentesting Framework](https://fosdem.org/2023/schedule/event/gallia/)
