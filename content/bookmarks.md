@@ -4,6 +4,8 @@ title = "Bookmarks"
 
 Random stuff I found on the internet…
 
+* 2023-02-14: [cURL audit: How a joke led to significant findings | Trail of Bits Blog](https://blog.trailofbits.com/2023/02/14/curl-audit-fuzzing-libcurl-command-line-interface/)
+* 2023-02-14: [How Rust went from a side project to the world's most-loved programming language | MIT Technology Review](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
 * 2023-02-02: [FOSDEM 2023 - gallia: An Extendable Pentesting Framework](https://fosdem.org/2023/schedule/event/gallia/)
 * 2023-02-02: [Baby Steps](https://smallcultfollowing.com/babysteps/blog/2023/02/01/async-trait-send-bounds-part-1-intro/)
 * 2023-02-02: [Comparing Compiler Errors for Developer Productivity | Amazing CTO](https://www.amazingcto.com/developer-productivity-compiler-errors/)
