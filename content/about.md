@@ -8,7 +8,7 @@ You may find me in the web as `rumpelsepp`, or on:
 * Matrix: @rumpelsepp:hackbrettl.de,
 * [Github](https://github.com/rumpelsepp),
 * [Mastodon](https://mastodon.social/@rumpelsepp), or
-* <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-2288-9010" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"> <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> https://orcid.org/0000-0002-2288-9010 </a>
+* <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-2288-9010" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"> <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em; display: inline-block" alt="ORCID iD icon"/> https://orcid.org/0000-0002-2288-9010 </a>
 
 You might also find me as `steff` who is playing the guitar on [youtube](https://www.youtube.com/@rumpelsteff) or in my [band](https://www.youtube.com/@TerminusKillBand).
 
